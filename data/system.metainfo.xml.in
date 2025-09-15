@@ -12,26 +12,26 @@
 
   <screenshots>
     <screenshot type="default">
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-about/8.1.0/data/screenshot.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-system/8.1.0/data/screenshot.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-about/8.1.0/data/screenshot-hardware.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-system/8.1.0/data/screenshot-hardware.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-about/8.1.0/data/screenshot-firmware.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-system/8.1.0/data/screenshot-firmware.png</image>
     </screenshot>
     <screenshot>
-      <image>https://raw.githubusercontent.com/elementary/switchboard-plug-about/8.1.0/data/screenshot-drivers.png</image>
+      <image>https://raw.githubusercontent.com/elementary/settings-system/8.1.0/data/screenshot-drivers.png</image>
     </screenshot>
   </screenshots>
 
   <content_rating type="oars-1.1" />
 
-  <url type="bugtracker">https://github.com/elementary/switchboard-plug-about/issues</url>
+  <url type="bugtracker">https://github.com/elementary/settings-system/issues</url>
   <url type="donation">https://elementary.io/get-involved#funding</url>
-  <url type="help">https://github.com/elementary/switchboard-plug-about/discussions</url>
+  <url type="help">https://github.com/elementary/settings-system/discussions</url>
   <url type="homepage">https://elementary.io/</url>
-  <url type="translate">https://l10n.elementary.io/engage/switchboard/</url>
+  <url type="translate">https://l10n.elementary.io/engage/settings/</url>
 
   <developer id="org.elementaryos">
     <name>elementary, Inc.</name>
@@ -48,7 +48,7 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-about/issues/219">show when search for "About"</issue>
+        <issue url="https://github.com/elementary/settings-system/issues/219">show when search for "About"</issue>
         <issue url="https://github.com/elementary/switchboard/discussions/343">About the "Restart required" message</issue>
       </issues>
     </release>
@@ -61,10 +61,10 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-about/issues/239">Segfault</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-about/issues/310">Progress indicator when downloading updates</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-about/issues/338">System causes Switchboard to close</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-about/issues/342">Refreshing update check does not refresh "Last refreshed"</issue>
+        <issue url="https://github.com/elementary/settings-system/issues/239">Segfault</issue>
+        <issue url="https://github.com/elementary/settings-system/issues/310">Progress indicator when downloading updates</issue>
+        <issue url="https://github.com/elementary/settings-system/issues/338">System causes Switchboard to close</issue>
+        <issue url="https://github.com/elementary/settings-system/issues/342">Refreshing update check does not refresh "Last refreshed"</issue>
       </issues>
     </release>
 
@@ -76,7 +76,7 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-about/issues/329">Show sponsor goal progress bar</issue>
+        <issue url="https://github.com/elementary/settings-system/issues/329">Show sponsor goal progress bar</issue>
       </issues>
     </release>
 
@@ -94,13 +94,13 @@
         </ul>
       </description>
       <issues>
-        <issue url="https://github.com/elementary/switchboard-plug-about/issues/60">Fund elementary OS</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-about/issues/248">Feature to change Hostname</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-about/issues/272">Wallpaper placeholder is visible behind elementary logo during navigation to plug</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-about/issues/274">does not compile with appstream 1.0.0</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-about/issues/291">Use software-update-urgent if any security updates are included</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-about/issues/295">Revamp links to match Onboarding</issue>
-        <issue url="https://github.com/elementary/switchboard-plug-about/issues/312">Updates section empty if settings-daemon can't connect</issue>
+        <issue url="https://github.com/elementary/settings-system/issues/60">Fund elementary OS</issue>
+        <issue url="https://github.com/elementary/settings-system/issues/248">Feature to change Hostname</issue>
+        <issue url="https://github.com/elementary/settings-system/issues/272">Wallpaper placeholder is visible behind elementary logo during navigation to plug</issue>
+        <issue url="https://github.com/elementary/settings-system/issues/274">does not compile with appstream 1.0.0</issue>
+        <issue url="https://github.com/elementary/settings-system/issues/291">Use software-update-urgent if any security updates are included</issue>
+        <issue url="https://github.com/elementary/settings-system/issues/295">Revamp links to match Onboarding</issue>
+        <issue url="https://github.com/elementary/settings-systemt/issues/312">Updates section empty if settings-daemon can't connect</issue>
       </issues>
     </release>
 
