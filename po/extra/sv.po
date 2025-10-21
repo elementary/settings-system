@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 22:39+0000\n"
-"PO-Revision-Date: 2024-08-07 18:16+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Swedish <https://l10n.elementary.io/projects/switchboard/"
+"PO-Revision-Date: 2025-10-21 18:13+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "about-plug-extra/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/system.metainfo.xml.in:10
 msgid "System"
@@ -29,26 +29,26 @@ msgstr "Visa information om operativsystem och hårdvara"
 
 #: data/system.metainfo.xml.in:37
 msgid "elementary, Inc."
-msgstr ""
+msgstr "elementary, Inc."
 
 #: data/system.metainfo.xml.in:45 data/system.metainfo.xml.in:57
 #: data/system.metainfo.xml.in:72 data/system.metainfo.xml.in:89
 #: data/system.metainfo.xml.in:112 data/system.metainfo.xml.in:128
 #: data/system.metainfo.xml.in:137 data/system.metainfo.xml.in:165
 msgid "Minor updates:"
-msgstr ""
+msgstr "Mindre uppdateringar:"
 
 #: data/system.metainfo.xml.in:47 data/system.metainfo.xml.in:59
 #: data/system.metainfo.xml.in:74 data/system.metainfo.xml.in:92
 #: data/system.metainfo.xml.in:116 data/system.metainfo.xml.in:130
 #: data/system.metainfo.xml.in:141 data/system.metainfo.xml.in:169
 msgid "Updated translations"
-msgstr ""
+msgstr "Uppdaterade översättningar"
 
 #: data/system.metainfo.xml.in:84 data/system.metainfo.xml.in:108
 #: data/system.metainfo.xml.in:123
 msgid "New features:"
-msgstr ""
+msgstr "Nya funktioner:"
 
 #: data/system.metainfo.xml.in:86
 msgid "Manage Operating System updates, including automatic updates"
