@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 22:39+0000\n"
-"PO-Revision-Date: 2024-01-25 02:35+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Swedish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-about/sv/>\n"
+"PO-Revision-Date: 2025-10-21 18:13+0000\n"
+"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
+"system/sv/>\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:10+0000\n"
 
 #: src/Plug.vala:46
@@ -32,7 +32,7 @@ msgstr "Visa information om operativsystem och hårdvara"
 #: src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133
 #: src/Plug.vala:134 src/Plug.vala:135 src/Plug.vala:136
 msgid "Operating System"
-msgstr ""
+msgstr "Operativsystem"
 
 #: src/Plug.vala:64 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
 msgid "Hardware"
@@ -40,42 +40,36 @@ msgstr "Hårdvara"
 
 #: src/Plug.vala:65 src/Plug.vala:144 src/Plug.vala:145
 #: src/Views/FirmwareView.vala:35
-#, fuzzy
-#| msgid "Hardware"
 msgid "Firmware"
-msgstr "Hårdvara"
+msgstr "Kamerans program / operativsystem"
 
 #: src/Plug.vala:66 src/Plug.vala:147 src/Views/DriversView.vala:19
 msgid "Drivers"
-msgstr ""
+msgstr "Chaufförer"
 
 #: src/Plug.vala:128 src/Views/OperatingSystemView.vala:238
-#, fuzzy
-#| msgid "Updates"
 msgid "Automatic Updates"
-msgstr "Uppdateringar"
+msgstr "Uppdatera automatisk"
 
 #: src/Plug.vala:129 src/Views/OperatingSystemView.vala:288
 msgid "Basics Guide"
-msgstr ""
+msgstr "Grundläggande guide"
 
 #: src/Plug.vala:130 src/Views/OperatingSystemView.vala:295
 msgid "Get Help"
-msgstr ""
+msgstr "Skaffa hjälp"
 
 #: src/Plug.vala:131
 msgid "Get Involved or Sponsor Us"
-msgstr ""
+msgstr "Engagera dig eller sponsra oss"
 
 #: src/Plug.vala:132
 msgid "Get Support"
-msgstr ""
+msgstr "Få support"
 
 #: src/Plug.vala:133 src/Views/OperatingSystemView.vala:302
-#, fuzzy
-#| msgid "Website"
 msgid "Our Website"
-msgstr "Webbplats"
+msgstr "Vår webbplats"
 
 #: src/Plug.vala:134
 msgid "Report a Problem"
@@ -87,78 +81,72 @@ msgstr "Återställ standardinställningar"
 
 #: src/Plug.vala:136 src/Views/OperatingSystemView.vala:331
 msgid "Send Feedback"
-msgstr ""
+msgstr "Skicka feedback"
 
 #: src/Plug.vala:139
-#, fuzzy
-#| msgid "Updates"
 msgid "Device name"
-msgstr "Uppdateringar"
+msgstr "Enhetsnamn"
 
 #: src/Plug.vala:140
 msgid "Host name"
-msgstr ""
+msgstr "Värdnamn"
 
 #. https://github.com/elementary/switchboard-plug-about/issues/219
 #: src/Plug.vala:142
 msgid "About This Device"
-msgstr ""
+msgstr "Om denna enhet"
 
 #: src/Plug.vala:145 src/Views/FirmwareView.vala:86
 msgid "Restart to Firmware Setup…"
-msgstr ""
+msgstr "Starta om till Konfigurera firmware…"
 
 #: src/Views/DriversView.vala:20
 msgid ""
 "Broadcom® Wi-Fi adapters, NVIDIA® graphics, and some virtual machines may "
 "not function properly without additional drivers."
 msgstr ""
+"Broadcom® Wi-Fi-adaptrar, NVIDIA®-grafik och vissa virtuella maskiner kanske "
+"inte fungerar korrekt utan ytterligare drivrutiner."
 
 #: src/Views/DriversView.vala:25
-#, fuzzy
-#| msgid "Updates"
 msgid "No drivers available"
-msgstr "Uppdateringar"
+msgstr "Inga drivrutiner tillgängliga"
 
 #: src/Views/DriversView.vala:26
 msgid "This device doesn't need any additional drivers."
-msgstr ""
+msgstr "Den här enheten behöver inga ytterligare drivrutiner."
 
 #: src/Views/DriversView.vala:30
-#, fuzzy
-#| msgid "Check for Updates"
 msgid "Checking for Drivers"
-msgstr "Sök efter uppdateringar"
+msgstr "Kontroll av förare"
 
 #: src/Views/DriversView.vala:31
 msgid "Connecting to the driver service and searching for drivers."
-msgstr ""
+msgstr "Ansluta till förartjänsten och söka efter förare."
 
 #: src/Views/DriversView.vala:51
 msgid "Failed to install driver"
-msgstr ""
+msgstr "Misslyckades med att installera drivrutinen"
 
 #: src/Views/DriversView.vala:52
 msgid "Manually refreshing driver information may resolve the issue"
-msgstr ""
+msgstr "Manuell uppdatering av drivrutinsinformationen kan lösa problemet"
 
 #: src/Views/DriversView.vala:55 src/Views/OperatingSystemView.vala:214
 msgid "Refresh"
 msgstr "Uppdatera"
 
 #: src/Views/DriversView.vala:55
-#, fuzzy
-#| msgid "System Information"
 msgid "Refresh driver information"
-msgstr "Systeminformation"
+msgstr "Uppdatera förarinformationen"
 
 #: src/Views/DriversView.vala:56 src/Views/OperatingSystemView.vala:226
 msgid "Learn More…"
-msgstr ""
+msgstr "Läs mer…"
 
 #: src/Views/DriversView.vala:91
 msgid "Failed to install"
-msgstr ""
+msgstr "Det gick inte att installera"
 
 #: src/Views/DriversView.vala:92
 msgid ""
@@ -166,17 +154,18 @@ msgid ""
 "third-party software source, or a package manager error. Manually refreshing "
 "may resolve the issue."
 msgstr ""
+"Detta kan ha orsakats av sidoladdad eller manuellt kompilerad programvara, "
+"en programkälla från tredje part eller ett fel i pakethanteraren. Manuell "
+"uppdatering kan lösa problemet."
 
 #: src/Views/DriversView.vala:156
 #, c-format
 msgid "Installing %s…"
-msgstr ""
+msgstr "Installerar %s…"
 
 #: src/Views/FirmwareReleaseView.vala:28
-#, fuzzy
-#| msgid "Updates"
 msgid "All Updates"
-msgstr "Uppdateringar"
+msgstr "Alla uppdateringar"
 
 #: src/Views/FirmwareReleaseView.vala:74
 msgid "Version:"
@@ -184,158 +173,153 @@ msgstr "Version:"
 
 #: src/Views/FirmwareReleaseView.vala:83
 msgid "Vendor:"
-msgstr ""
+msgstr "Tillverkare:"
 
 #: src/Views/FirmwareReleaseView.vala:92
 msgid "Size:"
-msgstr ""
+msgstr "Storlek:"
 
 #: src/Views/FirmwareReleaseView.vala:101
 msgid "Estimated time to install:"
-msgstr ""
+msgstr "Beräknad tid för installation:"
 
 #: src/Views/FirmwareReleaseView.vala:129
 msgid "There are no releases available for this device."
-msgstr ""
+msgstr "Det finns inga releaser tillgängliga för den här enheten."
 
 #: src/Views/FirmwareReleaseView.vala:202 src/Widgets/FirmwareUpdateRow.vala:73
-#, fuzzy
-#| msgid "Updates"
 msgid "Update"
-msgstr "Uppdateringar"
+msgstr "Uppdatera"
 
 #: src/Views/FirmwareReleaseView.vala:205
-#, fuzzy
-#| msgid "Updates"
 msgid "Up to date"
-msgstr "Uppdateringar"
+msgstr "Uppdaterad"
 
 #: src/Views/FirmwareReleaseView.vala:226
 msgid "less than a minute"
-msgstr ""
+msgstr "mindre än en minut"
 
 #: src/Views/FirmwareReleaseView.vala:230
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%llu minut"
+msgstr[1] "%llu minuter"
 
 #: src/Views/FirmwareView.vala:36
 msgid ""
 "Firmware updates provided by device manufacturers can improve performance "
 "and fix critical security issues."
 msgstr ""
+"Firmware-uppdateringar som tillhandahålls av enhetstillverkare kan förbättra "
+"prestanda och åtgärda kritiska säkerhetsproblem."
 
 #: src/Views/FirmwareView.vala:42
 msgid "Do not unplug the device during the update."
-msgstr ""
+msgstr "Koppla inte ur enheten under uppdateringen."
 
 #: src/Views/FirmwareView.vala:46 src/Views/OperatingSystemView.vala:548
-#, fuzzy
-#| msgid "Check for Updates"
 msgid "Checking for Updates"
-msgstr "Sök efter uppdateringar"
+msgstr "Kontroll av uppdateringar"
 
 #: src/Views/FirmwareView.vala:47
 msgid "Connecting to the firmware service and searching for updates."
-msgstr ""
+msgstr "Anslutning till firmware-tjänsten och sökning efter uppdateringar."
 
 #: src/Views/FirmwareView.vala:116
-#, fuzzy
-#| msgid "Updates"
 msgid "Firmware Updates Are Not Available"
-msgstr "Uppdateringar"
+msgstr "Firmware-uppdateringar är inte tillgängliga"
 
 #: src/Views/FirmwareView.vala:117
 msgid "Firmware updates are not supported on this or any connected devices."
 msgstr ""
+"Firmware-uppdateringar stöds inte på denna eller någon annan ansluten enhet."
 
 #: src/Views/FirmwareView.vala:119
 msgid "The Firmware Service Is Not Available"
-msgstr ""
+msgstr "Firmware-tjänsten är inte tillgänglig"
 
 #: src/Views/FirmwareView.vala:120
 msgid "Please make sure “fwupd” is installed and enabled."
-msgstr ""
+msgstr "Kontrollera att \"fwupd\" är installerat och aktiverat."
 
 #: src/Views/FirmwareView.vala:219
-#, fuzzy, c-format
-#| msgid "Updates"
+#, c-format
 msgid "%u Update Available"
 msgid_plural "%u Updates Available"
-msgstr[0] "Uppdateringar"
-msgstr[1] "Uppdateringar"
+msgstr[0] "%u Uppdatering tillgänglig"
+msgstr[1] "%u Uppdateringar tillgängliga"
 
 #: src/Views/FirmwareView.vala:223
-#, fuzzy
-#| msgid "Updates"
 msgid "Up to Date"
-msgstr "Uppdateringar"
+msgstr "Uppdaterad"
 
 #: src/Views/FirmwareView.vala:231
 #, c-format
 msgid "“%s” is being updated"
-msgstr ""
+msgstr "\"%s\" håller på att uppdateras"
 
 #: src/Views/FirmwareView.vala:331
 msgid "Failed to install firmware release"
-msgstr ""
+msgstr "Misslyckades med att installera firmware release"
 
 #: src/Views/FirmwareView.vala:352
 #, c-format
 msgid "“%s” needs to manually be put in update mode"
-msgstr ""
+msgstr "\"%s\" måste manuellt sättas i uppdateringsläge"
 
 #: src/Views/FirmwareView.vala:361
 msgid "Continue"
-msgstr ""
+msgstr "Fortsätt"
 
 #: src/Views/FirmwareView.vala:374
 msgid "An update requires the system to restart to complete"
-msgstr ""
+msgstr "En uppdatering kräver att systemet startas om för att slutföras"
 
 #: src/Views/FirmwareView.vala:375
 msgid "This will close all open applications and restart this device."
-msgstr ""
+msgstr "Detta stänger alla öppna program och startar om enheten."
 
 #: src/Views/FirmwareView.vala:383 src/Views/FirmwareView.vala:432
 msgid "Restart"
-msgstr ""
+msgstr "Starta om"
 
 #: src/Views/FirmwareView.vala:398
 msgid "An update requires the system to shut down to complete"
-msgstr ""
+msgstr "En uppdatering kräver att systemet stängs av för att slutföras"
 
 #: src/Views/FirmwareView.vala:399
 msgid "This will close all open applications and turn off this device."
-msgstr ""
+msgstr "Detta stänger alla öppna program och stänger av den här enheten."
 
 #: src/Views/FirmwareView.vala:407
 msgid "Shut Down"
-msgstr ""
+msgstr "Stäng ner"
 
 #: src/Views/FirmwareView.vala:422
 msgid "Restart to firmware setup"
-msgstr ""
+msgstr "Starta om för att konfigurera firmware"
 
 #: src/Views/FirmwareView.vala:423
 msgid ""
 "This will close all open applications, restart this device, and open the "
 "firmware setup screen."
 msgstr ""
+"Detta stänger alla öppna program, startar om enheten och öppnar "
+"inställningsskärmen för den fasta programvaran."
 
 #: src/Views/FirmwareView.vala:447
 msgid "Unable to restart to firmware setup"
-msgstr ""
+msgstr "Går inte att starta om till firmware-inställningar"
 
 #: src/Views/FirmwareView.vala:448
 msgid "A system error prevented automatically restarting into firmware setup."
 msgstr ""
+"Ett systemfel förhindrade automatisk omstart till firmware-inställningar."
 
 #: src/Views/HardwareView.vala:49
 msgid "You do not have permission to change the device name"
-msgstr ""
+msgstr "Du har inte behörighet att ändra enhetsnamnet"
 
 #: src/Views/HardwareView.vala:60
 #, c-format
@@ -343,77 +327,67 @@ msgid "%s memory"
 msgstr "%s minne"
 
 #: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:360
-#, fuzzy
-#| msgid "Graphics:"
 msgid "Unknown Graphics"
-msgstr "Grafik:"
+msgstr "Okänd grafik"
 
 #: src/Views/HardwareView.vala:81
-#, fuzzy
-#| msgid "Processor:"
 msgid "Unknown storage"
-msgstr "Processor:"
+msgstr "Okänd lagring"
 
 #: src/Views/HardwareView.vala:127
 msgid "Manufacturer Website"
 msgstr "Tillverkarens webbplats"
 
 #: src/Views/HardwareView.vala:160
-#, fuzzy
-#| msgid "Updates"
 msgid "Update device name"
-msgstr "Uppdateringar"
+msgstr "Uppdatera enhetens namn"
 
 #: src/Views/HardwareView.vala:180
 msgid "Device name saved"
-msgstr ""
+msgstr "Enhetsnamn sparat"
 
 #: src/Views/HardwareView.vala:284
-#, fuzzy, c-format
-#| msgid "Dual-Core"
+#, c-format
 msgid "Dual-Core %s"
-msgstr "Tvåkärnig"
+msgstr "Dubbelkärnig %s"
 
 #: src/Views/HardwareView.vala:286
-#, fuzzy, c-format
-#| msgid "Quad-Core"
+#, c-format
 msgid "Quad-Core %s"
-msgstr "Fyrkärnig"
+msgstr "Fyrkärnig %s"
 
 #: src/Views/HardwareView.vala:288
 #, c-format
 msgid "Hexa-Core %s"
-msgstr ""
+msgstr "Hexa-Core %s"
 
 #: src/Views/HardwareView.vala:400
-#, fuzzy
-#| msgid "Processor:"
 msgid "Unknown Processor"
-msgstr "Processor:"
+msgstr "Okänd processor"
 
 #: src/Views/HardwareView.vala:473
 msgid "Unknown"
 msgstr "Okänd"
 
 #: src/Views/HardwareView.vala:528
-#, fuzzy, c-format
+#, c-format
 msgid "%s storage (NVMe SSD)"
-msgstr "%s lagring"
+msgstr "%s lagring (NVMe SSD)"
 
 #: src/Views/HardwareView.vala:530
-#, fuzzy, c-format
+#, c-format
 msgid "%s storage (eMMC)"
-msgstr "%s lagring"
+msgstr "%s lagringsutrymme (eMMC)"
 
 #: src/Views/HardwareView.vala:532
-#, fuzzy, c-format
+#, c-format
 msgid "%s storage (SATA SSD)"
-msgstr "%s lagring"
+msgstr "%s lagringsutrymme (SATA SSD)"
 
 #: src/Views/HardwareView.vala:535
-#, fuzzy, c-format
+#, c-format
 msgid "%s storage (HDD)"
-msgstr "%s lagring"
+msgstr "%s lagring (HDD)"
 
 #. Set fallback string for the device type
 #: src/Views/HardwareView.vala:540
@@ -424,25 +398,25 @@ msgstr "%s lagring"
 #: src/Views/HardwareView.vala:712
 msgid "byte"
 msgid_plural "bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "byte"
+msgstr[1] "byte"
 
 #: src/Views/HardwareView.vala:714
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u byte"
+msgstr[1] "%u byte"
 
 #: src/Views/HardwareView.vala:721
 #, c-format
 msgctxt "format-size"
 msgid "%u %s"
-msgstr ""
+msgstr "%u %s"
 
 #: src/Views/OperatingSystemView.vala:209
 msgid "Download"
-msgstr ""
+msgstr "Ladda ner"
 
 #: src/Views/OperatingSystemView.vala:212
 msgid "Cancel"
@@ -453,10 +427,12 @@ msgid ""
 "Updates will be automatically downloaded. They will be installed when this "
 "device is restarted."
 msgstr ""
+"Uppdateringar hämtas automatiskt. De kommer att installeras när enheten "
+"startas om."
 
 #: src/Views/OperatingSystemView.vala:309
 msgid "Get Involved"
-msgstr ""
+msgstr "Engagera dig"
 
 #: src/Views/OperatingSystemView.vala:496
 #, c-format
@@ -464,77 +440,72 @@ msgid "Built on %s"
 msgstr "Byggt på %s"
 
 #: src/Views/OperatingSystemView.vala:516
-#, fuzzy
-#| msgid "Updates"
 msgid "System updates not available"
-msgstr "Uppdateringar"
+msgstr "Systemuppdateringar inte tillgängliga"
 
 #: src/Views/OperatingSystemView.vala:517
 msgid "Couldn't connect to the backend. Try logging out to resolve the issue."
 msgstr ""
+"Det gick inte att ansluta till backend. Försök att logga ut för att lösa "
+"problemet."
 
 #: src/Views/OperatingSystemView.vala:530
-#, fuzzy
-#| msgid "Updates"
 msgid "Up To Date"
-msgstr "Uppdateringar"
+msgstr "Uppdaterad"
 
 #: src/Views/OperatingSystemView.vala:534
 #, c-format
 msgid "Last checked %s"
-msgstr ""
+msgstr "Senast kontrollerad %s"
 
 #: src/Views/OperatingSystemView.vala:541
 msgid "Last checked unknown"
-msgstr ""
+msgstr "Senast kontrollerad okänd"
 
 #: src/Views/OperatingSystemView.vala:554
-#, fuzzy
-#| msgid "Updates"
 msgid "Updates Available"
-msgstr "Uppdateringar"
+msgstr "Uppdateringar tillgängliga"
 
 #: src/Views/OperatingSystemView.vala:561
-#, fuzzy, c-format
-#| msgid "Updates"
+#, c-format
 msgid "%i update available (%s)"
 msgid_plural "%i updates available (%s)"
-msgstr[0] "Uppdateringar"
-msgstr[1] "Uppdateringar"
+msgstr[0] "%i uppdatering tillgänglig (%s)"
+msgstr[1] "%i uppdateringar tillgängliga (%s)"
 
 #: src/Views/OperatingSystemView.vala:572
 msgid "Unable to determine number of updates"
-msgstr ""
+msgstr "Det går inte att fastställa antalet uppdateringar"
 
 #: src/Views/OperatingSystemView.vala:586
-#, fuzzy
-#| msgid "Updates"
 msgid "Downloading Updates"
-msgstr "Uppdateringar"
+msgstr "Ladda ner uppdateringar"
 
 #: src/Views/OperatingSystemView.vala:595
 msgid "Restart to install pending updates"
-msgstr ""
+msgstr "Starta om för att installera väntande uppdateringar"
 
 #: src/Views/OperatingSystemView.vala:596
 msgid ""
 "Updates have been downloaded. A restart is required to finish installing "
 "them."
 msgstr ""
+"Uppdateringar har laddats ner. En omstart krävs för att slutföra "
+"installationen av dem."
 
 #: src/Views/OperatingSystemView.vala:601
 #: src/Views/OperatingSystemView.vala:627
 msgid "Failed to download updates"
-msgstr ""
+msgstr "Misslyckades med att ladda ner uppdateringar"
 
 #: src/Views/OperatingSystemView.vala:602
 msgid "Manually refreshing updates may resolve the issue"
-msgstr ""
+msgstr "Manuell uppdatering av uppdateringar kan lösa problemet"
 
 #: src/Views/OperatingSystemView.vala:617
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s av %s"
 
 #: src/Views/OperatingSystemView.vala:628
 msgid ""
@@ -542,6 +513,9 @@ msgid ""
 "third-party software source, or a package manager error. Manually refreshing "
 "updates may resolve the issue."
 msgstr ""
+"Detta kan ha orsakats av sidoladdad eller manuellt kompilerad programvara, "
+"en programkälla från tredje part eller ett fel i pakethanteraren. Manuell "
+"uppdatering av uppdateringar kan lösa problemet."
 
 #: src/Views/OperatingSystemView.vala:670
 msgid "System Settings Will Be Restored to The Factory Defaults"
@@ -561,24 +535,24 @@ msgstr "Återställ inställningar"
 
 #: src/Views/OperatingSystemView.vala:824
 msgid "Sponsor Us"
-msgstr ""
+msgstr "Sponsra oss"
 
 #. /TRANSLATORS: first value is a percentage, second value is an amount in USD
 #: src/Views/OperatingSystemView.vala:887
 #, c-format
 msgid "%.0f%% towards $%'5.0f per month goal"
-msgstr ""
+msgstr "%.0f%% toavdelningar $%'5.0f per månad mål"
 
 #: src/Widgets/UpdateDetailsDialog.vala:14
 msgid "What's New"
-msgstr ""
+msgstr "Vad är nytt"
 
 #: src/Widgets/UpdateDetailsDialog.vala:20
 #, c-format
 msgid "%u package will be upgraded"
 msgid_plural "%u packages will be upgraded"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u paketet kommer att uppgraderas"
+msgstr[1] "%u paket kommer att uppgraderas"
 
 #: src/Widgets/UpdateDetailsDialog.vala:67
 msgid "Close"
