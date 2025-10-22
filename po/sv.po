@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 22:39+0000\n"
-"PO-Revision-Date: 2025-10-21 18:13+0000\n"
+"PO-Revision-Date: 2025-10-22 09:59+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "system/sv/>\n"
@@ -41,11 +41,11 @@ msgstr "Hårdvara"
 #: src/Plug.vala:65 src/Plug.vala:144 src/Plug.vala:145
 #: src/Views/FirmwareView.vala:35
 msgid "Firmware"
-msgstr "Kamerans program / operativsystem"
+msgstr "Firmware"
 
 #: src/Plug.vala:66 src/Plug.vala:147 src/Views/DriversView.vala:19
 msgid "Drivers"
-msgstr "Chaufförer"
+msgstr "Drivrutiner"
 
 #: src/Plug.vala:128 src/Views/OperatingSystemView.vala:238
 msgid "Automatic Updates"
@@ -541,7 +541,7 @@ msgstr "Sponsra oss"
 #: src/Views/OperatingSystemView.vala:887
 #, c-format
 msgid "%.0f%% towards $%'5.0f per month goal"
-msgstr "%.0f%% toavdelningar $%'5.0f per månad mål"
+msgstr "%.0f%% mot målet på $%'5.0f per månad"
 
 #: src/Widgets/UpdateDetailsDialog.vala:14
 msgid "What's New"
