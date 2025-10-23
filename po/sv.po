@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 22:39+0000\n"
-"PO-Revision-Date: 2025-10-22 09:59+0000\n"
+"PO-Revision-Date: 2025-10-23 17:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "system/sv/>\n"
@@ -41,7 +41,7 @@ msgstr "Hårdvara"
 #: src/Plug.vala:65 src/Plug.vala:144 src/Plug.vala:145
 #: src/Views/FirmwareView.vala:35
 msgid "Firmware"
-msgstr "Firmware"
+msgstr "Fast programvara"
 
 #: src/Plug.vala:66 src/Plug.vala:147 src/Views/DriversView.vala:19
 msgid "Drivers"
@@ -49,7 +49,7 @@ msgstr "Drivrutiner"
 
 #: src/Plug.vala:128 src/Views/OperatingSystemView.vala:238
 msgid "Automatic Updates"
-msgstr "Uppdatera automatisk"
+msgstr "Uppdatera automatiskt"
 
 #: src/Plug.vala:129 src/Views/OperatingSystemView.vala:288
 msgid "Basics Guide"
@@ -57,7 +57,7 @@ msgstr "Grundläggande guide"
 
 #: src/Plug.vala:130 src/Views/OperatingSystemView.vala:295
 msgid "Get Help"
-msgstr "Skaffa hjälp"
+msgstr "Få hjälp"
 
 #: src/Plug.vala:131
 msgid "Get Involved or Sponsor Us"
@@ -81,7 +81,7 @@ msgstr "Återställ standardinställningar"
 
 #: src/Plug.vala:136 src/Views/OperatingSystemView.vala:331
 msgid "Send Feedback"
-msgstr "Skicka feedback"
+msgstr "Skicka återkoppling"
 
 #: src/Plug.vala:139
 msgid "Device name"
@@ -98,7 +98,7 @@ msgstr "Om denna enhet"
 
 #: src/Plug.vala:145 src/Views/FirmwareView.vala:86
 msgid "Restart to Firmware Setup…"
-msgstr "Starta om till Konfigurera firmware…"
+msgstr "Starta om till Konfigurera fast programvara…"
 
 #: src/Views/DriversView.vala:20
 msgid ""
@@ -211,8 +211,8 @@ msgid ""
 "Firmware updates provided by device manufacturers can improve performance "
 "and fix critical security issues."
 msgstr ""
-"Firmware-uppdateringar som tillhandahålls av enhetstillverkare kan förbättra "
-"prestanda och åtgärda kritiska säkerhetsproblem."
+"Uppdateringar för fast programvara som tillhandahålls av enhetstillverkare "
+"kan förbättra prestanda och åtgärda kritiska säkerhetsproblem."
 
 #: src/Views/FirmwareView.vala:42
 msgid "Do not unplug the device during the update."
@@ -224,20 +224,21 @@ msgstr "Kontroll av uppdateringar"
 
 #: src/Views/FirmwareView.vala:47
 msgid "Connecting to the firmware service and searching for updates."
-msgstr "Anslutning till firmware-tjänsten och sökning efter uppdateringar."
+msgstr "Ansluter till fast programvara-tjänsten och söker efter uppdateringar."
 
 #: src/Views/FirmwareView.vala:116
 msgid "Firmware Updates Are Not Available"
-msgstr "Firmware-uppdateringar är inte tillgängliga"
+msgstr "Uppdateringar för fast programvara är inte tillgängliga"
 
 #: src/Views/FirmwareView.vala:117
 msgid "Firmware updates are not supported on this or any connected devices."
 msgstr ""
-"Firmware-uppdateringar stöds inte på denna eller någon annan ansluten enhet."
+"Uppdateringar för fast programvara stöds inte på denna eller någon annan "
+"ansluten enhet."
 
 #: src/Views/FirmwareView.vala:119
 msgid "The Firmware Service Is Not Available"
-msgstr "Firmware-tjänsten är inte tillgänglig"
+msgstr "Tjänsten för fast programvara är inte tillgänglig"
 
 #: src/Views/FirmwareView.vala:120
 msgid "Please make sure “fwupd” is installed and enabled."
@@ -261,7 +262,7 @@ msgstr "\"%s\" håller på att uppdateras"
 
 #: src/Views/FirmwareView.vala:331
 msgid "Failed to install firmware release"
-msgstr "Misslyckades med att installera firmware release"
+msgstr "Misslyckades med att installera utgåva för fast programvara"
 
 #: src/Views/FirmwareView.vala:352
 #, c-format
@@ -298,7 +299,7 @@ msgstr "Stäng ner"
 
 #: src/Views/FirmwareView.vala:422
 msgid "Restart to firmware setup"
-msgstr "Starta om för att konfigurera firmware"
+msgstr "Starta om för att konfigurera fast programvara"
 
 #: src/Views/FirmwareView.vala:423
 msgid ""
@@ -310,12 +311,13 @@ msgstr ""
 
 #: src/Views/FirmwareView.vala:447
 msgid "Unable to restart to firmware setup"
-msgstr "Går inte att starta om till firmware-inställningar"
+msgstr "Går inte att starta om till konfigurera fast programvara"
 
 #: src/Views/FirmwareView.vala:448
 msgid "A system error prevented automatically restarting into firmware setup."
 msgstr ""
-"Ett systemfel förhindrade automatisk omstart till firmware-inställningar."
+"Ett systemfel förhindrade automatisk omstart till konfiguration för fast "
+"programvara."
 
 #: src/Views/HardwareView.vala:49
 msgid "You do not have permission to change the device name"
