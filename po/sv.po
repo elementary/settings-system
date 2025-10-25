@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 22:39+0000\n"
-"PO-Revision-Date: 2025-10-23 17:55+0000\n"
+"PO-Revision-Date: 2025-10-26 09:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "system/sv/>\n"
@@ -418,7 +418,7 @@ msgstr "%u %s"
 
 #: src/Views/OperatingSystemView.vala:209
 msgid "Download"
-msgstr "Ladda ner"
+msgstr "Hämta ner"
 
 #: src/Views/OperatingSystemView.vala:212
 msgid "Cancel"
