@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 22:39+0000\n"
-"PO-Revision-Date: 2024-07-23 18:16+0000\n"
+"PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementary.io/projects/switchboard/about-"
-"plug-extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementaryos.org/projects/settings/"
+"about-plug-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/system.metainfo.xml.in:10
 msgid "System"
@@ -29,7 +29,7 @@ msgstr "צפייה במידע חומרה ומערכת ההפעלה"
 
 #: data/system.metainfo.xml.in:37
 msgid "elementary, Inc."
-msgstr "elementary בע״מ"
+msgstr "elementary בע״מ."
 
 #: data/system.metainfo.xml.in:45 data/system.metainfo.xml.in:57
 #: data/system.metainfo.xml.in:72 data/system.metainfo.xml.in:89
