@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-20 22:39+0000\n"
-"PO-Revision-Date: 2025-10-26 09:55+0000\n"
+"PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "system/sv/>\n"
@@ -49,7 +49,7 @@ msgstr "Drivrutiner"
 
 #: src/Plug.vala:128 src/Views/OperatingSystemView.vala:238
 msgid "Automatic Updates"
-msgstr "Uppdatera automatiskt"
+msgstr "Automatiska uppdateringar"
 
 #: src/Plug.vala:129 src/Views/OperatingSystemView.vala:288
 msgid "Basics Guide"
@@ -118,11 +118,11 @@ msgstr "Den här enheten behöver inga ytterligare drivrutiner."
 
 #: src/Views/DriversView.vala:30
 msgid "Checking for Drivers"
-msgstr "Kontroll av förare"
+msgstr "Letar efter drivrutiner"
 
 #: src/Views/DriversView.vala:31
 msgid "Connecting to the driver service and searching for drivers."
-msgstr "Ansluta till förartjänsten och söka efter förare."
+msgstr "Ansluter till drivrutinstjänsten och söker efter drivrutiner."
 
 #: src/Views/DriversView.vala:51
 msgid "Failed to install driver"
@@ -138,7 +138,7 @@ msgstr "Uppdatera"
 
 #: src/Views/DriversView.vala:55
 msgid "Refresh driver information"
-msgstr "Uppdatera förarinformationen"
+msgstr "Uppdatera drivrutinsinformation"
 
 #: src/Views/DriversView.vala:56 src/Views/OperatingSystemView.vala:226
 msgid "Learn More…"
@@ -185,7 +185,7 @@ msgstr "Beräknad tid för installation:"
 
 #: src/Views/FirmwareReleaseView.vala:129
 msgid "There are no releases available for this device."
-msgstr "Det finns inga releaser tillgängliga för den här enheten."
+msgstr "Det finns inga utgåvor tillgängliga för den här enheten."
 
 #: src/Views/FirmwareReleaseView.vala:202 src/Widgets/FirmwareUpdateRow.vala:73
 msgid "Update"
@@ -216,11 +216,11 @@ msgstr ""
 
 #: src/Views/FirmwareView.vala:42
 msgid "Do not unplug the device during the update."
-msgstr "Koppla inte ur enheten under uppdateringen."
+msgstr "Koppla inte från enheten under uppdateringen."
 
 #: src/Views/FirmwareView.vala:46 src/Views/OperatingSystemView.vala:548
 msgid "Checking for Updates"
-msgstr "Kontroll av uppdateringar"
+msgstr "Letar efter uppdateringar"
 
 #: src/Views/FirmwareView.vala:47
 msgid "Connecting to the firmware service and searching for updates."
@@ -228,7 +228,7 @@ msgstr "Ansluter till fast programvara-tjänsten och söker efter uppdateringar.
 
 #: src/Views/FirmwareView.vala:116
 msgid "Firmware Updates Are Not Available"
-msgstr "Uppdateringar för fast programvara är inte tillgängliga"
+msgstr "Uppdateringar för fast programvara finns inte tillgängliga"
 
 #: src/Views/FirmwareView.vala:117
 msgid "Firmware updates are not supported on this or any connected devices."
@@ -248,8 +248,8 @@ msgstr "Kontrollera att \"fwupd\" är installerat och aktiverat."
 #, c-format
 msgid "%u Update Available"
 msgid_plural "%u Updates Available"
-msgstr[0] "%u Uppdatering tillgänglig"
-msgstr[1] "%u Uppdateringar tillgängliga"
+msgstr[0] "%u uppdatering tillgänglig"
+msgstr[1] "%u uppdateringar tillgängliga"
 
 #: src/Views/FirmwareView.vala:223
 msgid "Up to Date"
@@ -267,7 +267,7 @@ msgstr "Misslyckades med att installera utgåva för fast programvara"
 #: src/Views/FirmwareView.vala:352
 #, c-format
 msgid "“%s” needs to manually be put in update mode"
-msgstr "\"%s\" måste manuellt sättas i uppdateringsläge"
+msgstr "\"%s\" måste manuellt försättas i uppdateringsläge"
 
 #: src/Views/FirmwareView.vala:361
 msgid "Continue"
@@ -307,11 +307,11 @@ msgid ""
 "firmware setup screen."
 msgstr ""
 "Detta stänger alla öppna program, startar om enheten och öppnar "
-"inställningsskärmen för den fasta programvaran."
+"konfigurationsskärmen för den fasta programvaran."
 
 #: src/Views/FirmwareView.vala:447
 msgid "Unable to restart to firmware setup"
-msgstr "Går inte att starta om till konfigurera fast programvara"
+msgstr "Kunde inte starta om till att konfigurera fast programvara"
 
 #: src/Views/FirmwareView.vala:448
 msgid "A system error prevented automatically restarting into firmware setup."
@@ -342,11 +342,11 @@ msgstr "Tillverkarens webbplats"
 
 #: src/Views/HardwareView.vala:160
 msgid "Update device name"
-msgstr "Uppdatera enhetens namn"
+msgstr "Uppdatera enhetsnamn"
 
 #: src/Views/HardwareView.vala:180
 msgid "Device name saved"
-msgstr "Enhetsnamn sparat"
+msgstr "Enhetsnamn sparades"
 
 #: src/Views/HardwareView.vala:284
 #, c-format
@@ -361,7 +361,7 @@ msgstr "Fyrkärnig %s"
 #: src/Views/HardwareView.vala:288
 #, c-format
 msgid "Hexa-Core %s"
-msgstr "Hexa-Core %s"
+msgstr "Sexkärnig %s"
 
 #: src/Views/HardwareView.vala:400
 msgid "Unknown Processor"
@@ -379,12 +379,12 @@ msgstr "%s lagring (NVMe SSD)"
 #: src/Views/HardwareView.vala:530
 #, c-format
 msgid "%s storage (eMMC)"
-msgstr "%s lagringsutrymme (eMMC)"
+msgstr "%s lagring (eMMC)"
 
 #: src/Views/HardwareView.vala:532
 #, c-format
 msgid "%s storage (SATA SSD)"
-msgstr "%s lagringsutrymme (SATA SSD)"
+msgstr "%s lagring (SATA SSD)"
 
 #: src/Views/HardwareView.vala:535
 #, c-format
@@ -481,7 +481,7 @@ msgstr "Det går inte att fastställa antalet uppdateringar"
 
 #: src/Views/OperatingSystemView.vala:586
 msgid "Downloading Updates"
-msgstr "Ladda ner uppdateringar"
+msgstr "Hämtar ner uppdateringar"
 
 #: src/Views/OperatingSystemView.vala:595
 msgid "Restart to install pending updates"
@@ -492,13 +492,13 @@ msgid ""
 "Updates have been downloaded. A restart is required to finish installing "
 "them."
 msgstr ""
-"Uppdateringar har laddats ner. En omstart krävs för att slutföra "
+"Uppdateringar har hämtats ner. En omstart krävs för att slutföra "
 "installationen av dem."
 
 #: src/Views/OperatingSystemView.vala:601
 #: src/Views/OperatingSystemView.vala:627
 msgid "Failed to download updates"
-msgstr "Misslyckades med att ladda ner uppdateringar"
+msgstr "Misslyckades med att hämta ner uppdateringar"
 
 #: src/Views/OperatingSystemView.vala:602
 msgid "Manually refreshing updates may resolve the issue"
@@ -553,7 +553,7 @@ msgstr "Vad är nytt"
 #, c-format
 msgid "%u package will be upgraded"
 msgid_plural "%u packages will be upgraded"
-msgstr[0] "%u paketet kommer att uppgraderas"
+msgstr[0] "%u paket kommer att uppgraderas"
 msgstr[1] "%u paket kommer att uppgraderas"
 
 #: src/Widgets/UpdateDetailsDialog.vala:67
