@@ -40,6 +40,19 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="8.2.2" date="2025-11-03" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Screen reader improvements</li>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/settings-system/issues/379">Ship "auth-fingerprint" icon</issue>
+      </issues>
+    </release>
+
     <release version="8.2.1" date="2025-05-01" urgency="medium">
       <description>
         <p>Minor updates:</p>
