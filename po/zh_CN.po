@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-20 22:39+0000\n"
+"POT-Creation-Date: 2025-11-04 18:06+0000\n"
 "PO-Revision-Date: 2025-08-13 13:55+0000\n"
 "Last-Translator: JieXu <xujie0739@qq.com>\n"
 "Language-Team: Chinese (Simplified Han script) <https://"
@@ -96,7 +96,7 @@ msgstr "主机名称"
 msgid "About This Device"
 msgstr "关于这台设备"
 
-#: src/Plug.vala:145 src/Views/FirmwareView.vala:86
+#: src/Plug.vala:145 src/Views/FirmwareView.vala:84
 msgid "Restart to Firmware Setup…"
 msgstr "重启至固件设置界面…"
 
@@ -104,8 +104,9 @@ msgstr "重启至固件设置界面…"
 msgid ""
 "Broadcom® Wi-Fi adapters, NVIDIA® graphics, and some virtual machines may "
 "not function properly without additional drivers."
-msgstr "Broadcom® Wi-Fi 适配器、NVIDIA® "
-"显卡和一些虚拟机可能需要安装额外的驱动程序才能正常运行。"
+msgstr ""
+"Broadcom® Wi-Fi 适配器、NVIDIA® 显卡和一些虚拟机可能需要安装额外的驱动程序才"
+"能正常运行。"
 
 #: src/Views/DriversView.vala:25
 msgid "No drivers available"
@@ -152,7 +153,8 @@ msgid ""
 "This may have been caused by sideloaded or manually compiled software, a "
 "third-party software source, or a package manager error. Manually refreshing "
 "may resolve the issue."
-msgstr "这可能是由于侧载或自行编译的软件、第三方软件源或软件包管理器的错误所导致。手"
+msgstr ""
+"这可能是由于侧载或自行编译的软件、第三方软件源或软件包管理器的错误所导致。手"
 "动刷新可能可以解决该问题。"
 
 #: src/Views/DriversView.vala:156
@@ -160,43 +162,43 @@ msgstr "这可能是由于侧载或自行编译的软件、第三方软件源或
 msgid "Installing %s…"
 msgstr "正在安装 %s…"
 
-#: src/Views/FirmwareReleaseView.vala:28
+#: src/Views/FirmwareReleaseView.vala:27 src/Views/FirmwareView.vala:63
 msgid "All Updates"
 msgstr "全部更新"
 
-#: src/Views/FirmwareReleaseView.vala:74
+#: src/Views/FirmwareReleaseView.vala:68
 msgid "Version:"
 msgstr "版本："
 
-#: src/Views/FirmwareReleaseView.vala:83
+#: src/Views/FirmwareReleaseView.vala:77
 msgid "Vendor:"
 msgstr "供应商："
 
-#: src/Views/FirmwareReleaseView.vala:92
+#: src/Views/FirmwareReleaseView.vala:86
 msgid "Size:"
 msgstr "字符大小："
 
-#: src/Views/FirmwareReleaseView.vala:101
+#: src/Views/FirmwareReleaseView.vala:95
 msgid "Estimated time to install:"
 msgstr "预计安装时长："
 
-#: src/Views/FirmwareReleaseView.vala:129
+#: src/Views/FirmwareReleaseView.vala:123
 msgid "There are no releases available for this device."
 msgstr "未找到可用的固件更新。"
 
-#: src/Views/FirmwareReleaseView.vala:202 src/Widgets/FirmwareUpdateRow.vala:73
+#: src/Views/FirmwareReleaseView.vala:196 src/Widgets/FirmwareUpdateRow.vala:73
 msgid "Update"
 msgstr "更新"
 
-#: src/Views/FirmwareReleaseView.vala:205
+#: src/Views/FirmwareReleaseView.vala:199
 msgid "Up to date"
 msgstr "已是最新"
 
-#: src/Views/FirmwareReleaseView.vala:226
+#: src/Views/FirmwareReleaseView.vala:220
 msgid "less than a minute"
 msgstr "少于 1 分钟"
 
-#: src/Views/FirmwareReleaseView.vala:230
+#: src/Views/FirmwareReleaseView.vala:224
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"
@@ -220,89 +222,89 @@ msgstr "正在检查更新"
 msgid "Connecting to the firmware service and searching for updates."
 msgstr "正在连接固件服务并查找更新。"
 
-#: src/Views/FirmwareView.vala:116
+#: src/Views/FirmwareView.vala:114
 msgid "Firmware Updates Are Not Available"
 msgstr "固件更新服务不可用"
 
-#: src/Views/FirmwareView.vala:117
+#: src/Views/FirmwareView.vala:115
 msgid "Firmware updates are not supported on this or any connected devices."
 msgstr "当前设备或其他已连接设备不支持固件更新。"
 
-#: src/Views/FirmwareView.vala:119
+#: src/Views/FirmwareView.vala:117
 msgid "The Firmware Service Is Not Available"
 msgstr "固件服务不可用"
 
-#: src/Views/FirmwareView.vala:120
+#: src/Views/FirmwareView.vala:118
 msgid "Please make sure “fwupd” is installed and enabled."
 msgstr "请确保 \"fwupd\" 软件包已安装并启用。"
 
-#: src/Views/FirmwareView.vala:219
+#: src/Views/FirmwareView.vala:217
 #, c-format
 msgid "%u Update Available"
 msgid_plural "%u Updates Available"
 msgstr[0] "%u 更新可用"
 
-#: src/Views/FirmwareView.vala:223
+#: src/Views/FirmwareView.vala:221
 msgid "Up to Date"
 msgstr "已是最新版本"
 
-#: src/Views/FirmwareView.vala:231
+#: src/Views/FirmwareView.vala:229
 #, c-format
 msgid "“%s” is being updated"
 msgstr "正在更新 “%s”"
 
-#: src/Views/FirmwareView.vala:331
+#: src/Views/FirmwareView.vala:329
 msgid "Failed to install firmware release"
 msgstr "安装固件失败"
 
-#: src/Views/FirmwareView.vala:352
+#: src/Views/FirmwareView.vala:350
 #, c-format
 msgid "“%s” needs to manually be put in update mode"
 msgstr "“%s” 需要手动设置为更新模式"
 
-#: src/Views/FirmwareView.vala:361
+#: src/Views/FirmwareView.vala:359
 msgid "Continue"
 msgstr "继续"
 
-#: src/Views/FirmwareView.vala:374
+#: src/Views/FirmwareView.vala:372
 msgid "An update requires the system to restart to complete"
 msgstr "某项更新需要重新启动操作系统"
 
-#: src/Views/FirmwareView.vala:375
+#: src/Views/FirmwareView.vala:373
 msgid "This will close all open applications and restart this device."
 msgstr "这会关闭所有应用程序并重启本设备。"
 
-#: src/Views/FirmwareView.vala:383 src/Views/FirmwareView.vala:432
+#: src/Views/FirmwareView.vala:381 src/Views/FirmwareView.vala:430
 msgid "Restart"
 msgstr "重新启动"
 
-#: src/Views/FirmwareView.vala:398
+#: src/Views/FirmwareView.vala:396
 msgid "An update requires the system to shut down to complete"
 msgstr "某项更新需要完全关闭操作系统"
 
-#: src/Views/FirmwareView.vala:399
+#: src/Views/FirmwareView.vala:397
 msgid "This will close all open applications and turn off this device."
 msgstr "这会关闭所有程序并使本设备关机。"
 
-#: src/Views/FirmwareView.vala:407
+#: src/Views/FirmwareView.vala:405
 msgid "Shut Down"
 msgstr "关机"
 
-#: src/Views/FirmwareView.vala:422
+#: src/Views/FirmwareView.vala:420
 msgid "Restart to firmware setup"
 msgstr "重启至固件设置界面"
 
-#: src/Views/FirmwareView.vala:423
+#: src/Views/FirmwareView.vala:421
 msgid ""
 "This will close all open applications, restart this device, and open the "
 "firmware setup screen."
 msgstr "这会关闭所有应用程序、重启设备并打开固件设置界面。"
 
-#: src/Views/FirmwareView.vala:447
+#: src/Views/FirmwareView.vala:445
 msgid "Unable to restart to firmware setup"
 msgstr "无法重启至固件设置界面"
 
-#: src/Views/FirmwareView.vala:448
+#: src/Views/FirmwareView.vala:446
 msgid "A system error prevented automatically restarting into firmware setup."
 msgstr "某个系统错误已阻止自动重启至固件设置界面。"
 
@@ -492,7 +494,8 @@ msgid ""
 "This may have been caused by sideloaded or manually compiled software, a "
 "third-party software source, or a package manager error. Manually refreshing "
 "updates may resolve the issue."
-msgstr "这可能是因为侧载或自行编译的软件、第三方软体源，或是软件包管理器的错误所造成"
+msgstr ""
+"这可能是因为侧载或自行编译的软件、第三方软体源，或是软件包管理器的错误所造成"
 "的。手动刷新更新信息可能会解决此问题。"
 
 #: src/Views/OperatingSystemView.vala:670
