@@ -8,8 +8,8 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-11-04 18:06+0000\n"
-"PO-Revision-Date: 2025-10-30 09:55+0000\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"PO-Revision-Date: 2025-11-05 18:55+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "about-plug-extra/sv/>\n"
 "Language: sv\n"
@@ -40,10 +40,8 @@ msgid "Minor updates:"
 msgstr "Mindre uppdateringar:"
 
 #: data/system.metainfo.xml.in:47
-#, fuzzy
-#| msgid "Performance improvements"
 msgid "Screen reader improvements"
-msgstr "Förbättringar av prestanda"
+msgstr "Förbättringar för skärmläsare"
 
 #: data/system.metainfo.xml.in:48 data/system.metainfo.xml.in:60
 #: data/system.metainfo.xml.in:73 data/system.metainfo.xml.in:88
