@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-20 22:39+0000\n"
+"POT-Creation-Date: 2025-11-04 18:06+0000\n"
 "PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
-"Language-Team: Hebrew <https://l10n.elementaryos.org/projects/settings/"
-"about-plug-extra/he/>\n"
+"Language-Team: Hebrew <https://l10n.elementaryos.org/projects/settings/about-"
+"plug-extra/he/>\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,114 +31,122 @@ msgstr "צפייה במידע חומרה ומערכת ההפעלה"
 msgid "elementary, Inc."
 msgstr "elementary בע״מ."
 
-#: data/system.metainfo.xml.in:45 data/system.metainfo.xml.in:57
-#: data/system.metainfo.xml.in:72 data/system.metainfo.xml.in:89
-#: data/system.metainfo.xml.in:112 data/system.metainfo.xml.in:128
-#: data/system.metainfo.xml.in:137 data/system.metainfo.xml.in:165
+#: data/system.metainfo.xml.in:45 data/system.metainfo.xml.in:58
+#: data/system.metainfo.xml.in:71 data/system.metainfo.xml.in:86
+#: data/system.metainfo.xml.in:103 data/system.metainfo.xml.in:126
+#: data/system.metainfo.xml.in:142 data/system.metainfo.xml.in:151
+#: data/system.metainfo.xml.in:179
 msgid "Minor updates:"
 msgstr "עדכונים משניים:"
 
-#: data/system.metainfo.xml.in:47 data/system.metainfo.xml.in:59
-#: data/system.metainfo.xml.in:74 data/system.metainfo.xml.in:92
-#: data/system.metainfo.xml.in:116 data/system.metainfo.xml.in:130
-#: data/system.metainfo.xml.in:141 data/system.metainfo.xml.in:169
+#: data/system.metainfo.xml.in:47
+#, fuzzy
+#| msgid "Performance improvements"
+msgid "Screen reader improvements"
+msgstr "שיפורי ביצועים"
+
+#: data/system.metainfo.xml.in:48 data/system.metainfo.xml.in:60
+#: data/system.metainfo.xml.in:73 data/system.metainfo.xml.in:88
+#: data/system.metainfo.xml.in:106 data/system.metainfo.xml.in:130
+#: data/system.metainfo.xml.in:144 data/system.metainfo.xml.in:155
+#: data/system.metainfo.xml.in:183
 msgid "Updated translations"
 msgstr "תרגומים עודכנו"
 
-#: data/system.metainfo.xml.in:84 data/system.metainfo.xml.in:108
-#: data/system.metainfo.xml.in:123
+#: data/system.metainfo.xml.in:98 data/system.metainfo.xml.in:122
+#: data/system.metainfo.xml.in:137
 msgid "New features:"
 msgstr "יכולות חדשות:"
 
-#: data/system.metainfo.xml.in:86
+#: data/system.metainfo.xml.in:100
 msgid "Manage Operating System updates, including automatic updates"
 msgstr "ניהול עדכוני מערכת ההפעלה, כולל עדכונים אוטומטיים"
 
-#: data/system.metainfo.xml.in:87
+#: data/system.metainfo.xml.in:101
 msgid "Manage additional drivers"
 msgstr "ניהול מנהלי התקנים נוספים"
 
-#: data/system.metainfo.xml.in:91
+#: data/system.metainfo.xml.in:105
 msgid "Improve operating system image for other Linux distributions"
 msgstr "תמונת מערכת ההפעלה השתפרה להפצות לינוקס אחרות"
 
-#: data/system.metainfo.xml.in:110
+#: data/system.metainfo.xml.in:124
 msgid "Add a button to restart to firmware setup"
 msgstr "נוסף כפתור להפעלה מחדש ישירות להגדרות קושחה"
 
-#: data/system.metainfo.xml.in:114
+#: data/system.metainfo.xml.in:128
 msgid "Get more accurate memory and storage information"
 msgstr "קבלת מידע מדויק יותר על פרטי הזיכרון והאחסון"
 
-#: data/system.metainfo.xml.in:115
+#: data/system.metainfo.xml.in:129
 msgid "Handle Ryzen CPU and AMD GPU vendor string"
 msgstr "טיפול במחרוזות יצרן למעבדי Ryzen ומעבדים גרפיים של AMD"
 
-#: data/system.metainfo.xml.in:125
+#: data/system.metainfo.xml.in:139
 msgid "Added support for dark style manufacturer logos"
 msgstr "נוספה תמיכה בלוגואים של יצרנים בסגנון כהה"
 
-#: data/system.metainfo.xml.in:126
+#: data/system.metainfo.xml.in:140
 msgid "Added support for offline firmware updates"
 msgstr "נוספה תמיכה בעדכוני קושחה בלתי מקוונים"
 
-#: data/system.metainfo.xml.in:139
+#: data/system.metainfo.xml.in:153
 msgid "Use formatted device name when available"
 msgstr "ייעשה שימוש בשם מסוגנן למכשיר כשיש שם כזה"
 
-#: data/system.metainfo.xml.in:140
+#: data/system.metainfo.xml.in:154
 msgid "Display more information for certain GPUs, including Intel® Xe Graphics"
 msgstr "הצגת מידע נוסף על מעבדים גרפיים מסוימים לרבות Intel® Xe Graphics"
 
-#: data/system.metainfo.xml.in:148
+#: data/system.metainfo.xml.in:162
 msgid "Redesign and new features:"
 msgstr "עיצוב מחדש ויכולות חדשות:"
 
-#: data/system.metainfo.xml.in:150
+#: data/system.metainfo.xml.in:164
 msgid "Rename from About to System"
 msgstr "שינוי שם מ„על אודות” ל„מערכת”"
 
-#: data/system.metainfo.xml.in:151
+#: data/system.metainfo.xml.in:165
 msgid "Split Hardware and Operating System info into their own tabs"
 msgstr "פיצול פרטי חומרה ומערכת הפעלה ללשוניות עצמאיות"
 
-#: data/system.metainfo.xml.in:152
+#: data/system.metainfo.xml.in:166
 msgid "Redesign the Operating System tab with clearer links and buttons"
 msgstr "עיצוב מחדש של לשונית מערכת ההפעלה ונוספו קישורים וכפתורים ברורים יותר"
 
-#: data/system.metainfo.xml.in:153
+#: data/system.metainfo.xml.in:167
 msgid "Add a Firmware view to manage device firmware updates"
 msgstr "הוספת תצוגת קושחה כדי לנהל את עדכוני קושחות ההתקנים"
 
-#: data/system.metainfo.xml.in:155
+#: data/system.metainfo.xml.in:169
 msgid "More information:"
 msgstr "מידע נוסף:"
 
-#: data/system.metainfo.xml.in:157
+#: data/system.metainfo.xml.in:171
 msgid "Provide information for ARM CPUs"
 msgstr "אספקת מידע לסוגים נוספים של מעבדי ARM"
 
-#: data/system.metainfo.xml.in:158
+#: data/system.metainfo.xml.in:172
 msgid "Provide information for more types of Graphics"
 msgstr "אספקת מידע לסוגים נוספים של גרפיקה"
 
-#: data/system.metainfo.xml.in:160
+#: data/system.metainfo.xml.in:174
 msgid "Fixes:"
 msgstr "תיקונים:"
 
-#: data/system.metainfo.xml.in:162
+#: data/system.metainfo.xml.in:176
 msgid "Fix an issue where the view was destroyed early when navigating away"
 msgstr "תוקנה תקלה בה התצוגה הושמדה מוקדם מדי בעת ניווט אל מחוצה לה"
 
-#: data/system.metainfo.xml.in:163
+#: data/system.metainfo.xml.in:177
 msgid "Fix system memory calculation"
 msgstr "חישוב זיכרון המערכת תוקן"
 
-#: data/system.metainfo.xml.in:167
+#: data/system.metainfo.xml.in:181
 msgid "Ellipsize long hardware names"
 msgstr "שמות רכיבי חומרה ארוכים מקוצרים"
 
-#: data/system.metainfo.xml.in:168
+#: data/system.metainfo.xml.in:182
 msgid "Performance improvements"
 msgstr "שיפורי ביצועים"
 
