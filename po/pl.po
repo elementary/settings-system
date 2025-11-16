@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-20 22:39+0000\n"
+"POT-Creation-Date: 2025-11-04 18:06+0000\n"
 "PO-Revision-Date: 2025-03-08 12:45+0000\n"
 "Last-Translator: Marcin Serwin <marcin@serwin.dev>\n"
 "Language-Team: Polish <https://l10n.elementary.io/projects/settings/"
@@ -97,7 +97,7 @@ msgstr "Nazwa hosta"
 msgid "About This Device"
 msgstr "O tym urządzeniu"
 
-#: src/Plug.vala:145 src/Views/FirmwareView.vala:86
+#: src/Plug.vala:145 src/Views/FirmwareView.vala:84
 msgid "Restart to Firmware Setup…"
 msgstr "Zrestartuj do ustawień Firmware…"
 
@@ -164,43 +164,43 @@ msgstr ""
 msgid "Installing %s…"
 msgstr "Instalowanie %s…"
 
-#: src/Views/FirmwareReleaseView.vala:28
+#: src/Views/FirmwareReleaseView.vala:27 src/Views/FirmwareView.vala:63
 msgid "All Updates"
 msgstr "Wszystkie aktualizacje"
 
-#: src/Views/FirmwareReleaseView.vala:74
+#: src/Views/FirmwareReleaseView.vala:68
 msgid "Version:"
 msgstr "Wersja:"
 
-#: src/Views/FirmwareReleaseView.vala:83
+#: src/Views/FirmwareReleaseView.vala:77
 msgid "Vendor:"
 msgstr "Dostawca:"
 
-#: src/Views/FirmwareReleaseView.vala:92
+#: src/Views/FirmwareReleaseView.vala:86
 msgid "Size:"
 msgstr "Rozmiar:"
 
-#: src/Views/FirmwareReleaseView.vala:101
+#: src/Views/FirmwareReleaseView.vala:95
 msgid "Estimated time to install:"
 msgstr "Szacowany czas instalacji:"
 
-#: src/Views/FirmwareReleaseView.vala:129
+#: src/Views/FirmwareReleaseView.vala:123
 msgid "There are no releases available for this device."
 msgstr "Nie ma wydań dostępnych dla tego urządzenia."
 
-#: src/Views/FirmwareReleaseView.vala:202 src/Widgets/FirmwareUpdateRow.vala:73
+#: src/Views/FirmwareReleaseView.vala:196 src/Widgets/FirmwareUpdateRow.vala:73
 msgid "Update"
 msgstr "Aktualizuj"
 
-#: src/Views/FirmwareReleaseView.vala:205
+#: src/Views/FirmwareReleaseView.vala:199
 msgid "Up to date"
 msgstr "Aktualne"
 
-#: src/Views/FirmwareReleaseView.vala:226
+#: src/Views/FirmwareReleaseView.vala:220
 msgid "less than a minute"
 msgstr "mniej niż minuta"
 
-#: src/Views/FirmwareReleaseView.vala:230
+#: src/Views/FirmwareReleaseView.vala:224
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"
@@ -228,25 +228,25 @@ msgstr "Sprawdzanie aktualizacji"
 msgid "Connecting to the firmware service and searching for updates."
 msgstr "Łączenie z usługą oprogramowania i sprawdzanie aktualizacji."
 
-#: src/Views/FirmwareView.vala:116
+#: src/Views/FirmwareView.vala:114
 msgid "Firmware Updates Are Not Available"
 msgstr "Brak aktualizacji oprogramowania"
 
-#: src/Views/FirmwareView.vala:117
+#: src/Views/FirmwareView.vala:115
 msgid "Firmware updates are not supported on this or any connected devices."
 msgstr ""
 "Aktualizacje oprogramowania nie są wspierane na tym lub innych podłączonych "
 "urządzeniach."
 
-#: src/Views/FirmwareView.vala:119
+#: src/Views/FirmwareView.vala:117
 msgid "The Firmware Service Is Not Available"
 msgstr "Usługa oprogramowania jest niedostępna"
 
-#: src/Views/FirmwareView.vala:120
+#: src/Views/FirmwareView.vala:118
 msgid "Please make sure “fwupd” is installed and enabled."
 msgstr "Upewnij się, że \"fwupd\" jest zainstalowany i włączony."
 
-#: src/Views/FirmwareView.vala:219
+#: src/Views/FirmwareView.vala:217
 #, c-format
 msgid "%u Update Available"
 msgid_plural "%u Updates Available"
@@ -254,60 +254,60 @@ msgstr[0] "%u aktualizacja dostępna"
 msgstr[1] "%u aktualizacje dostępne"
 msgstr[2] "%u aktualizacji dostępnych"
 
-#: src/Views/FirmwareView.vala:223
+#: src/Views/FirmwareView.vala:221
 msgid "Up to Date"
 msgstr "Aktualny"
 
-#: src/Views/FirmwareView.vala:231
+#: src/Views/FirmwareView.vala:229
 #, c-format
 msgid "“%s” is being updated"
 msgstr "“%s” jest aktualizowany"
 
-#: src/Views/FirmwareView.vala:331
+#: src/Views/FirmwareView.vala:329
 msgid "Failed to install firmware release"
 msgstr "Niepowodzenie instalacji wydania oprogramowania"
 
-#: src/Views/FirmwareView.vala:352
+#: src/Views/FirmwareView.vala:350
 #, c-format
 msgid "“%s” needs to manually be put in update mode"
 msgstr "“%s” musi być ręcznie ustawiony w tryb aktualizacji"
 
-#: src/Views/FirmwareView.vala:361
+#: src/Views/FirmwareView.vala:359
 msgid "Continue"
 msgstr "Kontynuuj"
 
-#: src/Views/FirmwareView.vala:374
+#: src/Views/FirmwareView.vala:372
 msgid "An update requires the system to restart to complete"
 msgstr "Aktualizacja wymaga restartu systemu w celu ukończenia instalacji"
 
-#: src/Views/FirmwareView.vala:375
+#: src/Views/FirmwareView.vala:373
 msgid "This will close all open applications and restart this device."
 msgstr ""
 "To spowoduje zamknięcie wszystkich aplikacji i ponowne uruchomienie "
 "urządzenia."
 
-#: src/Views/FirmwareView.vala:383 src/Views/FirmwareView.vala:432
+#: src/Views/FirmwareView.vala:381 src/Views/FirmwareView.vala:430
 msgid "Restart"
 msgstr "Uruchom ponownie"
 
-#: src/Views/FirmwareView.vala:398
+#: src/Views/FirmwareView.vala:396
 msgid "An update requires the system to shut down to complete"
 msgstr "Aktualizacja wymaga zamknięcia systemu w celu ukończenia instalacji"
 
-#: src/Views/FirmwareView.vala:399
+#: src/Views/FirmwareView.vala:397
 msgid "This will close all open applications and turn off this device."
 msgstr ""
 "To spowoduje zamknięcie wszystkich aplikacji i wyłączenie tego urządzenia."
 
-#: src/Views/FirmwareView.vala:407
+#: src/Views/FirmwareView.vala:405
 msgid "Shut Down"
 msgstr "Wyłącz"
 
-#: src/Views/FirmwareView.vala:422
+#: src/Views/FirmwareView.vala:420
 msgid "Restart to firmware setup"
 msgstr "Zrestartuj do ustawień Firmware"
 
-#: src/Views/FirmwareView.vala:423
+#: src/Views/FirmwareView.vala:421
 msgid ""
 "This will close all open applications, restart this device, and open the "
 "firmware setup screen."
@@ -315,11 +315,11 @@ msgstr ""
 "To spowoduje zamknięcie wszystkich aplikacji, ponowne uruchomienie "
 "urządzenia i otwarcie ekranu ustawień firmware."
 
-#: src/Views/FirmwareView.vala:447
+#: src/Views/FirmwareView.vala:445
 msgid "Unable to restart to firmware setup"
 msgstr "Nie udało się zrestartować do ustawień firmware"
 
-#: src/Views/FirmwareView.vala:448
+#: src/Views/FirmwareView.vala:446
 msgid "A system error prevented automatically restarting into firmware setup."
 msgstr "Błąd systemu uniemożliwił automatyczny restart do ustawień firmware."
 

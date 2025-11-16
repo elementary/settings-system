@@ -7,9 +7,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-20 22:39+0000\n"
-"PO-Revision-Date: 2025-10-30 09:55+0000\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"POT-Creation-Date: 2025-11-04 18:06+0000\n"
+"PO-Revision-Date: 2025-11-05 18:55+0000\n"
+"Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Swedish <https://l10n.elementaryos.org/projects/settings/"
 "about-plug-extra/sv/>\n"
 "Language: sv\n"
@@ -31,120 +31,126 @@ msgstr "Visa information om operativsystem och hårdvara"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/system.metainfo.xml.in:45 data/system.metainfo.xml.in:57
-#: data/system.metainfo.xml.in:72 data/system.metainfo.xml.in:89
-#: data/system.metainfo.xml.in:112 data/system.metainfo.xml.in:128
-#: data/system.metainfo.xml.in:137 data/system.metainfo.xml.in:165
+#: data/system.metainfo.xml.in:45 data/system.metainfo.xml.in:58
+#: data/system.metainfo.xml.in:71 data/system.metainfo.xml.in:86
+#: data/system.metainfo.xml.in:103 data/system.metainfo.xml.in:126
+#: data/system.metainfo.xml.in:142 data/system.metainfo.xml.in:151
+#: data/system.metainfo.xml.in:179
 msgid "Minor updates:"
 msgstr "Mindre uppdateringar:"
 
-#: data/system.metainfo.xml.in:47 data/system.metainfo.xml.in:59
-#: data/system.metainfo.xml.in:74 data/system.metainfo.xml.in:92
-#: data/system.metainfo.xml.in:116 data/system.metainfo.xml.in:130
-#: data/system.metainfo.xml.in:141 data/system.metainfo.xml.in:169
+#: data/system.metainfo.xml.in:47
+msgid "Screen reader improvements"
+msgstr "Förbättringar för skärmläsare"
+
+#: data/system.metainfo.xml.in:48 data/system.metainfo.xml.in:60
+#: data/system.metainfo.xml.in:73 data/system.metainfo.xml.in:88
+#: data/system.metainfo.xml.in:106 data/system.metainfo.xml.in:130
+#: data/system.metainfo.xml.in:144 data/system.metainfo.xml.in:155
+#: data/system.metainfo.xml.in:183
 msgid "Updated translations"
 msgstr "Uppdaterade översättningar"
 
-#: data/system.metainfo.xml.in:84 data/system.metainfo.xml.in:108
-#: data/system.metainfo.xml.in:123
+#: data/system.metainfo.xml.in:98 data/system.metainfo.xml.in:122
+#: data/system.metainfo.xml.in:137
 msgid "New features:"
 msgstr "Nya funktioner:"
 
-#: data/system.metainfo.xml.in:86
+#: data/system.metainfo.xml.in:100
 msgid "Manage Operating System updates, including automatic updates"
 msgstr ""
 "Hantera uppdateringar av operativsystemet, inklusive automatiska "
 "uppdateringar"
 
-#: data/system.metainfo.xml.in:87
+#: data/system.metainfo.xml.in:101
 msgid "Manage additional drivers"
 msgstr "Hantera ytterligare drivrutiner"
 
-#: data/system.metainfo.xml.in:91
+#: data/system.metainfo.xml.in:105
 msgid "Improve operating system image for other Linux distributions"
 msgstr "Förbättra operativsystemsavbildning för andra Linux-distributioner"
 
-#: data/system.metainfo.xml.in:110
+#: data/system.metainfo.xml.in:124
 msgid "Add a button to restart to firmware setup"
 msgstr ""
 "Lägg till en knapp för att starta om till konfiguration av fast programvara"
 
-#: data/system.metainfo.xml.in:114
+#: data/system.metainfo.xml.in:128
 msgid "Get more accurate memory and storage information"
 msgstr "Få mer exakt minnes- och lagringsinformation"
 
-#: data/system.metainfo.xml.in:115
+#: data/system.metainfo.xml.in:129
 msgid "Handle Ryzen CPU and AMD GPU vendor string"
 msgstr "Hantera Ryzen CPU och AMD GPU-tillverkarsträng"
 
-#: data/system.metainfo.xml.in:125
+#: data/system.metainfo.xml.in:139
 msgid "Added support for dark style manufacturer logos"
 msgstr "Stöd för tillverkarlogotyper i mörk stil har lagts till"
 
-#: data/system.metainfo.xml.in:126
+#: data/system.metainfo.xml.in:140
 msgid "Added support for offline firmware updates"
 msgstr ""
 "Stöd för uppdatering av fast programvara i frånkopplat läge har lagts till"
 
-#: data/system.metainfo.xml.in:139
+#: data/system.metainfo.xml.in:153
 msgid "Use formatted device name when available"
 msgstr "Använd formaterat enhetsnamn när det är tillgängligt"
 
-#: data/system.metainfo.xml.in:140
+#: data/system.metainfo.xml.in:154
 msgid "Display more information for certain GPUs, including Intel® Xe Graphics"
 msgstr "Visa mer information för vissa GPU:er, inklusive Intel® Xe Graphics"
 
-#: data/system.metainfo.xml.in:148
+#: data/system.metainfo.xml.in:162
 msgid "Redesign and new features:"
 msgstr "Omdesign och nya funktioner:"
 
-#: data/system.metainfo.xml.in:150
+#: data/system.metainfo.xml.in:164
 msgid "Rename from About to System"
 msgstr "Byt namn från Om till System"
 
-#: data/system.metainfo.xml.in:151
+#: data/system.metainfo.xml.in:165
 msgid "Split Hardware and Operating System info into their own tabs"
 msgstr "Dela upp information om hårdvara och operativsystem i egna flikar"
 
-#: data/system.metainfo.xml.in:152
+#: data/system.metainfo.xml.in:166
 msgid "Redesign the Operating System tab with clearer links and buttons"
 msgstr "Omarbeta fliken Operativsystem med tydligare länkar och knappar"
 
-#: data/system.metainfo.xml.in:153
+#: data/system.metainfo.xml.in:167
 msgid "Add a Firmware view to manage device firmware updates"
 msgstr ""
 "Lägg till en vy för Fast programvara för att hantera uppdateringar av "
 "enhetens fasta programvara"
 
-#: data/system.metainfo.xml.in:155
+#: data/system.metainfo.xml.in:169
 msgid "More information:"
 msgstr "Mer information:"
 
-#: data/system.metainfo.xml.in:157
+#: data/system.metainfo.xml.in:171
 msgid "Provide information for ARM CPUs"
 msgstr "Tillhandahåll information för ARM-processorer"
 
-#: data/system.metainfo.xml.in:158
+#: data/system.metainfo.xml.in:172
 msgid "Provide information for more types of Graphics"
 msgstr "Tillhandahåll information för fler typer av grafik"
 
-#: data/system.metainfo.xml.in:160
+#: data/system.metainfo.xml.in:174
 msgid "Fixes:"
 msgstr "Åtgärdar:"
 
-#: data/system.metainfo.xml.in:162
+#: data/system.metainfo.xml.in:176
 msgid "Fix an issue where the view was destroyed early when navigating away"
 msgstr "Åtgärda ett problem där vyn förstördes tidigt vid navigering bort"
 
-#: data/system.metainfo.xml.in:163
+#: data/system.metainfo.xml.in:177
 msgid "Fix system memory calculation"
 msgstr "Fixa beräkning av systemminne"
 
-#: data/system.metainfo.xml.in:167
+#: data/system.metainfo.xml.in:181
 msgid "Ellipsize long hardware names"
 msgstr "Korta ner långa hårdvarunamn"
 
-#: data/system.metainfo.xml.in:168
+#: data/system.metainfo.xml.in:182
 msgid "Performance improvements"
 msgstr "Förbättringar av prestanda"
 

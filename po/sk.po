@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-20 22:39+0000\n"
+"POT-Creation-Date: 2025-11-04 18:06+0000\n"
 "PO-Revision-Date: 2024-07-11 08:16+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
@@ -98,7 +98,7 @@ msgstr ""
 msgid "About This Device"
 msgstr ""
 
-#: src/Plug.vala:145 src/Views/FirmwareView.vala:86
+#: src/Plug.vala:145 src/Views/FirmwareView.vala:84
 msgid "Restart to Firmware Setup…"
 msgstr "Reštartovať do Nastavenia firmvéru…"
 
@@ -166,43 +166,43 @@ msgstr ""
 msgid "Installing %s…"
 msgstr "Inštaluje sa %s…"
 
-#: src/Views/FirmwareReleaseView.vala:28
+#: src/Views/FirmwareReleaseView.vala:27 src/Views/FirmwareView.vala:63
 msgid "All Updates"
 msgstr "Všetky aktualizácie"
 
-#: src/Views/FirmwareReleaseView.vala:74
+#: src/Views/FirmwareReleaseView.vala:68
 msgid "Version:"
 msgstr "Verzia:"
 
-#: src/Views/FirmwareReleaseView.vala:83
+#: src/Views/FirmwareReleaseView.vala:77
 msgid "Vendor:"
 msgstr "Predajca:"
 
-#: src/Views/FirmwareReleaseView.vala:92
+#: src/Views/FirmwareReleaseView.vala:86
 msgid "Size:"
 msgstr "Veľkosť:"
 
-#: src/Views/FirmwareReleaseView.vala:101
+#: src/Views/FirmwareReleaseView.vala:95
 msgid "Estimated time to install:"
 msgstr "Odhadovaný čas inštalácie:"
 
-#: src/Views/FirmwareReleaseView.vala:129
+#: src/Views/FirmwareReleaseView.vala:123
 msgid "There are no releases available for this device."
 msgstr "Pre toto zariadenie nie sú dostupné žiadne vydania."
 
-#: src/Views/FirmwareReleaseView.vala:202 src/Widgets/FirmwareUpdateRow.vala:73
+#: src/Views/FirmwareReleaseView.vala:196 src/Widgets/FirmwareUpdateRow.vala:73
 msgid "Update"
 msgstr "Aktualizovať"
 
-#: src/Views/FirmwareReleaseView.vala:205
+#: src/Views/FirmwareReleaseView.vala:199
 msgid "Up to date"
 msgstr "Aktualizované"
 
-#: src/Views/FirmwareReleaseView.vala:226
+#: src/Views/FirmwareReleaseView.vala:220
 msgid "less than a minute"
 msgstr "menej ako minúta"
 
-#: src/Views/FirmwareReleaseView.vala:230
+#: src/Views/FirmwareReleaseView.vala:224
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"
@@ -230,25 +230,25 @@ msgstr "Hľadajú sa aktualizácie"
 msgid "Connecting to the firmware service and searching for updates."
 msgstr "Pripája sa k službe firmvéru a hľadajú sa aktualizácie."
 
-#: src/Views/FirmwareView.vala:116
+#: src/Views/FirmwareView.vala:114
 msgid "Firmware Updates Are Not Available"
 msgstr "Aktualizácie firmvéru nie sú k dispozícii"
 
-#: src/Views/FirmwareView.vala:117
+#: src/Views/FirmwareView.vala:115
 msgid "Firmware updates are not supported on this or any connected devices."
 msgstr ""
 "Aktualizácie firmvéru nie sú podporované týmto zariadením ani žiadnym z "
 "pripojených zariadení."
 
-#: src/Views/FirmwareView.vala:119
+#: src/Views/FirmwareView.vala:117
 msgid "The Firmware Service Is Not Available"
 msgstr "Služba firmvéru nie je k dispozícii"
 
-#: src/Views/FirmwareView.vala:120
+#: src/Views/FirmwareView.vala:118
 msgid "Please make sure “fwupd” is installed and enabled."
 msgstr "Uistite sa, že „fwupd“ je nainštalovaný a zapnutý."
 
-#: src/Views/FirmwareView.vala:219
+#: src/Views/FirmwareView.vala:217
 #, c-format
 msgid "%u Update Available"
 msgid_plural "%u Updates Available"
@@ -256,57 +256,57 @@ msgstr[0] "%u dostupná aktualizácia"
 msgstr[1] "%u dostupné aktualizácie"
 msgstr[2] "%u dostupných aktualizácií"
 
-#: src/Views/FirmwareView.vala:223
+#: src/Views/FirmwareView.vala:221
 msgid "Up to Date"
 msgstr "Aktualizované"
 
-#: src/Views/FirmwareView.vala:231
+#: src/Views/FirmwareView.vala:229
 #, c-format
 msgid "“%s” is being updated"
 msgstr "„%s“ sa aktualizuje"
 
-#: src/Views/FirmwareView.vala:331
+#: src/Views/FirmwareView.vala:329
 msgid "Failed to install firmware release"
 msgstr "Nepodarilo sa nainštalovať vydanie firmvéru"
 
-#: src/Views/FirmwareView.vala:352
+#: src/Views/FirmwareView.vala:350
 #, c-format
 msgid "“%s” needs to manually be put in update mode"
 msgstr "„%s“ musí byť manuálne prestavené do režimu aktualizácie"
 
-#: src/Views/FirmwareView.vala:361
+#: src/Views/FirmwareView.vala:359
 msgid "Continue"
 msgstr "Pokračovať"
 
-#: src/Views/FirmwareView.vala:374
+#: src/Views/FirmwareView.vala:372
 msgid "An update requires the system to restart to complete"
 msgstr "Aktualizácia vyžaduje reštart systému na dokončenie"
 
-#: src/Views/FirmwareView.vala:375
+#: src/Views/FirmwareView.vala:373
 msgid "This will close all open applications and restart this device."
 msgstr "Všetky otvorené aplikácie budú ukončené a zariadenie sa reštartuje."
 
-#: src/Views/FirmwareView.vala:383 src/Views/FirmwareView.vala:432
+#: src/Views/FirmwareView.vala:381 src/Views/FirmwareView.vala:430
 msgid "Restart"
 msgstr "Reštartovať"
 
-#: src/Views/FirmwareView.vala:398
+#: src/Views/FirmwareView.vala:396
 msgid "An update requires the system to shut down to complete"
 msgstr "Aktualizácia vyžaduje reštart systému na dokončenie"
 
-#: src/Views/FirmwareView.vala:399
+#: src/Views/FirmwareView.vala:397
 msgid "This will close all open applications and turn off this device."
 msgstr "Všetky otvorené aplikácie budú ukončené a zariadenie sa reštartuje."
 
-#: src/Views/FirmwareView.vala:407
+#: src/Views/FirmwareView.vala:405
 msgid "Shut Down"
 msgstr "Vypnúť"
 
-#: src/Views/FirmwareView.vala:422
+#: src/Views/FirmwareView.vala:420
 msgid "Restart to firmware setup"
 msgstr "Reštartovať do Nastavenia firmvéru"
 
-#: src/Views/FirmwareView.vala:423
+#: src/Views/FirmwareView.vala:421
 msgid ""
 "This will close all open applications, restart this device, and open the "
 "firmware setup screen."
@@ -314,11 +314,11 @@ msgstr ""
 "Všetky otvorené aplikácie budú ukončené, zariadenie sa reštartuje a otvorí "
 "sa obrazovka nastavenia firmvéru."
 
-#: src/Views/FirmwareView.vala:447
+#: src/Views/FirmwareView.vala:445
 msgid "Unable to restart to firmware setup"
 msgstr "Neporadilo sa reštartovať do nastavenia firmvéru"
 
-#: src/Views/FirmwareView.vala:448
+#: src/Views/FirmwareView.vala:446
 msgid "A system error prevented automatically restarting into firmware setup."
 msgstr ""
 "Systémová chyba zabránila automatickému reštartu do nastavenia firmvéru."

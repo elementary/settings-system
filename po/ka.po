@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-20 22:39+0000\n"
+"POT-Creation-Date: 2025-11-04 18:06+0000\n"
 "PO-Revision-Date: 2025-02-17 04:16+0000\n"
 "Last-Translator: NorwayFun <temuri.doghonadze@gmail.com>\n"
 "Language-Team: Georgian <https://l10n.elementary.io/projects/switchboard/"
@@ -103,7 +103,7 @@ msgstr ""
 msgid "About This Device"
 msgstr ""
 
-#: src/Plug.vala:145 src/Views/FirmwareView.vala:86
+#: src/Plug.vala:145 src/Views/FirmwareView.vala:84
 msgid "Restart to Firmware Setup…"
 msgstr "მიკროკოდის მოსარგებად გადატვირთეთ…"
 
@@ -178,43 +178,43 @@ msgstr ""
 msgid "Installing %s…"
 msgstr ""
 
-#: src/Views/FirmwareReleaseView.vala:28
+#: src/Views/FirmwareReleaseView.vala:27 src/Views/FirmwareView.vala:63
 msgid "All Updates"
 msgstr "ყველა განახლება"
 
-#: src/Views/FirmwareReleaseView.vala:74
+#: src/Views/FirmwareReleaseView.vala:68
 msgid "Version:"
 msgstr "ვერსია:"
 
-#: src/Views/FirmwareReleaseView.vala:83
+#: src/Views/FirmwareReleaseView.vala:77
 msgid "Vendor:"
 msgstr "მომწოდებელი:"
 
-#: src/Views/FirmwareReleaseView.vala:92
+#: src/Views/FirmwareReleaseView.vala:86
 msgid "Size:"
 msgstr "ზომა:"
 
-#: src/Views/FirmwareReleaseView.vala:101
+#: src/Views/FirmwareReleaseView.vala:95
 msgid "Estimated time to install:"
 msgstr "დაყენების სავარაუდო დრო:"
 
-#: src/Views/FirmwareReleaseView.vala:129
+#: src/Views/FirmwareReleaseView.vala:123
 msgid "There are no releases available for this device."
 msgstr "ამ მოწყობილობისთვის რელიზები არ არსებობს."
 
-#: src/Views/FirmwareReleaseView.vala:202 src/Widgets/FirmwareUpdateRow.vala:73
+#: src/Views/FirmwareReleaseView.vala:196 src/Widgets/FirmwareUpdateRow.vala:73
 msgid "Update"
 msgstr "განახლება"
 
-#: src/Views/FirmwareReleaseView.vala:205
+#: src/Views/FirmwareReleaseView.vala:199
 msgid "Up to date"
 msgstr "განახლებულია"
 
-#: src/Views/FirmwareReleaseView.vala:226
+#: src/Views/FirmwareReleaseView.vala:220
 msgid "less than a minute"
 msgstr "წუთზე ნაკლები"
 
-#: src/Views/FirmwareReleaseView.vala:230
+#: src/Views/FirmwareReleaseView.vala:224
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"
@@ -241,81 +241,81 @@ msgstr "მიმდინარეობს განახლებები�
 msgid "Connecting to the firmware service and searching for updates."
 msgstr "მიკროკოდის სერვისთან დაკავშირება და განახლებების ძებნა."
 
-#: src/Views/FirmwareView.vala:116
+#: src/Views/FirmwareView.vala:114
 msgid "Firmware Updates Are Not Available"
 msgstr "მიკროკოდის განახლებების გარეშე"
 
-#: src/Views/FirmwareView.vala:117
+#: src/Views/FirmwareView.vala:115
 msgid "Firmware updates are not supported on this or any connected devices."
 msgstr ""
 "მიკროკოდის განახლება ამჟამად მიერთებულ მოწყობილობებზე მხარდაჭერილი არაა."
 
-#: src/Views/FirmwareView.vala:119
+#: src/Views/FirmwareView.vala:117
 msgid "The Firmware Service Is Not Available"
 msgstr "მიკროკოდის სერვისი მიუწვდომელია"
 
-#: src/Views/FirmwareView.vala:120
+#: src/Views/FirmwareView.vala:118
 msgid "Please make sure “fwupd” is installed and enabled."
 msgstr "დარწმუნდით, რომ \"fwupd\" დაყენებული და ჩართულია."
 
-#: src/Views/FirmwareView.vala:219
+#: src/Views/FirmwareView.vala:217
 #, c-format
 msgid "%u Update Available"
 msgid_plural "%u Updates Available"
 msgstr[0] "ხელმისაწვდომია %u განახლება"
 msgstr[1] "ხელმისაწვდომია %u განახლება"
 
-#: src/Views/FirmwareView.vala:223
+#: src/Views/FirmwareView.vala:221
 msgid "Up to Date"
 msgstr "განახლებულია"
 
-#: src/Views/FirmwareView.vala:231
+#: src/Views/FirmwareView.vala:229
 #, c-format
 msgid "“%s” is being updated"
 msgstr "მიმდინარეობს “%s”-ის განახლება"
 
-#: src/Views/FirmwareView.vala:331
+#: src/Views/FirmwareView.vala:329
 msgid "Failed to install firmware release"
 msgstr "მიკროკოდის დაყენების შეცდომა"
 
-#: src/Views/FirmwareView.vala:352
+#: src/Views/FirmwareView.vala:350
 #, c-format
 msgid "“%s” needs to manually be put in update mode"
 msgstr "\"%s\"-ი განახლების რეჟიმში ხელით უნდა გადართოთ"
 
-#: src/Views/FirmwareView.vala:361
+#: src/Views/FirmwareView.vala:359
 msgid "Continue"
 msgstr "გაგრძელება"
 
-#: src/Views/FirmwareView.vala:374
+#: src/Views/FirmwareView.vala:372
 msgid "An update requires the system to restart to complete"
 msgstr "განახლებას დასასრულებლად სისტემის გადატვირთვა ესაჭიროება"
 
-#: src/Views/FirmwareView.vala:375
+#: src/Views/FirmwareView.vala:373
 msgid "This will close all open applications and restart this device."
 msgstr "ეს დახურავს ყველა ღია აპლიკაციას და გადატვირთავს კომპიუტერს."
 
-#: src/Views/FirmwareView.vala:383 src/Views/FirmwareView.vala:432
+#: src/Views/FirmwareView.vala:381 src/Views/FirmwareView.vala:430
 msgid "Restart"
 msgstr "გადატვირთვა"
 
-#: src/Views/FirmwareView.vala:398
+#: src/Views/FirmwareView.vala:396
 msgid "An update requires the system to shut down to complete"
 msgstr "განახლებას სისტემის გამორთვა ესაჭიროება"
 
-#: src/Views/FirmwareView.vala:399
+#: src/Views/FirmwareView.vala:397
 msgid "This will close all open applications and turn off this device."
 msgstr "ეს დახურავს ყველა ღია აპლიკაციას და გამორთავს ამ მოწყობილობას."
 
-#: src/Views/FirmwareView.vala:407
+#: src/Views/FirmwareView.vala:405
 msgid "Shut Down"
 msgstr "გამორთვა"
 
-#: src/Views/FirmwareView.vala:422
+#: src/Views/FirmwareView.vala:420
 msgid "Restart to firmware setup"
 msgstr "მიკროკოდის მორგების ფანჯარაში გადატვირთვა"
 
-#: src/Views/FirmwareView.vala:423
+#: src/Views/FirmwareView.vala:421
 msgid ""
 "This will close all open applications, restart this device, and open the "
 "firmware setup screen."
@@ -323,11 +323,11 @@ msgstr ""
 "ეს დახურავს ყველა ღია აპლიკაციას, გადატვირთავს ამ მოწყობილობას და მიკროკოდის "
 "მორგების ფანჯარას გახსნის."
 
-#: src/Views/FirmwareView.vala:447
+#: src/Views/FirmwareView.vala:445
 msgid "Unable to restart to firmware setup"
 msgstr "მიკროკოდის მორგების ფანჯარაში გადატვირთვის სეცდომა"
 
-#: src/Views/FirmwareView.vala:448
+#: src/Views/FirmwareView.vala:446
 msgid "A system error prevented automatically restarting into firmware setup."
 msgstr ""
 "მიკროკოდის მორგების ფანჯარაში გადატვირთვა შეუძლებელია სისტემური შეცდომის "

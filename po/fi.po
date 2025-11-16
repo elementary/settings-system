@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-20 22:39+0000\n"
+"POT-Creation-Date: 2025-11-04 18:06+0000\n"
 "PO-Revision-Date: 2024-12-02 14:16+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -96,7 +96,7 @@ msgstr "Isäntänimi"
 msgid "About This Device"
 msgstr ""
 
-#: src/Plug.vala:145 src/Views/FirmwareView.vala:86
+#: src/Plug.vala:145 src/Views/FirmwareView.vala:84
 msgid "Restart to Firmware Setup…"
 msgstr "Käynnistä uudelleen laiteohjelmiston asetuksiin…"
 
@@ -160,43 +160,43 @@ msgstr ""
 msgid "Installing %s…"
 msgstr "Asennetaan %s…"
 
-#: src/Views/FirmwareReleaseView.vala:28
+#: src/Views/FirmwareReleaseView.vala:27 src/Views/FirmwareView.vala:63
 msgid "All Updates"
 msgstr "Kaikki päivitykset"
 
-#: src/Views/FirmwareReleaseView.vala:74
+#: src/Views/FirmwareReleaseView.vala:68
 msgid "Version:"
 msgstr "Versio:"
 
-#: src/Views/FirmwareReleaseView.vala:83
+#: src/Views/FirmwareReleaseView.vala:77
 msgid "Vendor:"
 msgstr "Toimittaja:"
 
-#: src/Views/FirmwareReleaseView.vala:92
+#: src/Views/FirmwareReleaseView.vala:86
 msgid "Size:"
 msgstr "Koko:"
 
-#: src/Views/FirmwareReleaseView.vala:101
+#: src/Views/FirmwareReleaseView.vala:95
 msgid "Estimated time to install:"
 msgstr "Arvioitu asennusaika:"
 
-#: src/Views/FirmwareReleaseView.vala:129
+#: src/Views/FirmwareReleaseView.vala:123
 msgid "There are no releases available for this device."
 msgstr "Tälle laitteelle ei ole saatavilla julkaisuja."
 
-#: src/Views/FirmwareReleaseView.vala:202 src/Widgets/FirmwareUpdateRow.vala:73
+#: src/Views/FirmwareReleaseView.vala:196 src/Widgets/FirmwareUpdateRow.vala:73
 msgid "Update"
 msgstr "Päivitä"
 
-#: src/Views/FirmwareReleaseView.vala:205
+#: src/Views/FirmwareReleaseView.vala:199
 msgid "Up to date"
 msgstr "Ajan tasalla"
 
-#: src/Views/FirmwareReleaseView.vala:226
+#: src/Views/FirmwareReleaseView.vala:220
 msgid "less than a minute"
 msgstr "alle minuutti"
 
-#: src/Views/FirmwareReleaseView.vala:230
+#: src/Views/FirmwareReleaseView.vala:224
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"
@@ -223,83 +223,83 @@ msgstr "Tarkistetaan päivityksiä"
 msgid "Connecting to the firmware service and searching for updates."
 msgstr "Yhdistetään laiteohjelmistopalveluun ja etsitään päivityksiä."
 
-#: src/Views/FirmwareView.vala:116
+#: src/Views/FirmwareView.vala:114
 msgid "Firmware Updates Are Not Available"
 msgstr "Laiteohjelmistopäivityksiä ei ole saatavilla"
 
-#: src/Views/FirmwareView.vala:117
+#: src/Views/FirmwareView.vala:115
 msgid "Firmware updates are not supported on this or any connected devices."
 msgstr ""
 "Laiteohjelmiston päivitykset eivät ole tuettuja tällä tai millään muullakaan "
 "yhdistetyllä laitteella."
 
-#: src/Views/FirmwareView.vala:119
+#: src/Views/FirmwareView.vala:117
 msgid "The Firmware Service Is Not Available"
 msgstr "Laiteohjelmistopalvelu ei ole käytettävissä"
 
-#: src/Views/FirmwareView.vala:120
+#: src/Views/FirmwareView.vala:118
 msgid "Please make sure “fwupd” is installed and enabled."
 msgstr "Varmista että “fwupd” on asennettu ja käytössä."
 
-#: src/Views/FirmwareView.vala:219
+#: src/Views/FirmwareView.vala:217
 #, c-format
 msgid "%u Update Available"
 msgid_plural "%u Updates Available"
 msgstr[0] "%u päivitys saatavilla"
 msgstr[1] "%u päivitystä saatavilla"
 
-#: src/Views/FirmwareView.vala:223
+#: src/Views/FirmwareView.vala:221
 msgid "Up to Date"
 msgstr "Ajan tasalla"
 
-#: src/Views/FirmwareView.vala:231
+#: src/Views/FirmwareView.vala:229
 #, c-format
 msgid "“%s” is being updated"
 msgstr "“%s” on päivityksen alaisena"
 
-#: src/Views/FirmwareView.vala:331
+#: src/Views/FirmwareView.vala:329
 msgid "Failed to install firmware release"
 msgstr "Laiteohjelmiston julkaisun asentaminen epäonnistui"
 
-#: src/Views/FirmwareView.vala:352
+#: src/Views/FirmwareView.vala:350
 #, c-format
 msgid "“%s” needs to manually be put in update mode"
 msgstr "“%s” tulee asettaa manuaalisesti päivitystilaan"
 
-#: src/Views/FirmwareView.vala:361
+#: src/Views/FirmwareView.vala:359
 msgid "Continue"
 msgstr "Jatka"
 
-#: src/Views/FirmwareView.vala:374
+#: src/Views/FirmwareView.vala:372
 msgid "An update requires the system to restart to complete"
 msgstr "Päivitys vaatii valmistuakseen järjestelmän uudelleenkäynnistyksen"
 
-#: src/Views/FirmwareView.vala:375
+#: src/Views/FirmwareView.vala:373
 msgid "This will close all open applications and restart this device."
 msgstr ""
 "Tämä sulkee kaikki avoimet sovellukset ja käynnistää laitteen uudelleen."
 
-#: src/Views/FirmwareView.vala:383 src/Views/FirmwareView.vala:432
+#: src/Views/FirmwareView.vala:381 src/Views/FirmwareView.vala:430
 msgid "Restart"
 msgstr "Käynnistä uudelleen"
 
-#: src/Views/FirmwareView.vala:398
+#: src/Views/FirmwareView.vala:396
 msgid "An update requires the system to shut down to complete"
 msgstr "Päivitys vaatii valmistuakseen järjestelmän sammuttamisen"
 
-#: src/Views/FirmwareView.vala:399
+#: src/Views/FirmwareView.vala:397
 msgid "This will close all open applications and turn off this device."
 msgstr "Tämä sulkee kaikki avoimet sovellukset ja sammuttaa laitteen."
 
-#: src/Views/FirmwareView.vala:407
+#: src/Views/FirmwareView.vala:405
 msgid "Shut Down"
 msgstr "Sammuta"
 
-#: src/Views/FirmwareView.vala:422
+#: src/Views/FirmwareView.vala:420
 msgid "Restart to firmware setup"
 msgstr "Käynnistä uudelleen laiteohjelmiston asetuksiin"
 
-#: src/Views/FirmwareView.vala:423
+#: src/Views/FirmwareView.vala:421
 msgid ""
 "This will close all open applications, restart this device, and open the "
 "firmware setup screen."
@@ -307,11 +307,11 @@ msgstr ""
 "Tämä sulkee kaikki avoimet sovellukset, käynnistää laitteen uudelleen ja "
 "avaa laiteohjelmiston asetusten näkymän."
 
-#: src/Views/FirmwareView.vala:447
+#: src/Views/FirmwareView.vala:445
 msgid "Unable to restart to firmware setup"
 msgstr "Uudelleenkäynnistäminen laiteohjelmiston asetuksiin epäonnistui"
 
-#: src/Views/FirmwareView.vala:448
+#: src/Views/FirmwareView.vala:446
 msgid "A system error prevented automatically restarting into firmware setup."
 msgstr ""
 "Järjestelmävirhe esti automaattisesti käynnistämästä uudelleen "

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-20 22:39+0000\n"
+"POT-Creation-Date: 2025-11-04 18:06+0000\n"
 "PO-Revision-Date: 2024-01-25 02:35+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Uyghur <https://l10n.elementary.io/projects/switchboard/"
@@ -104,7 +104,7 @@ msgstr ""
 msgid "About This Device"
 msgstr ""
 
-#: src/Plug.vala:145 src/Views/FirmwareView.vala:86
+#: src/Plug.vala:145 src/Views/FirmwareView.vala:84
 msgid "Restart to Firmware Setup…"
 msgstr ""
 
@@ -172,49 +172,49 @@ msgstr ""
 msgid "Installing %s…"
 msgstr ""
 
-#: src/Views/FirmwareReleaseView.vala:28
+#: src/Views/FirmwareReleaseView.vala:27 src/Views/FirmwareView.vala:63
 #, fuzzy
 #| msgid "Updates"
 msgid "All Updates"
 msgstr "يېڭىلانمىلار"
 
-#: src/Views/FirmwareReleaseView.vala:74
+#: src/Views/FirmwareReleaseView.vala:68
 msgid "Version:"
 msgstr ""
 
-#: src/Views/FirmwareReleaseView.vala:83
+#: src/Views/FirmwareReleaseView.vala:77
 msgid "Vendor:"
 msgstr ""
 
-#: src/Views/FirmwareReleaseView.vala:92
+#: src/Views/FirmwareReleaseView.vala:86
 msgid "Size:"
 msgstr ""
 
-#: src/Views/FirmwareReleaseView.vala:101
+#: src/Views/FirmwareReleaseView.vala:95
 msgid "Estimated time to install:"
 msgstr ""
 
-#: src/Views/FirmwareReleaseView.vala:129
+#: src/Views/FirmwareReleaseView.vala:123
 msgid "There are no releases available for this device."
 msgstr ""
 
-#: src/Views/FirmwareReleaseView.vala:202 src/Widgets/FirmwareUpdateRow.vala:73
+#: src/Views/FirmwareReleaseView.vala:196 src/Widgets/FirmwareUpdateRow.vala:73
 #, fuzzy
 #| msgid "Updates"
 msgid "Update"
 msgstr "يېڭىلانمىلار"
 
-#: src/Views/FirmwareReleaseView.vala:205
+#: src/Views/FirmwareReleaseView.vala:199
 #, fuzzy
 #| msgid "Updates"
 msgid "Up to date"
 msgstr "يېڭىلانمىلار"
 
-#: src/Views/FirmwareReleaseView.vala:226
+#: src/Views/FirmwareReleaseView.vala:220
 msgid "less than a minute"
 msgstr ""
 
-#: src/Views/FirmwareReleaseView.vala:230
+#: src/Views/FirmwareReleaseView.vala:224
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"
@@ -241,25 +241,25 @@ msgstr "يېڭىلانمىنى تەكشۈرۈش"
 msgid "Connecting to the firmware service and searching for updates."
 msgstr ""
 
-#: src/Views/FirmwareView.vala:116
+#: src/Views/FirmwareView.vala:114
 #, fuzzy
 #| msgid "Updates"
 msgid "Firmware Updates Are Not Available"
 msgstr "يېڭىلانمىلار"
 
-#: src/Views/FirmwareView.vala:117
+#: src/Views/FirmwareView.vala:115
 msgid "Firmware updates are not supported on this or any connected devices."
 msgstr ""
 
-#: src/Views/FirmwareView.vala:119
+#: src/Views/FirmwareView.vala:117
 msgid "The Firmware Service Is Not Available"
 msgstr ""
 
-#: src/Views/FirmwareView.vala:120
+#: src/Views/FirmwareView.vala:118
 msgid "Please make sure “fwupd” is installed and enabled."
 msgstr ""
 
-#: src/Views/FirmwareView.vala:219
+#: src/Views/FirmwareView.vala:217
 #, fuzzy, c-format
 #| msgid "Updates"
 msgid "%u Update Available"
@@ -267,69 +267,69 @@ msgid_plural "%u Updates Available"
 msgstr[0] "يېڭىلانمىلار"
 msgstr[1] "يېڭىلانمىلار"
 
-#: src/Views/FirmwareView.vala:223
+#: src/Views/FirmwareView.vala:221
 #, fuzzy
 #| msgid "Updates"
 msgid "Up to Date"
 msgstr "يېڭىلانمىلار"
 
-#: src/Views/FirmwareView.vala:231
+#: src/Views/FirmwareView.vala:229
 #, c-format
 msgid "“%s” is being updated"
 msgstr ""
 
-#: src/Views/FirmwareView.vala:331
+#: src/Views/FirmwareView.vala:329
 msgid "Failed to install firmware release"
 msgstr ""
 
-#: src/Views/FirmwareView.vala:352
+#: src/Views/FirmwareView.vala:350
 #, c-format
 msgid "“%s” needs to manually be put in update mode"
 msgstr ""
 
-#: src/Views/FirmwareView.vala:361
+#: src/Views/FirmwareView.vala:359
 msgid "Continue"
 msgstr ""
 
-#: src/Views/FirmwareView.vala:374
+#: src/Views/FirmwareView.vala:372
 msgid "An update requires the system to restart to complete"
 msgstr ""
 
-#: src/Views/FirmwareView.vala:375
+#: src/Views/FirmwareView.vala:373
 msgid "This will close all open applications and restart this device."
 msgstr ""
 
-#: src/Views/FirmwareView.vala:383 src/Views/FirmwareView.vala:432
+#: src/Views/FirmwareView.vala:381 src/Views/FirmwareView.vala:430
 msgid "Restart"
 msgstr ""
 
-#: src/Views/FirmwareView.vala:398
+#: src/Views/FirmwareView.vala:396
 msgid "An update requires the system to shut down to complete"
 msgstr ""
 
-#: src/Views/FirmwareView.vala:399
+#: src/Views/FirmwareView.vala:397
 msgid "This will close all open applications and turn off this device."
 msgstr ""
 
-#: src/Views/FirmwareView.vala:407
+#: src/Views/FirmwareView.vala:405
 msgid "Shut Down"
 msgstr ""
 
-#: src/Views/FirmwareView.vala:422
+#: src/Views/FirmwareView.vala:420
 msgid "Restart to firmware setup"
 msgstr ""
 
-#: src/Views/FirmwareView.vala:423
+#: src/Views/FirmwareView.vala:421
 msgid ""
 "This will close all open applications, restart this device, and open the "
 "firmware setup screen."
 msgstr ""
 
-#: src/Views/FirmwareView.vala:447
+#: src/Views/FirmwareView.vala:445
 msgid "Unable to restart to firmware setup"
 msgstr ""
 
-#: src/Views/FirmwareView.vala:448
+#: src/Views/FirmwareView.vala:446
 msgid "A system error prevented automatically restarting into firmware setup."
 msgstr ""
 
