@@ -280,14 +280,19 @@ public class About.HardwareView : Gtk.Box {
                 result += "\n";
             }
 
+            string cpu_name = _("Unknown Processor");
+            if (cpu.key.length > 0) {
+                cpu_name = clean_name (cpu.key);
+            }
+
             if (cpu.@value == 2) {
-                result += _("Dual-Core %s").printf (clean_name (cpu.key));
+                result += _("Dual-Core %s").printf (cpu_name);
             } else if (cpu.@value == 4) {
-                result += _("Quad-Core %s").printf (clean_name (cpu.key));
+                result += _("Quad-Core %s").printf (cpu_name);
             } else if (cpu.@value == 6) {
-                result += _("Hexa-Core %s").printf (clean_name (cpu.key));
+                result += _("Hexa-Core %s").printf (cpu_name);
             } else {
-                result += "%u \u00D7 %s ".printf (cpu.@value, clean_name (cpu.key));
+                result += "%u \u00D7 %s ".printf (cpu.@value, cpu_name);
             }
         }
 
