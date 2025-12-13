@@ -16,7 +16,7 @@ plug_files = files(
 )
 
 switchboard_dep = dependency('switchboard-3')
-switchboard_plugsdir = switchboard_dep.get_pkgconfig_variable('plugsdir', define_variable: ['libdir', libdir])
+switchboard_plugsdir = switchboard_dep.get_variable('plugsdir', pkgconfig_define: ['libdir', libdir])
 
 config_data = configuration_data()
 config_data.set('GETTEXT_PACKAGE', gettext_name)
