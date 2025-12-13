@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 18:06+0000\n"
+"POT-Creation-Date: 2025-12-13 18:13+0000\n"
 "PO-Revision-Date: 2024-01-25 02:35+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Kurdish (Central) <https://l10n.elementary.io/projects/"
@@ -338,7 +338,7 @@ msgstr ""
 msgid "%s memory"
 msgstr "%s میمۆری"
 
-#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:360
+#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:365
 msgid "Unknown Graphics"
 msgstr "گرافیکی نەزانراو"
 
@@ -361,62 +361,62 @@ msgstr "تەنها %u بەڕۆژبوونەوە بەردەستە"
 msgid "Device name saved"
 msgstr ""
 
-#: src/Views/HardwareView.vala:284
+#: src/Views/HardwareView.vala:283 src/Views/HardwareView.vala:405
+msgid "Unknown Processor"
+msgstr "پرۆسێسەری نەزانراو"
+
+#: src/Views/HardwareView.vala:289
 #, c-format
 msgid "Dual-Core %s"
 msgstr "دوو-کۆڕ %s"
 
-#: src/Views/HardwareView.vala:286
+#: src/Views/HardwareView.vala:291
 #, c-format
 msgid "Quad-Core %s"
 msgstr "چوار-کۆڕ %s"
 
-#: src/Views/HardwareView.vala:288
+#: src/Views/HardwareView.vala:293
 #, c-format
 msgid "Hexa-Core %s"
 msgstr "شەش-کۆڕ %s"
 
-#: src/Views/HardwareView.vala:400
-msgid "Unknown Processor"
-msgstr "پرۆسێسەری نەزانراو"
-
-#: src/Views/HardwareView.vala:473
+#: src/Views/HardwareView.vala:478
 msgid "Unknown"
 msgstr "نەزانراو"
 
-#: src/Views/HardwareView.vala:528
+#: src/Views/HardwareView.vala:533
 #, c-format
 msgid "%s storage (NVMe SSD)"
 msgstr "%s بیرگە (NVMe SSD)"
 
-#: src/Views/HardwareView.vala:530
+#: src/Views/HardwareView.vala:535
 #, c-format
 msgid "%s storage (eMMC)"
 msgstr "%s بیرگە (eMMC)"
 
-#: src/Views/HardwareView.vala:532
+#: src/Views/HardwareView.vala:537
 #, c-format
 msgid "%s storage (SATA SSD)"
 msgstr "%s بیرگە (SATA SSD)"
 
-#: src/Views/HardwareView.vala:535
+#: src/Views/HardwareView.vala:540
 #, c-format
 msgid "%s storage (HDD)"
 msgstr "%s بیرگە (HDD)"
 
 #. Set fallback string for the device type
-#: src/Views/HardwareView.vala:540
+#: src/Views/HardwareView.vala:545
 #, c-format
 msgid "%s storage"
 msgstr "%s بیرگە"
 
-#: src/Views/HardwareView.vala:712
+#: src/Views/HardwareView.vala:717
 msgid "byte"
 msgid_plural "bytes"
 msgstr[0] "بایت"
 msgstr[1] "بایت"
 
-#: src/Views/HardwareView.vala:714
+#: src/Views/HardwareView.vala:719
 #, fuzzy, c-format
 #| msgid "byte"
 #| msgid_plural "bytes"
@@ -425,7 +425,7 @@ msgid_plural "%u bytes"
 msgstr[0] "بایت"
 msgstr[1] "بایت"
 
-#: src/Views/HardwareView.vala:721
+#: src/Views/HardwareView.vala:726
 #, fuzzy, c-format
 #| msgid "%llu %s"
 msgctxt "format-size"

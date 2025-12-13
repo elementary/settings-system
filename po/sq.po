@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 18:06+0000\n"
+"POT-Creation-Date: 2025-12-13 18:13+0000\n"
 "PO-Revision-Date: 2024-01-25 02:35+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Albanian <https://l10n.elementary.io/projects/switchboard/"
@@ -342,7 +342,7 @@ msgstr ""
 msgid "%s memory"
 msgstr "Memoria:"
 
-#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:360
+#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:365
 #, fuzzy
 #| msgid "Graphics:"
 msgid "Unknown Graphics"
@@ -368,73 +368,73 @@ msgstr "Përditësime"
 msgid "Device name saved"
 msgstr ""
 
-#: src/Views/HardwareView.vala:284
-#, fuzzy, c-format
-#| msgid "Dual-Core"
-msgid "Dual-Core %s"
-msgstr "Dual-Core"
-
-#: src/Views/HardwareView.vala:286
-#, fuzzy, c-format
-#| msgid "Quad-Core"
-msgid "Quad-Core %s"
-msgstr "Quad-Core"
-
-#: src/Views/HardwareView.vala:288
-#, c-format
-msgid "Hexa-Core %s"
-msgstr ""
-
-#: src/Views/HardwareView.vala:400
+#: src/Views/HardwareView.vala:283 src/Views/HardwareView.vala:405
 #, fuzzy
 #| msgid "Processor:"
 msgid "Unknown Processor"
 msgstr "Procesori:"
 
-#: src/Views/HardwareView.vala:473
+#: src/Views/HardwareView.vala:289
+#, fuzzy, c-format
+#| msgid "Dual-Core"
+msgid "Dual-Core %s"
+msgstr "Dual-Core"
+
+#: src/Views/HardwareView.vala:291
+#, fuzzy, c-format
+#| msgid "Quad-Core"
+msgid "Quad-Core %s"
+msgstr "Quad-Core"
+
+#: src/Views/HardwareView.vala:293
+#, c-format
+msgid "Hexa-Core %s"
+msgstr ""
+
+#: src/Views/HardwareView.vala:478
 msgid "Unknown"
 msgstr "Panjohur"
 
-#: src/Views/HardwareView.vala:528
+#: src/Views/HardwareView.vala:533
 #, fuzzy, c-format
 msgid "%s storage (NVMe SSD)"
 msgstr "Magazinimi:"
 
-#: src/Views/HardwareView.vala:530
+#: src/Views/HardwareView.vala:535
 #, fuzzy, c-format
 msgid "%s storage (eMMC)"
 msgstr "Magazinimi:"
 
-#: src/Views/HardwareView.vala:532
+#: src/Views/HardwareView.vala:537
 #, fuzzy, c-format
 msgid "%s storage (SATA SSD)"
 msgstr "Magazinimi:"
 
-#: src/Views/HardwareView.vala:535
+#: src/Views/HardwareView.vala:540
 #, fuzzy, c-format
 msgid "%s storage (HDD)"
 msgstr "Magazinimi:"
 
 #. Set fallback string for the device type
-#: src/Views/HardwareView.vala:540
+#: src/Views/HardwareView.vala:545
 #, fuzzy, c-format
 msgid "%s storage"
 msgstr "Magazinimi:"
 
-#: src/Views/HardwareView.vala:712
+#: src/Views/HardwareView.vala:717
 msgid "byte"
 msgid_plural "bytes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Views/HardwareView.vala:714
+#: src/Views/HardwareView.vala:719
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
 msgstr[0] ""
 msgstr[1] ""
 
-#: src/Views/HardwareView.vala:721
+#: src/Views/HardwareView.vala:726
 #, c-format
 msgctxt "format-size"
 msgid "%u %s"

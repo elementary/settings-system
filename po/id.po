@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 18:06+0000\n"
+"POT-Creation-Date: 2025-12-13 18:13+0000\n"
 "PO-Revision-Date: 2023-06-02 08:07+0000\n"
 "Last-Translator: Faisal Rachmadin "
 "<frachmadin@users.noreply.l10n.elementary.io>\n"
@@ -341,7 +341,7 @@ msgstr ""
 msgid "%s memory"
 msgstr "Memori %s"
 
-#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:360
+#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:365
 msgid "Unknown Graphics"
 msgstr "Kartu Grafis Tidak Dikenal"
 
@@ -364,67 +364,67 @@ msgstr "%u Pembaruan Tersedia"
 msgid "Device name saved"
 msgstr ""
 
-#: src/Views/HardwareView.vala:284
+#: src/Views/HardwareView.vala:283 src/Views/HardwareView.vala:405
+msgid "Unknown Processor"
+msgstr "Prosesor Tidak Dikenal"
+
+#: src/Views/HardwareView.vala:289
 #, c-format
 msgid "Dual-Core %s"
 msgstr "Dua Inti %s"
 
-#: src/Views/HardwareView.vala:286
+#: src/Views/HardwareView.vala:291
 #, c-format
 msgid "Quad-Core %s"
 msgstr "Empat Inti %s"
 
-#: src/Views/HardwareView.vala:288
+#: src/Views/HardwareView.vala:293
 #, c-format
 msgid "Hexa-Core %s"
 msgstr "Enam Inti %s"
 
-#: src/Views/HardwareView.vala:400
-msgid "Unknown Processor"
-msgstr "Prosesor Tidak Dikenal"
-
-#: src/Views/HardwareView.vala:473
+#: src/Views/HardwareView.vala:478
 msgid "Unknown"
 msgstr "Tidak diketahui"
 
-#: src/Views/HardwareView.vala:528
+#: src/Views/HardwareView.vala:533
 #, fuzzy, c-format
 msgid "%s storage (NVMe SSD)"
 msgstr "Penyimpanan %s"
 
-#: src/Views/HardwareView.vala:530
+#: src/Views/HardwareView.vala:535
 #, fuzzy, c-format
 msgid "%s storage (eMMC)"
 msgstr "Penyimpanan %s"
 
-#: src/Views/HardwareView.vala:532
+#: src/Views/HardwareView.vala:537
 #, fuzzy, c-format
 msgid "%s storage (SATA SSD)"
 msgstr "Penyimpanan %s"
 
-#: src/Views/HardwareView.vala:535
+#: src/Views/HardwareView.vala:540
 #, fuzzy, c-format
 msgid "%s storage (HDD)"
 msgstr "Penyimpanan %s"
 
 #. Set fallback string for the device type
-#: src/Views/HardwareView.vala:540
+#: src/Views/HardwareView.vala:545
 #, c-format
 msgid "%s storage"
 msgstr "Penyimpanan %s"
 
-#: src/Views/HardwareView.vala:712
+#: src/Views/HardwareView.vala:717
 msgid "byte"
 msgid_plural "bytes"
 msgstr[0] ""
 
-#: src/Views/HardwareView.vala:714
+#: src/Views/HardwareView.vala:719
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
 msgstr[0] ""
 
-#: src/Views/HardwareView.vala:721
+#: src/Views/HardwareView.vala:726
 #, c-format
 msgctxt "format-size"
 msgid "%u %s"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 18:06+0000\n"
+"POT-Creation-Date: 2025-12-13 18:13+0000\n"
 "PO-Revision-Date: 2025-02-21 12:13+0000\n"
 "Last-Translator: Nathan <bonnemainsnathan@gmail.com>\n"
 "Language-Team: French <https://l10n.elementary.io/projects/settings/"
@@ -333,7 +333,7 @@ msgstr "Vous n'avez pas l'autorisation de modifier le nom de l'appareil"
 msgid "%s memory"
 msgstr "%s de mémoire vive"
 
-#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:360
+#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:365
 msgid "Unknown Graphics"
 msgstr "Carte graphique inconnue"
 
@@ -353,69 +353,69 @@ msgstr "Mettre à jour le nom de l'appareil"
 msgid "Device name saved"
 msgstr "Nom de l'appareil enregistré"
 
-#: src/Views/HardwareView.vala:284
+#: src/Views/HardwareView.vala:283 src/Views/HardwareView.vala:405
+msgid "Unknown Processor"
+msgstr "Processeur inconnu"
+
+#: src/Views/HardwareView.vala:289
 #, c-format
 msgid "Dual-Core %s"
 msgstr "Double cœur %s"
 
-#: src/Views/HardwareView.vala:286
+#: src/Views/HardwareView.vala:291
 #, c-format
 msgid "Quad-Core %s"
 msgstr "Quadruple cœur %s"
 
-#: src/Views/HardwareView.vala:288
+#: src/Views/HardwareView.vala:293
 #, c-format
 msgid "Hexa-Core %s"
 msgstr "Six cœurs %s"
 
-#: src/Views/HardwareView.vala:400
-msgid "Unknown Processor"
-msgstr "Processeur inconnu"
-
-#: src/Views/HardwareView.vala:473
+#: src/Views/HardwareView.vala:478
 msgid "Unknown"
 msgstr "Inconnu"
 
-#: src/Views/HardwareView.vala:528
+#: src/Views/HardwareView.vala:533
 #, c-format
 msgid "%s storage (NVMe SSD)"
 msgstr "%s de stockage (SSD NVMe)"
 
-#: src/Views/HardwareView.vala:530
+#: src/Views/HardwareView.vala:535
 #, c-format
 msgid "%s storage (eMMC)"
 msgstr "%s de stockage (eMMC)"
 
-#: src/Views/HardwareView.vala:532
+#: src/Views/HardwareView.vala:537
 #, c-format
 msgid "%s storage (SATA SSD)"
 msgstr "%s de stockage (SSD SATA)"
 
-#: src/Views/HardwareView.vala:535
+#: src/Views/HardwareView.vala:540
 #, c-format
 msgid "%s storage (HDD)"
 msgstr "%s de stockage (HDD)"
 
 #. Set fallback string for the device type
-#: src/Views/HardwareView.vala:540
+#: src/Views/HardwareView.vala:545
 #, c-format
 msgid "%s storage"
 msgstr "%s de stockage"
 
-#: src/Views/HardwareView.vala:712
+#: src/Views/HardwareView.vala:717
 msgid "byte"
 msgid_plural "bytes"
 msgstr[0] "octet"
 msgstr[1] "octets"
 
-#: src/Views/HardwareView.vala:714
+#: src/Views/HardwareView.vala:719
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
 msgstr[0] "%u octet"
 msgstr[1] "%u octets"
 
-#: src/Views/HardwareView.vala:721
+#: src/Views/HardwareView.vala:726
 #, c-format
 msgctxt "format-size"
 msgid "%u %s"

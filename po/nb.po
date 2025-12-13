@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 18:06+0000\n"
+"POT-Creation-Date: 2025-12-13 18:13+0000\n"
 "PO-Revision-Date: 2024-09-19 07:21+0000\n"
 "Last-Translator: Allan Nordhøy <epost@anotheragency.no>\n"
 "Language-Team: Norwegian Bokmål <https://l10n.elementary.io/projects/"
@@ -366,7 +366,7 @@ msgstr "Du har ikke tilgang til å endre enhetsnavnet"
 msgid "%s memory"
 msgstr "%s minne"
 
-#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:360
+#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:365
 msgid "Unknown Graphics"
 msgstr "Ukjent grafikk"
 
@@ -391,69 +391,69 @@ msgstr "%u oppgradering tilgjengelig"
 msgid "Device name saved"
 msgstr "Enheten er låst"
 
-#: src/Views/HardwareView.vala:284
+#: src/Views/HardwareView.vala:283 src/Views/HardwareView.vala:405
+msgid "Unknown Processor"
+msgstr "Ukjent prosessor"
+
+#: src/Views/HardwareView.vala:289
 #, c-format
 msgid "Dual-Core %s"
 msgstr "To-kjerner %s"
 
-#: src/Views/HardwareView.vala:286
+#: src/Views/HardwareView.vala:291
 #, c-format
 msgid "Quad-Core %s"
 msgstr "Fire-kjerner %s"
 
-#: src/Views/HardwareView.vala:288
+#: src/Views/HardwareView.vala:293
 #, c-format
 msgid "Hexa-Core %s"
 msgstr "Sekskjerner %s"
 
-#: src/Views/HardwareView.vala:400
-msgid "Unknown Processor"
-msgstr "Ukjent prosessor"
-
-#: src/Views/HardwareView.vala:473
+#: src/Views/HardwareView.vala:478
 msgid "Unknown"
 msgstr "Ukjent"
 
-#: src/Views/HardwareView.vala:528
+#: src/Views/HardwareView.vala:533
 #, fuzzy, c-format
 msgid "%s storage (NVMe SSD)"
 msgstr "%s lagring (NVMe-SSD)"
 
-#: src/Views/HardwareView.vala:530
+#: src/Views/HardwareView.vala:535
 #, fuzzy, c-format
 msgid "%s storage (eMMC)"
 msgstr "%s lagring (eMMC)"
 
-#: src/Views/HardwareView.vala:532
+#: src/Views/HardwareView.vala:537
 #, fuzzy, c-format
 msgid "%s storage (SATA SSD)"
 msgstr "%s lagring (SATA-SSD)"
 
-#: src/Views/HardwareView.vala:535
+#: src/Views/HardwareView.vala:540
 #, fuzzy, c-format
 msgid "%s storage (HDD)"
 msgstr "%s lagring (harddisk)"
 
 #. Set fallback string for the device type
-#: src/Views/HardwareView.vala:540
+#: src/Views/HardwareView.vala:545
 #, c-format
 msgid "%s storage"
 msgstr "%s lagring"
 
-#: src/Views/HardwareView.vala:712
+#: src/Views/HardwareView.vala:717
 msgid "byte"
 msgid_plural "bytes"
 msgstr[0] "byte"
 msgstr[1] "byte"
 
-#: src/Views/HardwareView.vala:714
+#: src/Views/HardwareView.vala:719
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
 msgstr[0] "%u byte"
 msgstr[1] "%u byte"
 
-#: src/Views/HardwareView.vala:721
+#: src/Views/HardwareView.vala:726
 #, fuzzy, c-format
 #| msgid "%llu %s"
 msgctxt "format-size"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-11-04 18:06+0000\n"
+"POT-Creation-Date: 2025-12-13 18:13+0000\n"
 "PO-Revision-Date: 2025-10-30 09:55+0000\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Hebrew <https://l10n.elementaryos.org/projects/settings/"
@@ -323,7 +323,7 @@ msgstr "אין לך הרשאה לשנות את שם המכשיר"
 msgid "%s memory"
 msgstr "%s זיכרון"
 
-#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:360
+#: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:365
 msgid "Unknown Graphics"
 msgstr "גרפיקה לא ידועה"
 
@@ -343,69 +343,69 @@ msgstr "עדכון שם המכשיר"
 msgid "Device name saved"
 msgstr "שם המכשיר נשמר"
 
-#: src/Views/HardwareView.vala:284
+#: src/Views/HardwareView.vala:283 src/Views/HardwareView.vala:405
+msgid "Unknown Processor"
+msgstr "מעבד לא ידוע"
+
+#: src/Views/HardwareView.vala:289
 #, c-format
 msgid "Dual-Core %s"
 msgstr "ליבה כפולה %s"
 
-#: src/Views/HardwareView.vala:286
+#: src/Views/HardwareView.vala:291
 #, c-format
 msgid "Quad-Core %s"
 msgstr "ליבה מרובעת %s"
 
-#: src/Views/HardwareView.vala:288
+#: src/Views/HardwareView.vala:293
 #, c-format
 msgid "Hexa-Core %s"
 msgstr "ליבה מתומנת %s"
 
-#: src/Views/HardwareView.vala:400
-msgid "Unknown Processor"
-msgstr "מעבד לא ידוע"
-
-#: src/Views/HardwareView.vala:473
+#: src/Views/HardwareView.vala:478
 msgid "Unknown"
 msgstr "לא ידוע"
 
-#: src/Views/HardwareView.vala:528
+#: src/Views/HardwareView.vala:533
 #, c-format
 msgid "%s storage (NVMe SSD)"
 msgstr "%s אחסון (NVMe SSD)"
 
-#: src/Views/HardwareView.vala:530
+#: src/Views/HardwareView.vala:535
 #, c-format
 msgid "%s storage (eMMC)"
 msgstr "%s אחסון (eMMC)"
 
-#: src/Views/HardwareView.vala:532
+#: src/Views/HardwareView.vala:537
 #, c-format
 msgid "%s storage (SATA SSD)"
 msgstr "%s אחסון (SATA SSD)"
 
-#: src/Views/HardwareView.vala:535
+#: src/Views/HardwareView.vala:540
 #, c-format
 msgid "%s storage (HDD)"
 msgstr "%s אחסון (HDD)"
 
 #. Set fallback string for the device type
-#: src/Views/HardwareView.vala:540
+#: src/Views/HardwareView.vala:545
 #, c-format
 msgid "%s storage"
 msgstr "%s אחסון"
 
-#: src/Views/HardwareView.vala:712
+#: src/Views/HardwareView.vala:717
 msgid "byte"
 msgid_plural "bytes"
 msgstr[0] "בית"
 msgstr[1] "בתים"
 
-#: src/Views/HardwareView.vala:714
+#: src/Views/HardwareView.vala:719
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
 msgstr[0] "בית"
 msgstr[1] "%u בתים"
 
-#: src/Views/HardwareView.vala:721
+#: src/Views/HardwareView.vala:726
 #, c-format
 msgctxt "format-size"
 msgid "%u %s"
