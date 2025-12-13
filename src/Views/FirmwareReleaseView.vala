@@ -24,11 +24,9 @@ public class About.FirmwareReleaseView : Adw.NavigationPage {
     private Gtk.Label install_duration_value_label;
 
     construct {
-        var back_button = new Gtk.Button.with_label (_("All Updates")) {
-            action_name = "navigation.pop",
+        var back_button = new Granite.BackButton (_("All Updates")) {
             halign = START
         };
-        back_button.add_css_class (Granite.STYLE_CLASS_BACK_BUTTON);
 
         title_label = new Gtk.Label ("") {
             ellipsize = END,
@@ -40,7 +38,7 @@ public class About.FirmwareReleaseView : Adw.NavigationPage {
             halign = END,
             sensitive = false
         };
-        update_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
+        update_button.add_css_class (Granite.CssClass.SUGGESTED);
 
         update_button_revealer = new Gtk.Revealer () {
             child = update_button
@@ -108,7 +106,7 @@ public class About.FirmwareReleaseView : Adw.NavigationPage {
             margin_top = 12,
             row_spacing = 3
         };
-        key_val_grid.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+        key_val_grid.add_css_class (Granite.CssClass.DIM);
 
         key_val_grid.attach (version_label, 0, 0);
         key_val_grid.attach (version_value_label, 1, 0);
