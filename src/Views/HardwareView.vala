@@ -99,7 +99,7 @@ public class About.HardwareView : Gtk.Box {
                 selectable = true,
                 xalign = 0
             };
-            manufacturer_info.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+            manufacturer_info.add_css_class (Granite.CssClass.DIM);
 
             if (product_name != null) {
                 manufacturer_info.label += " <b>%s</b>".printf (product_name);

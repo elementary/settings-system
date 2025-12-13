@@ -40,7 +40,7 @@ public class About.FirmwareReleaseView : Adw.NavigationPage {
             halign = END,
             sensitive = false
         };
-        update_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
+        update_button.add_css_class (Granite.CssClass.SUGGESTED);
 
         update_button_revealer = new Gtk.Revealer () {
             child = update_button
@@ -108,7 +108,7 @@ public class About.FirmwareReleaseView : Adw.NavigationPage {
             margin_top = 12,
             row_spacing = 3
         };
-        key_val_grid.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+        key_val_grid.add_css_class (Granite.CssClass.DIM);
 
         key_val_grid.attach (version_label, 0, 0);
         key_val_grid.attach (version_value_label, 1, 0);

@@ -357,7 +357,7 @@ public class About.FirmwareView : Switchboard.SettingsPage {
         };
 
         var suggested_button = (Gtk.Button) message_dialog.add_button (_("Continue"), Gtk.ResponseType.ACCEPT);
-        suggested_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
+        suggested_button.add_css_class (Granite.CssClass.SUGGESTED);
 
         if (detach_image != null) {
             var custom_widget = new Gtk.Image.from_file (detach_image);
@@ -379,7 +379,7 @@ public class About.FirmwareView : Switchboard.SettingsPage {
         };
 
         var suggested_button = (Gtk.Button) message_dialog.add_button (_("Restart"), Gtk.ResponseType.ACCEPT);
-        suggested_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
+        suggested_button.add_css_class (Granite.CssClass.SUGGESTED);
 
         message_dialog.response.connect ((response) => {
             if (response == Gtk.ResponseType.ACCEPT) {
@@ -403,7 +403,7 @@ public class About.FirmwareView : Switchboard.SettingsPage {
         };
 
         var suggested_button = (Gtk.Button) message_dialog.add_button (_("Shut Down"), Gtk.ResponseType.ACCEPT);
-        suggested_button.add_css_class (Granite.STYLE_CLASS_DESTRUCTIVE_ACTION);
+        suggested_button.add_css_class (Granite.CssClass.DESTRUCTIVE);
 
         message_dialog.response.connect ((response) => {
             if (response == Gtk.ResponseType.ACCEPT) {
@@ -428,7 +428,7 @@ public class About.FirmwareView : Switchboard.SettingsPage {
         };
 
         var continue_button = dialog.add_button (_("Restart"), Gtk.ResponseType.ACCEPT);
-        continue_button.add_css_class (Granite.STYLE_CLASS_DESTRUCTIVE_ACTION);
+        continue_button.add_css_class (Granite.CssClass.DESTRUCTIVE);
 
         dialog.response.connect ((result) => {
             dialog.destroy ();

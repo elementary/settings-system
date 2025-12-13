@@ -171,8 +171,8 @@ public class About.OperatingSystemView : Gtk.Box {
             xalign = 0,
             hexpand = true
         };
-        kernel_version_label.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
-        kernel_version_label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+        kernel_version_label.add_css_class (Granite.CssClass.SMALL);
+        kernel_version_label.add_css_class (Granite.CssClass.DIM);
 
         packages = new Gtk.StringList (null);
 
@@ -199,15 +199,15 @@ public class About.OperatingSystemView : Gtk.Box {
             use_markup = true,
             wrap = true
         };
-        updates_description.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
-        updates_description.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+        updates_description.add_css_class (Granite.CssClass.SMALL);
+        updates_description.add_css_class (Granite.CssClass.DIM);
 
         var progress_description_box = new Gtk.Box (VERTICAL, 3);
         progress_description_box.append (update_progress_revealer);
         progress_description_box.append (updates_description);
 
         var update_button = new Gtk.Button.with_label (_("Download"));
-        update_button.add_css_class (Granite.STYLE_CLASS_SUGGESTED_ACTION);
+        update_button.add_css_class (Granite.CssClass.SUGGESTED);
 
         var cancel_button = new Gtk.Button.with_label (_("Cancel"));
 
@@ -229,7 +229,7 @@ public class About.OperatingSystemView : Gtk.Box {
             margin_top = 6
         };
         details_button.add_css_class ("link");
-        details_button.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
+        details_button.add_css_class (Granite.CssClass.SMALL);
 
         details_button_revealer = new Gtk.Revealer () {
             child = details_button
@@ -498,8 +498,8 @@ public class About.OperatingSystemView : Gtk.Box {
                 xalign = 0,
                 hexpand = true
             };
-            based_off.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
-            based_off.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
+            based_off.add_css_class (Granite.CssClass.SMALL);
+            based_off.add_css_class (Granite.CssClass.DIM);
             software_grid.attach (based_off, 1, 1, 3);
         }
     }
@@ -677,7 +677,7 @@ public class About.OperatingSystemView : Gtk.Box {
         };
 
         var continue_button = dialog.add_button (_("Restore Settings"), Gtk.ResponseType.ACCEPT);
-        continue_button.add_css_class (Granite.STYLE_CLASS_DESTRUCTIVE_ACTION);
+        continue_button.add_css_class (Granite.CssClass.DESTRUCTIVE);
 
         dialog.response.connect ((response) => {
             dialog.destroy ();
@@ -773,7 +773,7 @@ public class About.OperatingSystemView : Gtk.Box {
             var image = new Gtk.Image.from_icon_name (icon_name) {
                 pixel_size = 16
             };
-            image.add_css_class (Granite.STYLE_CLASS_ACCENT);
+            image.add_css_class (Granite.CssClass.ACCENT);
             image.add_css_class (color);
 
             var left_label = new Gtk.Label (label_string) {
@@ -818,7 +818,7 @@ public class About.OperatingSystemView : Gtk.Box {
 
         construct {
             var image = new Gtk.Image.from_icon_name ("face-heart-symbolic");
-            image.add_css_class (Granite.STYLE_CLASS_ACCENT);
+            image.add_css_class (Granite.CssClass.ACCENT);
             image.add_css_class ("pink");
 
             var main_label = new Gtk.Label (_("Sponsor Us")) {
@@ -829,8 +829,8 @@ public class About.OperatingSystemView : Gtk.Box {
             target_label = new Gtk.Label (null) {
                 halign = START
             };
-            target_label.add_css_class (Granite.STYLE_CLASS_DIM_LABEL);
-            target_label.add_css_class (Granite.STYLE_CLASS_SMALL_LABEL);
+            target_label.add_css_class (Granite.CssClass.DIM);
+            target_label.add_css_class (Granite.CssClass.SMALL);
 
             levelbar = new Gtk.LevelBar ();
             levelbar.add_css_class (Granite.STYLE_CLASS_FLAT);
