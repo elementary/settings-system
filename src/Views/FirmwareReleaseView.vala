@@ -24,11 +24,9 @@ public class About.FirmwareReleaseView : Adw.NavigationPage {
     private Gtk.Label install_duration_value_label;
 
     construct {
-        var back_button = new Gtk.Button.with_label (_("All Updates")) {
-            action_name = "navigation.pop",
+        var back_button = new Granite.BackButton (_("All Updates")) {
             halign = START
         };
-        back_button.add_css_class (Granite.STYLE_CLASS_BACK_BUTTON);
 
         title_label = new Gtk.Label ("") {
             ellipsize = END,
