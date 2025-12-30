@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-13 18:13+0000\n"
-"PO-Revision-Date: 2025-02-21 02:13+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/settings/about-"
-"plug-extra/nl/>\n"
+"PO-Revision-Date: 2025-12-31 18:55+0000\n"
+"Last-Translator: Bas Ernst <50556177+ErnstBas@users.noreply.github.com>\n"
+"Language-Team: Dutch <https://l10n.elementaryos.org/projects/settings/"
+"about-plug-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11.4\n"
 
 #: data/system.metainfo.xml.in:10
 msgid "System"
@@ -40,10 +40,8 @@ msgid "Minor updates:"
 msgstr "Kleine updates:"
 
 #: data/system.metainfo.xml.in:47
-#, fuzzy
-#| msgid "Performance improvements"
 msgid "Screen reader improvements"
-msgstr "Prestatieverbeteringen"
+msgstr "Verbeteringen voor schermlezers"
 
 #: data/system.metainfo.xml.in:48 data/system.metainfo.xml.in:61
 #: data/system.metainfo.xml.in:74 data/system.metainfo.xml.in:89
@@ -60,11 +58,11 @@ msgstr "Nieuwe functies:"
 
 #: data/system.metainfo.xml.in:101
 msgid "Manage Operating System updates, including automatic updates"
-msgstr ""
+msgstr "Beheer besturingssysteem updates, inclusief automatische updates"
 
 #: data/system.metainfo.xml.in:102
 msgid "Manage additional drivers"
-msgstr ""
+msgstr "Beheer extra stuurprogramma's"
 
 #: data/system.metainfo.xml.in:106
 msgid "Improve operating system image for other Linux distributions"
