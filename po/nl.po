@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-13 18:13+0000\n"
-"PO-Revision-Date: 2025-02-22 15:16+0000\n"
-"Last-Translator: DutchVipperloid <svenroelof@e.email>\n"
-"Language-Team: Dutch <https://l10n.elementary.io/projects/settings/"
-"switchboard-plug-about/nl/>\n"
+"PO-Revision-Date: 2025-12-31 18:55+0000\n"
+"Last-Translator: Bas Ernst <50556177+ErnstBas@users.noreply.github.com>\n"
+"Language-Team: Dutch <https://l10n.elementaryos.org/projects/settings/system/"
+"nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.9.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:09+0000\n"
 
 #: src/Plug.vala:46
@@ -327,7 +327,7 @@ msgstr ""
 
 #: src/Views/HardwareView.vala:49
 msgid "You do not have permission to change the device name"
-msgstr ""
+msgstr "Je hebt geen toestemming om de apparaatnaam te veranderen"
 
 #: src/Views/HardwareView.vala:60
 #, c-format
@@ -347,14 +347,12 @@ msgid "Manufacturer Website"
 msgstr "Website fabrikant"
 
 #: src/Views/HardwareView.vala:160
-#, fuzzy
-#| msgid "Updates Available"
 msgid "Update device name"
-msgstr "Updates zijn beschikbaar"
+msgstr "Apparaatnaam bijwerken"
 
 #: src/Views/HardwareView.vala:180
 msgid "Device name saved"
-msgstr ""
+msgstr "Apparaatnaam opgeslagen"
 
 #: src/Views/HardwareView.vala:283 src/Views/HardwareView.vala:405
 msgid "Unknown Processor"
