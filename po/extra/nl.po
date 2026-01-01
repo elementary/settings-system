@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-13 18:13+0000\n"
-"PO-Revision-Date: 2025-12-31 18:55+0000\n"
+"PO-Revision-Date: 2026-01-02 16:55+0000\n"
 "Last-Translator: Bas Ernst <50556177+ErnstBas@users.noreply.github.com>\n"
 "Language-Team: Dutch <https://l10n.elementaryos.org/projects/settings/"
 "about-plug-extra/nl/>\n"
@@ -66,67 +66,67 @@ msgstr "Beheer extra stuurprogramma's"
 
 #: data/system.metainfo.xml.in:106
 msgid "Improve operating system image for other Linux distributions"
-msgstr ""
+msgstr "Verbeter de besturingssysteemafbeelding voor andere Linux distributies"
 
 #: data/system.metainfo.xml.in:125
 msgid "Add a button to restart to firmware setup"
-msgstr ""
+msgstr "Voeg een knop toe om de firmware set-up te herstarten"
 
 #: data/system.metainfo.xml.in:129
-#, fuzzy
-#| msgid "View operating system and hardware information"
 msgid "Get more accurate memory and storage information"
-msgstr "Bekijk informatie over het besturingssysteem en hardware"
+msgstr "Verkrijg betere informatie over geheugen en opslag"
 
 #: data/system.metainfo.xml.in:130
 msgid "Handle Ryzen CPU and AMD GPU vendor string"
-msgstr ""
+msgstr "De Ryzen CPU en AMD GPU verkoperstekst afhandelen"
 
 #: data/system.metainfo.xml.in:140
 msgid "Added support for dark style manufacturer logos"
-msgstr ""
+msgstr "Ondersteuning toegevoegd voor fabrikantenlogo's in donkere stijl"
 
 #: data/system.metainfo.xml.in:141
 msgid "Added support for offline firmware updates"
-msgstr ""
+msgstr "Ondersteuning voor offline firmware-updates toegevoegd"
 
 #: data/system.metainfo.xml.in:154
 msgid "Use formatted device name when available"
-msgstr ""
+msgstr "Gebruik de opgemaakte apparaatnaam indien beschikbaar"
 
 #: data/system.metainfo.xml.in:155
 msgid "Display more information for certain GPUs, including Intel® Xe Graphics"
-msgstr ""
+msgstr "Toon meer informatie voor bepaalde GPU's, waaronder Intel® Xe Graphics"
 
 #: data/system.metainfo.xml.in:163
 msgid "Redesign and new features:"
-msgstr ""
+msgstr "Herontwerp en nieuwe functies:"
 
 #: data/system.metainfo.xml.in:165
 msgid "Rename from About to System"
-msgstr ""
+msgstr "Hernoemen van Over tot Systeem"
 
 #: data/system.metainfo.xml.in:166
 msgid "Split Hardware and Operating System info into their own tabs"
 msgstr ""
+"Informatie over hardware en besturingssysteem opsplitsen in aparte tabbladen"
 
 #: data/system.metainfo.xml.in:167
 msgid "Redesign the Operating System tab with clearer links and buttons"
 msgstr ""
+"Het tabblad voor het besturingssysteem herontwerpen met duidelijkere links "
+"en knoppen"
 
 #: data/system.metainfo.xml.in:168
 msgid "Add a Firmware view to manage device firmware updates"
 msgstr ""
+"Een firmwareweergave toevoegen om updates van apparaatsfirmware te beheren"
 
 #: data/system.metainfo.xml.in:170
 msgid "More information:"
-msgstr ""
+msgstr "Meer informatie:"
 
 #: data/system.metainfo.xml.in:172
-#, fuzzy
-#| msgid "Provide information for more types of Graphics"
 msgid "Provide information for ARM CPUs"
-msgstr "Geef informatie over meer types videokaarten"
+msgstr "Geef informatie voor ARM CPU's"
 
 #: data/system.metainfo.xml.in:173
 msgid "Provide information for more types of Graphics"
@@ -139,14 +139,16 @@ msgstr "Oplossingen:"
 #: data/system.metainfo.xml.in:177
 msgid "Fix an issue where the view was destroyed early when navigating away"
 msgstr ""
+"Een probleem verhelpen met een scherm dat voortijdig werd vernietigd bij het "
+"wegnavigeren"
 
 #: data/system.metainfo.xml.in:178
 msgid "Fix system memory calculation"
-msgstr ""
+msgstr "Systeemgeheugenberekening herstellen"
 
 #: data/system.metainfo.xml.in:182
 msgid "Ellipsize long hardware names"
-msgstr ""
+msgstr "Lange hardware namen met drie puntjes afkorten"
 
 #: data/system.metainfo.xml.in:183
 msgid "Performance improvements"
