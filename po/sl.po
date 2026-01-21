@@ -8,17 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-12-13 18:13+0000\n"
-"PO-Revision-Date: 2024-01-25 02:35+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Slovenian <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-about/sl/>\n"
+"PO-Revision-Date: 2026-01-22 22:55+0000\n"
+"Last-Translator: Jernej Virag <jernej@virag.si>\n"
+"Language-Team: Slovenian <https://l10n.elementaryos.org/projects/settings/"
+"system/sl/>\n"
 "Language: sl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=4; plural=n%100==1 ? 0 : n%100==2 ? 1 : n%100==3 || "
 "n%100==4 ? 2 : 3;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:10+0000\n"
 
 #: src/Plug.vala:46
@@ -33,7 +33,7 @@ msgstr "Pregled informacij o operacijskem sistemu in strojni opremi"
 #: src/Plug.vala:130 src/Plug.vala:131 src/Plug.vala:132 src/Plug.vala:133
 #: src/Plug.vala:134 src/Plug.vala:135 src/Plug.vala:136
 msgid "Operating System"
-msgstr ""
+msgstr "Operacijski sistem"
 
 #: src/Plug.vala:64 src/Plug.vala:138 src/Plug.vala:139 src/Plug.vala:140
 msgid "Hardware"
@@ -41,42 +41,36 @@ msgstr "Strojna oprema"
 
 #: src/Plug.vala:65 src/Plug.vala:144 src/Plug.vala:145
 #: src/Views/FirmwareView.vala:35
-#, fuzzy
-#| msgid "Hardware"
 msgid "Firmware"
-msgstr "Strojna oprema"
+msgstr "Strojna programska oprema"
 
 #: src/Plug.vala:66 src/Plug.vala:147 src/Views/DriversView.vala:19
 msgid "Drivers"
-msgstr ""
+msgstr "Gonilniki"
 
 #: src/Plug.vala:128 src/Views/OperatingSystemView.vala:238
-#, fuzzy
-#| msgid "Updates"
 msgid "Automatic Updates"
-msgstr "Posodobitve"
+msgstr "Samodejne posodobitve"
 
 #: src/Plug.vala:129 src/Views/OperatingSystemView.vala:288
 msgid "Basics Guide"
-msgstr ""
+msgstr "Vodič osnov"
 
 #: src/Plug.vala:130 src/Views/OperatingSystemView.vala:295
 msgid "Get Help"
-msgstr ""
+msgstr "Pomoč"
 
 #: src/Plug.vala:131
 msgid "Get Involved or Sponsor Us"
-msgstr ""
+msgstr "Pomagajte ali nas sponzorirajte"
 
 #: src/Plug.vala:132
 msgid "Get Support"
-msgstr ""
+msgstr "Podpora"
 
 #: src/Plug.vala:133 src/Views/OperatingSystemView.vala:302
-#, fuzzy
-#| msgid "Website"
 msgid "Our Website"
-msgstr "Spletna stran"
+msgstr "Naša spletna stran"
 
 #: src/Plug.vala:134
 msgid "Report a Problem"
@@ -88,78 +82,72 @@ msgstr "Povrni tovarniške nastavitve"
 
 #: src/Plug.vala:136 src/Views/OperatingSystemView.vala:331
 msgid "Send Feedback"
-msgstr ""
+msgstr "Pošljite povratne informacije"
 
 #: src/Plug.vala:139
-#, fuzzy
-#| msgid "Updates"
 msgid "Device name"
-msgstr "Posodobitve"
+msgstr "Ime naprave"
 
 #: src/Plug.vala:140
 msgid "Host name"
-msgstr ""
+msgstr "Ime gostitelja"
 
 #. https://github.com/elementary/switchboard-plug-about/issues/219
 #: src/Plug.vala:142
 msgid "About This Device"
-msgstr ""
+msgstr "O tej napravi"
 
 #: src/Plug.vala:145 src/Views/FirmwareView.vala:84
 msgid "Restart to Firmware Setup…"
-msgstr ""
+msgstr "Ponovni zagon za namestitev strojne programske opreme…"
 
 #: src/Views/DriversView.vala:20
 msgid ""
 "Broadcom® Wi-Fi adapters, NVIDIA® graphics, and some virtual machines may "
 "not function properly without additional drivers."
 msgstr ""
+"Broadcom® Wi-Fi adapterji, NVIDIA® grafične kartice in nekateri virtualni "
+"stroji morda ne bodo delovali pravilno brez dodatnih gonilnikov."
 
 #: src/Views/DriversView.vala:25
-#, fuzzy
-#| msgid "Updates"
 msgid "No drivers available"
-msgstr "Posodobitve"
+msgstr "Na voljo ni nobenih gonilnikov"
 
 #: src/Views/DriversView.vala:26
 msgid "This device doesn't need any additional drivers."
-msgstr ""
+msgstr "Ta naprava ne potrebuje dodatnih gonilnikov."
 
 #: src/Views/DriversView.vala:30
-#, fuzzy
-#| msgid "Check for Updates"
 msgid "Checking for Drivers"
-msgstr "Preveri za posodobitve"
+msgstr "Preverjam za gonilniki"
 
 #: src/Views/DriversView.vala:31
 msgid "Connecting to the driver service and searching for drivers."
-msgstr ""
+msgstr "Povezovanje na posodobitveni strežnik in iskanje gonilnikov."
 
 #: src/Views/DriversView.vala:51
 msgid "Failed to install driver"
-msgstr ""
+msgstr "Napaka pri nameščanju gonilnika"
 
 #: src/Views/DriversView.vala:52
 msgid "Manually refreshing driver information may resolve the issue"
-msgstr ""
+msgstr "Ročno osveževanje podatkov o gonilnikih bo morda rešilo težavo"
 
 #: src/Views/DriversView.vala:55 src/Views/OperatingSystemView.vala:214
 msgid "Refresh"
 msgstr "Osveži"
 
 #: src/Views/DriversView.vala:55
-#, fuzzy
-#| msgid "System Information"
 msgid "Refresh driver information"
-msgstr "Sistemske informacije"
+msgstr "Osveži informacije o gonilnikih"
 
 #: src/Views/DriversView.vala:56 src/Views/OperatingSystemView.vala:226
 msgid "Learn More…"
-msgstr ""
+msgstr "Več…"
 
 #: src/Views/DriversView.vala:91
 msgid "Failed to install"
-msgstr ""
+msgstr "Namestitev spodletela"
 
 #: src/Views/DriversView.vala:92
 msgid ""
@@ -171,13 +159,11 @@ msgstr ""
 #: src/Views/DriversView.vala:156
 #, c-format
 msgid "Installing %s…"
-msgstr ""
+msgstr "Nameščanje %s…"
 
 #: src/Views/FirmwareReleaseView.vala:27 src/Views/FirmwareView.vala:63
-#, fuzzy
-#| msgid "Updates"
 msgid "All Updates"
-msgstr "Posodobitve"
+msgstr "Vse posodobitve"
 
 #: src/Views/FirmwareReleaseView.vala:68
 msgid "Version:"
@@ -185,162 +171,155 @@ msgstr "Verzija:"
 
 #: src/Views/FirmwareReleaseView.vala:77
 msgid "Vendor:"
-msgstr ""
+msgstr "Izdelovalec:"
 
 #: src/Views/FirmwareReleaseView.vala:86
 msgid "Size:"
-msgstr ""
+msgstr "Velikost:"
 
 #: src/Views/FirmwareReleaseView.vala:95
 msgid "Estimated time to install:"
-msgstr ""
+msgstr "Ocenjen čas namestitve:"
 
 #: src/Views/FirmwareReleaseView.vala:123
 msgid "There are no releases available for this device."
-msgstr ""
+msgstr "Ni na voljo posodobitev za to napravo."
 
 #: src/Views/FirmwareReleaseView.vala:196 src/Widgets/FirmwareUpdateRow.vala:73
-#, fuzzy
-#| msgid "Updates"
 msgid "Update"
-msgstr "Posodobitve"
+msgstr "Posodobi"
 
 #: src/Views/FirmwareReleaseView.vala:199
-#, fuzzy
-#| msgid "Updates"
 msgid "Up to date"
-msgstr "Posodobitve"
+msgstr "Posodobljen"
 
 #: src/Views/FirmwareReleaseView.vala:220
 msgid "less than a minute"
-msgstr ""
+msgstr "manj kot minuto"
 
 #: src/Views/FirmwareReleaseView.vala:224
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%llu minuta"
+msgstr[1] "%llu minuti"
+msgstr[2] "%llu minute"
+msgstr[3] "%llu minute"
 
 #: src/Views/FirmwareView.vala:36
 msgid ""
 "Firmware updates provided by device manufacturers can improve performance "
 "and fix critical security issues."
 msgstr ""
+"Posodobitve strojne programske opreme lahko izboljšajo hitrost delovanja in "
+"popravijo pomembne varnostne luknje."
 
 #: src/Views/FirmwareView.vala:42
 msgid "Do not unplug the device during the update."
-msgstr ""
+msgstr "Ne izštekajte naprave med posodobitvijo."
 
 #: src/Views/FirmwareView.vala:46 src/Views/OperatingSystemView.vala:548
-#, fuzzy
-#| msgid "Check for Updates"
 msgid "Checking for Updates"
-msgstr "Preveri za posodobitve"
+msgstr "Preverjanje posodobitev"
 
 #: src/Views/FirmwareView.vala:47
 msgid "Connecting to the firmware service and searching for updates."
-msgstr ""
+msgstr "Povezovanje na posodobitveni strežnik za strojno programsko opremo."
 
 #: src/Views/FirmwareView.vala:114
-#, fuzzy
-#| msgid "Updates"
 msgid "Firmware Updates Are Not Available"
-msgstr "Posodobitve"
+msgstr "Posodobitve strojne programske opreme niso na voljo"
 
 #: src/Views/FirmwareView.vala:115
 msgid "Firmware updates are not supported on this or any connected devices."
-msgstr ""
+msgstr "Posodobitve strojne programske opreme niso podprte na tej napravi."
 
 #: src/Views/FirmwareView.vala:117
 msgid "The Firmware Service Is Not Available"
-msgstr ""
+msgstr "Strežnik za posodobitve strojne programske opreme ni na voljo"
 
 #: src/Views/FirmwareView.vala:118
 msgid "Please make sure “fwupd” is installed and enabled."
-msgstr ""
+msgstr "Prosimo preverite če je paket \"fwupd\" nameščen in omogočen."
 
 #: src/Views/FirmwareView.vala:217
-#, fuzzy, c-format
-#| msgid "Updates"
+#, c-format
 msgid "%u Update Available"
 msgid_plural "%u Updates Available"
-msgstr[0] "Posodobitve"
-msgstr[1] "Posodobitve"
-msgstr[2] "Posodobitve"
-msgstr[3] "Posodobitve"
+msgstr[0] "%u posodobitev na voljo"
+msgstr[1] "%u posodobitvi na voljo"
+msgstr[2] "%u posodobitve na voljo"
+msgstr[3] "%u posodobitev na voljo"
 
 #: src/Views/FirmwareView.vala:221
-#, fuzzy
-#| msgid "Updates"
 msgid "Up to Date"
-msgstr "Posodobitve"
+msgstr "Posodobljeno"
 
 #: src/Views/FirmwareView.vala:229
 #, c-format
 msgid "“%s” is being updated"
-msgstr ""
+msgstr "“%s” se posodablja"
 
 #: src/Views/FirmwareView.vala:329
 msgid "Failed to install firmware release"
-msgstr ""
+msgstr "Ni bilo mogoče namestiti strojne programske opreme"
 
 #: src/Views/FirmwareView.vala:350
 #, c-format
 msgid "“%s” needs to manually be put in update mode"
-msgstr ""
+msgstr "“%s” mora biti ročno postavljen v način za posodobitve"
 
 #: src/Views/FirmwareView.vala:359
 msgid "Continue"
-msgstr ""
+msgstr "Nadaljuj"
 
 #: src/Views/FirmwareView.vala:372
 msgid "An update requires the system to restart to complete"
-msgstr ""
+msgstr "Posodobitev rabi ponovni zagon sistema za namestitev"
 
 #: src/Views/FirmwareView.vala:373
 msgid "This will close all open applications and restart this device."
-msgstr ""
+msgstr "To bo zaprlo vse odprte aplikacije in ponovno zagnalo napravo."
 
 #: src/Views/FirmwareView.vala:381 src/Views/FirmwareView.vala:430
 msgid "Restart"
-msgstr ""
+msgstr "Ponovni zagon"
 
 #: src/Views/FirmwareView.vala:396
 msgid "An update requires the system to shut down to complete"
-msgstr ""
+msgstr "Posodobitev rabi izklop sistema za namestitev"
 
 #: src/Views/FirmwareView.vala:397
 msgid "This will close all open applications and turn off this device."
-msgstr ""
+msgstr "To bo zaprlo vse aplikacije in izklopilo napravo."
 
 #: src/Views/FirmwareView.vala:405
 msgid "Shut Down"
-msgstr ""
+msgstr "Izklop"
 
 #: src/Views/FirmwareView.vala:420
 msgid "Restart to firmware setup"
-msgstr ""
+msgstr "Ponovni zagon v strojne nastavitve"
 
 #: src/Views/FirmwareView.vala:421
 msgid ""
 "This will close all open applications, restart this device, and open the "
 "firmware setup screen."
 msgstr ""
+"To bo zaprlo vse aplikacije, ponovno zagnalo napravo in prikazalo nastavitve "
+"strojne opreme."
 
 #: src/Views/FirmwareView.vala:445
 msgid "Unable to restart to firmware setup"
-msgstr ""
+msgstr "Ni bilo mogoče ponovno zagnati v nastavitve strojne opreme"
 
 #: src/Views/FirmwareView.vala:446
 msgid "A system error prevented automatically restarting into firmware setup."
-msgstr ""
+msgstr "Sistemska napaka je preprečila ponovni zagon v nastavitve."
 
 #: src/Views/HardwareView.vala:49
 msgid "You do not have permission to change the device name"
-msgstr ""
+msgstr "Nimate dovoljenja za spreminjanje imena naprave"
 
 #: src/Views/HardwareView.vala:60
 #, c-format
@@ -348,53 +327,43 @@ msgid "%s memory"
 msgstr "%s pomnilnika"
 
 #: src/Views/HardwareView.vala:66 src/Views/HardwareView.vala:365
-#, fuzzy
-#| msgid "Graphics:"
 msgid "Unknown Graphics"
-msgstr "Grafika:"
+msgstr "Neznana grafična kartica"
 
 #: src/Views/HardwareView.vala:81
-#, fuzzy
-#| msgid "Processor:"
 msgid "Unknown storage"
-msgstr "Procesor:"
+msgstr "Neznana shramba"
 
 #: src/Views/HardwareView.vala:127
 msgid "Manufacturer Website"
 msgstr "Spletna stran proizvajalca"
 
 #: src/Views/HardwareView.vala:160
-#, fuzzy
-#| msgid "Updates"
 msgid "Update device name"
-msgstr "Posodobitve"
+msgstr "Posodobi ime naprave"
 
 #: src/Views/HardwareView.vala:180
 msgid "Device name saved"
-msgstr ""
+msgstr "Ime naprave shranjeno"
 
 #: src/Views/HardwareView.vala:283 src/Views/HardwareView.vala:405
-#, fuzzy
-#| msgid "Processor:"
 msgid "Unknown Processor"
-msgstr "Procesor:"
+msgstr "Neznan procesor"
 
 #: src/Views/HardwareView.vala:289
-#, fuzzy, c-format
-#| msgid "Dual-Core"
+#, c-format
 msgid "Dual-Core %s"
-msgstr "Dvojedrni"
+msgstr "Dvojedrni %s"
 
 #: src/Views/HardwareView.vala:291
-#, fuzzy, c-format
-#| msgid "Quad-Core"
+#, c-format
 msgid "Quad-Core %s"
-msgstr "Štirijedrni"
+msgstr "Štirijedrni %s"
 
 #: src/Views/HardwareView.vala:293
 #, c-format
 msgid "Hexa-Core %s"
-msgstr ""
+msgstr "Šestjedrni %s"
 
 #: src/Views/HardwareView.vala:478
 msgid "Unknown"
@@ -429,29 +398,29 @@ msgstr "%s shrambe"
 #: src/Views/HardwareView.vala:717
 msgid "byte"
 msgid_plural "bytes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "B"
+msgstr[1] "B"
+msgstr[2] "B"
+msgstr[3] "B"
 
 #: src/Views/HardwareView.vala:719
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%u B"
+msgstr[1] "%u B"
+msgstr[2] "%u B"
+msgstr[3] "%u B"
 
 #: src/Views/HardwareView.vala:726
 #, c-format
 msgctxt "format-size"
 msgid "%u %s"
-msgstr ""
+msgstr "%u %s"
 
 #: src/Views/OperatingSystemView.vala:209
 msgid "Download"
-msgstr ""
+msgstr "Prenos"
 
 #: src/Views/OperatingSystemView.vala:212
 msgid "Cancel"
@@ -462,10 +431,12 @@ msgid ""
 "Updates will be automatically downloaded. They will be installed when this "
 "device is restarted."
 msgstr ""
+"Posodobitve se bodo samodejno prenesle. Namestile se bodo ob ponovnem zagonu "
+"te naprave."
 
 #: src/Views/OperatingSystemView.vala:309
 msgid "Get Involved"
-msgstr ""
+msgstr "Vključite se"
 
 #: src/Views/OperatingSystemView.vala:496
 #, c-format
@@ -473,79 +444,70 @@ msgid "Built on %s"
 msgstr "Zgrajen na osnovi %s"
 
 #: src/Views/OperatingSystemView.vala:516
-#, fuzzy
-#| msgid "Updates"
 msgid "System updates not available"
-msgstr "Posodobitve"
+msgstr "Sistemske posodobitve niso na voljo"
 
 #: src/Views/OperatingSystemView.vala:517
 msgid "Couldn't connect to the backend. Try logging out to resolve the issue."
-msgstr ""
+msgstr "Ni se bilo mogoče povezati na strežnik. Poskusite se ponovno prijaviti."
 
 #: src/Views/OperatingSystemView.vala:530
-#, fuzzy
-#| msgid "Updates"
 msgid "Up To Date"
-msgstr "Posodobitve"
+msgstr "Posodobljen"
 
 #: src/Views/OperatingSystemView.vala:534
 #, c-format
 msgid "Last checked %s"
-msgstr ""
+msgstr "Nazadnje preverjeno %s"
 
 #: src/Views/OperatingSystemView.vala:541
 msgid "Last checked unknown"
-msgstr ""
+msgstr "Čas zadnjega preverjanja ni znan"
 
 #: src/Views/OperatingSystemView.vala:554
-#, fuzzy
-#| msgid "Updates"
 msgid "Updates Available"
-msgstr "Posodobitve"
+msgstr "Posodobitve so na voljo"
 
 #: src/Views/OperatingSystemView.vala:561
-#, fuzzy, c-format
-#| msgid "Updates"
+#, c-format
 msgid "%i update available (%s)"
 msgid_plural "%i updates available (%s)"
-msgstr[0] "Posodobitve"
-msgstr[1] "Posodobitve"
-msgstr[2] "Posodobitve"
-msgstr[3] "Posodobitve"
+msgstr[0] "%i posodobitev na voljo (%s)"
+msgstr[1] "%i posodobitvi na voljo (%s)"
+msgstr[2] "%i posodobitve na voljo (%s)"
+msgstr[3] "%i posodobitve na voljo (%s)"
 
 #: src/Views/OperatingSystemView.vala:572
 msgid "Unable to determine number of updates"
-msgstr ""
+msgstr "Ni bilo mogoče določiti število posodobitev"
 
 #: src/Views/OperatingSystemView.vala:586
-#, fuzzy
-#| msgid "Updates"
 msgid "Downloading Updates"
-msgstr "Posodobitve"
+msgstr "Prenašanje posodobitev"
 
 #: src/Views/OperatingSystemView.vala:595
 msgid "Restart to install pending updates"
-msgstr ""
+msgstr "Ponovno zaženite napravo za namestitev čakajočih posodobitev"
 
 #: src/Views/OperatingSystemView.vala:596
 msgid ""
 "Updates have been downloaded. A restart is required to finish installing "
 "them."
-msgstr ""
+msgstr "Posodobitve so bile prenešene. Za namestitev je potreben ponovni zagon."
 
 #: src/Views/OperatingSystemView.vala:601
 #: src/Views/OperatingSystemView.vala:627
 msgid "Failed to download updates"
-msgstr ""
+msgstr "Napak pri prenosu posodobitev"
 
 #: src/Views/OperatingSystemView.vala:602
 msgid "Manually refreshing updates may resolve the issue"
-msgstr ""
+msgstr "Ponovna osvežitev bo morda rešila težavo"
 
 #: src/Views/OperatingSystemView.vala:617
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s od %s"
 
 #: src/Views/OperatingSystemView.vala:628
 msgid ""
@@ -572,26 +534,26 @@ msgstr "Povrni nastavitve"
 
 #: src/Views/OperatingSystemView.vala:824
 msgid "Sponsor Us"
-msgstr ""
+msgstr "Sponzorirajte nas"
 
 #. /TRANSLATORS: first value is a percentage, second value is an amount in USD
 #: src/Views/OperatingSystemView.vala:887
 #, c-format
 msgid "%.0f%% towards $%'5.0f per month goal"
-msgstr ""
+msgstr "%.0f%% od $%'5.0f mesečnega cilja"
 
 #: src/Widgets/UpdateDetailsDialog.vala:14
 msgid "What's New"
-msgstr ""
+msgstr "Kaj je novega"
 
 #: src/Widgets/UpdateDetailsDialog.vala:20
 #, c-format
 msgid "%u package will be upgraded"
 msgid_plural "%u packages will be upgraded"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "%u paket bo posodobljen"
+msgstr[1] "%u paketa bosta posodobljena"
+msgstr[2] "%u paketi bodo posodobljeni"
+msgstr[3] "%u paketov bo posodobljenih"
 
 #: src/Widgets/UpdateDetailsDialog.vala:67
 msgid "Close"
