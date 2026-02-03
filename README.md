@@ -1,5 +1,5 @@
 # System Settings
-[![Translation status](https://l10n.elementaryos.org/widget/settings/svg-badge.svg)](https://l10n.elementaryos.org/engage/settings/)
+[![Translation status](https://l10n.elementaryos.org/widget/settings/system/svg-badge.svg)](https://l10n.elementaryos.org/engage/settings/)
 
 ![screenshot](data/screenshot.png?raw=true)
 
