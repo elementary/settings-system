@@ -1,5 +1,5 @@
 # System Settings
-[![Translation status](https://l10n.elementary.io/widgets/settings/-/switchboard-plug-about/svg-badge.svg)](https://l10n.elementary.io/engage/settings/?utm_source=widget)
+[![Translation status](https://l10n.elementaryos.org/widget/settings/svg-badge.svg)](https://l10n.elementaryos.org/engage/settings/)
 
 ![screenshot](data/screenshot.png?raw=true)
 
