@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-13 18:13+0000\n"
+"POT-Creation-Date: 2026-03-17 17:12+0000\n"
 "PO-Revision-Date: 2025-11-05 18:55+0000\n"
 "Last-Translator: anonymous <noreply@weblate.org>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/settings/"
@@ -31,127 +31,127 @@ msgstr "オペレーティングシステムとハードウェアの情報を参
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/system.metainfo.xml.in:45 data/system.metainfo.xml.in:59
-#: data/system.metainfo.xml.in:72 data/system.metainfo.xml.in:87
-#: data/system.metainfo.xml.in:104 data/system.metainfo.xml.in:127
-#: data/system.metainfo.xml.in:143 data/system.metainfo.xml.in:152
-#: data/system.metainfo.xml.in:180
+#: data/system.metainfo.xml.in:45 data/system.metainfo.xml.in:57
+#: data/system.metainfo.xml.in:71 data/system.metainfo.xml.in:84
+#: data/system.metainfo.xml.in:99 data/system.metainfo.xml.in:116
+#: data/system.metainfo.xml.in:139 data/system.metainfo.xml.in:155
+#: data/system.metainfo.xml.in:164 data/system.metainfo.xml.in:192
 msgid "Minor updates:"
 msgstr "マイナーアップデート:"
 
-#: data/system.metainfo.xml.in:47
-msgid "Screen reader improvements"
-msgstr "スクリーンリーダーへの対応を改善"
-
-#: data/system.metainfo.xml.in:48 data/system.metainfo.xml.in:61
-#: data/system.metainfo.xml.in:74 data/system.metainfo.xml.in:89
-#: data/system.metainfo.xml.in:107 data/system.metainfo.xml.in:131
-#: data/system.metainfo.xml.in:145 data/system.metainfo.xml.in:156
-#: data/system.metainfo.xml.in:184
+#: data/system.metainfo.xml.in:47 data/system.metainfo.xml.in:60
+#: data/system.metainfo.xml.in:73 data/system.metainfo.xml.in:86
+#: data/system.metainfo.xml.in:101 data/system.metainfo.xml.in:119
+#: data/system.metainfo.xml.in:143 data/system.metainfo.xml.in:157
+#: data/system.metainfo.xml.in:168 data/system.metainfo.xml.in:196
 msgid "Updated translations"
 msgstr "翻訳の更新"
 
-#: data/system.metainfo.xml.in:99 data/system.metainfo.xml.in:123
-#: data/system.metainfo.xml.in:138
+#: data/system.metainfo.xml.in:59
+msgid "Screen reader improvements"
+msgstr "スクリーンリーダーへの対応を改善"
+
+#: data/system.metainfo.xml.in:111 data/system.metainfo.xml.in:135
+#: data/system.metainfo.xml.in:150
 msgid "New features:"
 msgstr "新機能:"
 
-#: data/system.metainfo.xml.in:101
+#: data/system.metainfo.xml.in:113
 msgid "Manage Operating System updates, including automatic updates"
 msgstr ""
 "オペレーティングシステムのアップデートを管理する機能を追加 (自動アップデート"
 "機能も含む)"
 
-#: data/system.metainfo.xml.in:102
+#: data/system.metainfo.xml.in:114
 msgid "Manage additional drivers"
 msgstr "追加のドライバーを管理する機能を追加"
 
-#: data/system.metainfo.xml.in:106
+#: data/system.metainfo.xml.in:118
 msgid "Improve operating system image for other Linux distributions"
 msgstr ""
 "オペレーティングシステムの画像を他の Linux ディストリビューション用に改善"
 
-#: data/system.metainfo.xml.in:125
+#: data/system.metainfo.xml.in:137
 msgid "Add a button to restart to firmware setup"
 msgstr "再起動してファームウェア設定に入るボタンを追加"
 
-#: data/system.metainfo.xml.in:129
+#: data/system.metainfo.xml.in:141
 msgid "Get more accurate memory and storage information"
 msgstr "メモリー情報とストレージ情報をより正確に取得するように修正"
 
-#: data/system.metainfo.xml.in:130
+#: data/system.metainfo.xml.in:142
 msgid "Handle Ryzen CPU and AMD GPU vendor string"
 msgstr "Ryzen CPU と AMD GPU の製造元文字列を処理できるように修正"
 
-#: data/system.metainfo.xml.in:140
+#: data/system.metainfo.xml.in:152
 msgid "Added support for dark style manufacturer logos"
 msgstr "ダークモード用のメーカーロゴに対応"
 
-#: data/system.metainfo.xml.in:141
+#: data/system.metainfo.xml.in:153
 msgid "Added support for offline firmware updates"
 msgstr "オフラインでのファームウェアのアップデートに対応"
 
-#: data/system.metainfo.xml.in:154
+#: data/system.metainfo.xml.in:166
 msgid "Use formatted device name when available"
 msgstr "可能な場合は整形されたデバイス名を使用するように修正"
 
-#: data/system.metainfo.xml.in:155
+#: data/system.metainfo.xml.in:167
 msgid "Display more information for certain GPUs, including Intel® Xe Graphics"
 msgstr ""
 "Intel® Xe Graphics などの特定の GPU に関する情報を詳細に表示するように修正"
 
-#: data/system.metainfo.xml.in:163
+#: data/system.metainfo.xml.in:175
 msgid "Redesign and new features:"
 msgstr "デザイン変更と新機能:"
 
-#: data/system.metainfo.xml.in:165
+#: data/system.metainfo.xml.in:177
 msgid "Rename from About to System"
 msgstr "“このシステムについて”から“システム”に名称変更"
 
-#: data/system.metainfo.xml.in:166
+#: data/system.metainfo.xml.in:178
 msgid "Split Hardware and Operating System info into their own tabs"
 msgstr "“ハードウェア”と“オペレーティングシステム”を独立したタブに分割"
 
-#: data/system.metainfo.xml.in:167
+#: data/system.metainfo.xml.in:179
 msgid "Redesign the Operating System tab with clearer links and buttons"
 msgstr ""
 "“オペレーティングシステム”タブに、より明確なリンクとボタンを配置するデザイン"
 "変更"
 
-#: data/system.metainfo.xml.in:168
+#: data/system.metainfo.xml.in:180
 msgid "Add a Firmware view to manage device firmware updates"
 msgstr ""
 "デバイスファームウェアのアップデートを管理する“ファームウェア”ビューを追加"
 
-#: data/system.metainfo.xml.in:170
+#: data/system.metainfo.xml.in:182
 msgid "More information:"
 msgstr "追加された情報:"
 
-#: data/system.metainfo.xml.in:172
+#: data/system.metainfo.xml.in:184
 msgid "Provide information for ARM CPUs"
 msgstr "ARM CPU の情報を表示できるように変更"
 
-#: data/system.metainfo.xml.in:173
+#: data/system.metainfo.xml.in:185
 msgid "Provide information for more types of Graphics"
 msgstr "検出可能なグラフィックスの種類が増加"
 
-#: data/system.metainfo.xml.in:175
+#: data/system.metainfo.xml.in:187
 msgid "Fixes:"
 msgstr "修正点:"
 
-#: data/system.metainfo.xml.in:177
+#: data/system.metainfo.xml.in:189
 msgid "Fix an issue where the view was destroyed early when navigating away"
 msgstr "このプラグから移動する場合にビューが先に破棄される不具合を修正"
 
-#: data/system.metainfo.xml.in:178
+#: data/system.metainfo.xml.in:190
 msgid "Fix system memory calculation"
 msgstr "システムメモリー容量の検出方法を修正"
 
-#: data/system.metainfo.xml.in:182
+#: data/system.metainfo.xml.in:194
 msgid "Ellipsize long hardware names"
 msgstr "ハードウェア名が長い場合に省略表示"
 
-#: data/system.metainfo.xml.in:183
+#: data/system.metainfo.xml.in:195
 msgid "Performance improvements"
 msgstr "パフォーマンスの改善"
 

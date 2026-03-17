@@ -7,11 +7,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-13 18:13+0000\n"
+"POT-Creation-Date: 2026-03-17 17:12+0000\n"
 "PO-Revision-Date: 2026-01-02 16:55+0000\n"
 "Last-Translator: Bas Ernst <50556177+ErnstBas@users.noreply.github.com>\n"
-"Language-Team: Dutch <https://l10n.elementaryos.org/projects/settings/"
-"about-plug-extra/nl/>\n"
+"Language-Team: Dutch <https://l10n.elementaryos.org/projects/settings/about-"
+"plug-extra/nl/>\n"
 "Language: nl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -31,126 +31,126 @@ msgstr "Bekijk informatie over het besturingssysteem en hardware"
 msgid "elementary, Inc."
 msgstr "elementary, Inc."
 
-#: data/system.metainfo.xml.in:45 data/system.metainfo.xml.in:59
-#: data/system.metainfo.xml.in:72 data/system.metainfo.xml.in:87
-#: data/system.metainfo.xml.in:104 data/system.metainfo.xml.in:127
-#: data/system.metainfo.xml.in:143 data/system.metainfo.xml.in:152
-#: data/system.metainfo.xml.in:180
+#: data/system.metainfo.xml.in:45 data/system.metainfo.xml.in:57
+#: data/system.metainfo.xml.in:71 data/system.metainfo.xml.in:84
+#: data/system.metainfo.xml.in:99 data/system.metainfo.xml.in:116
+#: data/system.metainfo.xml.in:139 data/system.metainfo.xml.in:155
+#: data/system.metainfo.xml.in:164 data/system.metainfo.xml.in:192
 msgid "Minor updates:"
 msgstr "Kleine updates:"
 
-#: data/system.metainfo.xml.in:47
-msgid "Screen reader improvements"
-msgstr "Verbeteringen voor schermlezers"
-
-#: data/system.metainfo.xml.in:48 data/system.metainfo.xml.in:61
-#: data/system.metainfo.xml.in:74 data/system.metainfo.xml.in:89
-#: data/system.metainfo.xml.in:107 data/system.metainfo.xml.in:131
-#: data/system.metainfo.xml.in:145 data/system.metainfo.xml.in:156
-#: data/system.metainfo.xml.in:184
+#: data/system.metainfo.xml.in:47 data/system.metainfo.xml.in:60
+#: data/system.metainfo.xml.in:73 data/system.metainfo.xml.in:86
+#: data/system.metainfo.xml.in:101 data/system.metainfo.xml.in:119
+#: data/system.metainfo.xml.in:143 data/system.metainfo.xml.in:157
+#: data/system.metainfo.xml.in:168 data/system.metainfo.xml.in:196
 msgid "Updated translations"
 msgstr "Bijgewerkte vertalingen"
 
-#: data/system.metainfo.xml.in:99 data/system.metainfo.xml.in:123
-#: data/system.metainfo.xml.in:138
+#: data/system.metainfo.xml.in:59
+msgid "Screen reader improvements"
+msgstr "Verbeteringen voor schermlezers"
+
+#: data/system.metainfo.xml.in:111 data/system.metainfo.xml.in:135
+#: data/system.metainfo.xml.in:150
 msgid "New features:"
 msgstr "Nieuwe functies:"
 
-#: data/system.metainfo.xml.in:101
+#: data/system.metainfo.xml.in:113
 msgid "Manage Operating System updates, including automatic updates"
 msgstr "Beheer besturingssysteem updates, inclusief automatische updates"
 
-#: data/system.metainfo.xml.in:102
+#: data/system.metainfo.xml.in:114
 msgid "Manage additional drivers"
 msgstr "Beheer extra stuurprogramma's"
 
-#: data/system.metainfo.xml.in:106
+#: data/system.metainfo.xml.in:118
 msgid "Improve operating system image for other Linux distributions"
 msgstr "Verbeter de besturingssysteemafbeelding voor andere Linux distributies"
 
-#: data/system.metainfo.xml.in:125
+#: data/system.metainfo.xml.in:137
 msgid "Add a button to restart to firmware setup"
 msgstr "Voeg een knop toe om de firmware set-up te herstarten"
 
-#: data/system.metainfo.xml.in:129
+#: data/system.metainfo.xml.in:141
 msgid "Get more accurate memory and storage information"
 msgstr "Verkrijg betere informatie over geheugen en opslag"
 
-#: data/system.metainfo.xml.in:130
+#: data/system.metainfo.xml.in:142
 msgid "Handle Ryzen CPU and AMD GPU vendor string"
 msgstr "De Ryzen CPU en AMD GPU verkoperstekst afhandelen"
 
-#: data/system.metainfo.xml.in:140
+#: data/system.metainfo.xml.in:152
 msgid "Added support for dark style manufacturer logos"
 msgstr "Ondersteuning toegevoegd voor fabrikantenlogo's in donkere stijl"
 
-#: data/system.metainfo.xml.in:141
+#: data/system.metainfo.xml.in:153
 msgid "Added support for offline firmware updates"
 msgstr "Ondersteuning voor offline firmware-updates toegevoegd"
 
-#: data/system.metainfo.xml.in:154
+#: data/system.metainfo.xml.in:166
 msgid "Use formatted device name when available"
 msgstr "Gebruik de opgemaakte apparaatnaam indien beschikbaar"
 
-#: data/system.metainfo.xml.in:155
+#: data/system.metainfo.xml.in:167
 msgid "Display more information for certain GPUs, including Intel® Xe Graphics"
 msgstr "Toon meer informatie voor bepaalde GPU's, waaronder Intel® Xe Graphics"
 
-#: data/system.metainfo.xml.in:163
+#: data/system.metainfo.xml.in:175
 msgid "Redesign and new features:"
 msgstr "Herontwerp en nieuwe functies:"
 
-#: data/system.metainfo.xml.in:165
+#: data/system.metainfo.xml.in:177
 msgid "Rename from About to System"
 msgstr "Hernoemen van Over tot Systeem"
 
-#: data/system.metainfo.xml.in:166
+#: data/system.metainfo.xml.in:178
 msgid "Split Hardware and Operating System info into their own tabs"
 msgstr ""
 "Informatie over hardware en besturingssysteem opsplitsen in aparte tabbladen"
 
-#: data/system.metainfo.xml.in:167
+#: data/system.metainfo.xml.in:179
 msgid "Redesign the Operating System tab with clearer links and buttons"
 msgstr ""
 "Het tabblad voor het besturingssysteem herontwerpen met duidelijkere links "
 "en knoppen"
 
-#: data/system.metainfo.xml.in:168
+#: data/system.metainfo.xml.in:180
 msgid "Add a Firmware view to manage device firmware updates"
 msgstr ""
 "Een firmwareweergave toevoegen om updates van apparaatsfirmware te beheren"
 
-#: data/system.metainfo.xml.in:170
+#: data/system.metainfo.xml.in:182
 msgid "More information:"
 msgstr "Meer informatie:"
 
-#: data/system.metainfo.xml.in:172
+#: data/system.metainfo.xml.in:184
 msgid "Provide information for ARM CPUs"
 msgstr "Geef informatie voor ARM CPU's"
 
-#: data/system.metainfo.xml.in:173
+#: data/system.metainfo.xml.in:185
 msgid "Provide information for more types of Graphics"
 msgstr "Geef informatie over meer types videokaarten"
 
-#: data/system.metainfo.xml.in:175
+#: data/system.metainfo.xml.in:187
 msgid "Fixes:"
 msgstr "Oplossingen:"
 
-#: data/system.metainfo.xml.in:177
+#: data/system.metainfo.xml.in:189
 msgid "Fix an issue where the view was destroyed early when navigating away"
 msgstr ""
 "Een probleem verhelpen met een scherm dat voortijdig werd vernietigd bij het "
 "wegnavigeren"
 
-#: data/system.metainfo.xml.in:178
+#: data/system.metainfo.xml.in:190
 msgid "Fix system memory calculation"
 msgstr "Systeemgeheugenberekening herstellen"
 
-#: data/system.metainfo.xml.in:182
+#: data/system.metainfo.xml.in:194
 msgid "Ellipsize long hardware names"
 msgstr "Lange hardware namen met drie puntjes afkorten"
 
-#: data/system.metainfo.xml.in:183
+#: data/system.metainfo.xml.in:195
 msgid "Performance improvements"
 msgstr "Prestatieverbeteringen"
 
