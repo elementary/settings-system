@@ -40,6 +40,18 @@
   <update_contact>contact_at_elementary.io</update_contact>
 
   <releases>
+    <release version="8.2.3" date="2026-03-16" urgency="medium">
+      <description>
+        <p>Minor updates:</p>
+        <ul>
+          <li>Updated translations</li>
+        </ul>
+      </description>
+      <issues>
+        <issue url="https://github.com/elementary/settings-system/issues/397">CPU name is blank when fails to parse it</issue>
+      </issues>
+    </release>
+
     <release version="8.2.2" date="2025-11-04" urgency="medium">
       <description>
         <p>Minor updates:</p>
