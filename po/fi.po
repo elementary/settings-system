@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-13 18:13+0000\n"
+"POT-Creation-Date: 2026-03-17 17:12+0000\n"
 "PO-Revision-Date: 2024-12-02 14:16+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
 "Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
@@ -164,39 +164,39 @@ msgstr "Asennetaan %s…"
 msgid "All Updates"
 msgstr "Kaikki päivitykset"
 
-#: src/Views/FirmwareReleaseView.vala:68
+#: src/Views/FirmwareReleaseView.vala:66
 msgid "Version:"
 msgstr "Versio:"
 
-#: src/Views/FirmwareReleaseView.vala:77
+#: src/Views/FirmwareReleaseView.vala:75
 msgid "Vendor:"
 msgstr "Toimittaja:"
 
-#: src/Views/FirmwareReleaseView.vala:86
+#: src/Views/FirmwareReleaseView.vala:84
 msgid "Size:"
 msgstr "Koko:"
 
-#: src/Views/FirmwareReleaseView.vala:95
+#: src/Views/FirmwareReleaseView.vala:93
 msgid "Estimated time to install:"
 msgstr "Arvioitu asennusaika:"
 
-#: src/Views/FirmwareReleaseView.vala:123
+#: src/Views/FirmwareReleaseView.vala:121
 msgid "There are no releases available for this device."
 msgstr "Tälle laitteelle ei ole saatavilla julkaisuja."
 
-#: src/Views/FirmwareReleaseView.vala:196 src/Widgets/FirmwareUpdateRow.vala:73
+#: src/Views/FirmwareReleaseView.vala:194 src/Widgets/FirmwareUpdateRow.vala:73
 msgid "Update"
 msgstr "Päivitä"
 
-#: src/Views/FirmwareReleaseView.vala:199
+#: src/Views/FirmwareReleaseView.vala:197
 msgid "Up to date"
 msgstr "Ajan tasalla"
 
-#: src/Views/FirmwareReleaseView.vala:220
+#: src/Views/FirmwareReleaseView.vala:218
 msgid "less than a minute"
 msgstr "alle minuutti"
 
-#: src/Views/FirmwareReleaseView.vala:224
+#: src/Views/FirmwareReleaseView.vala:222
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"

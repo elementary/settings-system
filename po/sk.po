@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-13 18:13+0000\n"
+"POT-Creation-Date: 2026-03-17 17:12+0000\n"
 "PO-Revision-Date: 2024-07-11 08:16+0000\n"
 "Last-Translator: JohnDumpling <john_dumpling@protonmail.com>\n"
 "Language-Team: Slovak <https://l10n.elementary.io/projects/switchboard/"
@@ -170,39 +170,39 @@ msgstr "Inštaluje sa %s…"
 msgid "All Updates"
 msgstr "Všetky aktualizácie"
 
-#: src/Views/FirmwareReleaseView.vala:68
+#: src/Views/FirmwareReleaseView.vala:66
 msgid "Version:"
 msgstr "Verzia:"
 
-#: src/Views/FirmwareReleaseView.vala:77
+#: src/Views/FirmwareReleaseView.vala:75
 msgid "Vendor:"
 msgstr "Predajca:"
 
-#: src/Views/FirmwareReleaseView.vala:86
+#: src/Views/FirmwareReleaseView.vala:84
 msgid "Size:"
 msgstr "Veľkosť:"
 
-#: src/Views/FirmwareReleaseView.vala:95
+#: src/Views/FirmwareReleaseView.vala:93
 msgid "Estimated time to install:"
 msgstr "Odhadovaný čas inštalácie:"
 
-#: src/Views/FirmwareReleaseView.vala:123
+#: src/Views/FirmwareReleaseView.vala:121
 msgid "There are no releases available for this device."
 msgstr "Pre toto zariadenie nie sú dostupné žiadne vydania."
 
-#: src/Views/FirmwareReleaseView.vala:196 src/Widgets/FirmwareUpdateRow.vala:73
+#: src/Views/FirmwareReleaseView.vala:194 src/Widgets/FirmwareUpdateRow.vala:73
 msgid "Update"
 msgstr "Aktualizovať"
 
-#: src/Views/FirmwareReleaseView.vala:199
+#: src/Views/FirmwareReleaseView.vala:197
 msgid "Up to date"
 msgstr "Aktualizované"
 
-#: src/Views/FirmwareReleaseView.vala:220
+#: src/Views/FirmwareReleaseView.vala:218
 msgid "less than a minute"
 msgstr "menej ako minúta"
 
-#: src/Views/FirmwareReleaseView.vala:224
+#: src/Views/FirmwareReleaseView.vala:222
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"

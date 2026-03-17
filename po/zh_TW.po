@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-13 18:13+0000\n"
+"POT-Creation-Date: 2026-03-17 17:12+0000\n"
 "PO-Revision-Date: 2025-03-17 11:10+0000\n"
 "Last-Translator: Kisaragi Hiu <mail@kisaragi-hiu.com>\n"
 "Language-Team: Chinese (Traditional Han script) <https://"
@@ -166,39 +166,39 @@ msgstr "正在安裝 %s…"
 msgid "All Updates"
 msgstr "所有更新"
 
-#: src/Views/FirmwareReleaseView.vala:68
+#: src/Views/FirmwareReleaseView.vala:66
 msgid "Version:"
 msgstr "版本："
 
-#: src/Views/FirmwareReleaseView.vala:77
+#: src/Views/FirmwareReleaseView.vala:75
 msgid "Vendor:"
 msgstr "廠商："
 
-#: src/Views/FirmwareReleaseView.vala:86
+#: src/Views/FirmwareReleaseView.vala:84
 msgid "Size:"
 msgstr "大小："
 
-#: src/Views/FirmwareReleaseView.vala:95
+#: src/Views/FirmwareReleaseView.vala:93
 msgid "Estimated time to install:"
 msgstr "預計所需安裝時間："
 
-#: src/Views/FirmwareReleaseView.vala:123
+#: src/Views/FirmwareReleaseView.vala:121
 msgid "There are no releases available for this device."
 msgstr "沒有這台裝置可以使用的版本。"
 
-#: src/Views/FirmwareReleaseView.vala:196 src/Widgets/FirmwareUpdateRow.vala:73
+#: src/Views/FirmwareReleaseView.vala:194 src/Widgets/FirmwareUpdateRow.vala:73
 msgid "Update"
 msgstr "更新"
 
-#: src/Views/FirmwareReleaseView.vala:199
+#: src/Views/FirmwareReleaseView.vala:197
 msgid "Up to date"
 msgstr "最新狀態"
 
-#: src/Views/FirmwareReleaseView.vala:220
+#: src/Views/FirmwareReleaseView.vala:218
 msgid "less than a minute"
 msgstr "1 分鐘之內"
 
-#: src/Views/FirmwareReleaseView.vala:224
+#: src/Views/FirmwareReleaseView.vala:222
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-13 18:13+0000\n"
+"POT-Creation-Date: 2026-03-17 17:12+0000\n"
 "PO-Revision-Date: 2025-08-30 22:55+0000\n"
 "Last-Translator: Ryo Nakano <ryonakaknock3@gmail.com>\n"
 "Language-Team: Japanese <https://l10n.elementaryos.org/projects/settings/"
@@ -167,39 +167,39 @@ msgstr "%s をインストールしています…"
 msgid "All Updates"
 msgstr "すべてのアップデート"
 
-#: src/Views/FirmwareReleaseView.vala:68
+#: src/Views/FirmwareReleaseView.vala:66
 msgid "Version:"
 msgstr "バージョン:"
 
-#: src/Views/FirmwareReleaseView.vala:77
+#: src/Views/FirmwareReleaseView.vala:75
 msgid "Vendor:"
 msgstr "製造元:"
 
-#: src/Views/FirmwareReleaseView.vala:86
+#: src/Views/FirmwareReleaseView.vala:84
 msgid "Size:"
 msgstr "サイズ:"
 
-#: src/Views/FirmwareReleaseView.vala:95
+#: src/Views/FirmwareReleaseView.vala:93
 msgid "Estimated time to install:"
 msgstr "インストールの推定所要時間:"
 
-#: src/Views/FirmwareReleaseView.vala:123
+#: src/Views/FirmwareReleaseView.vala:121
 msgid "There are no releases available for this device."
 msgstr "このデバイスで利用可能なリリースはありません。"
 
-#: src/Views/FirmwareReleaseView.vala:196 src/Widgets/FirmwareUpdateRow.vala:73
+#: src/Views/FirmwareReleaseView.vala:194 src/Widgets/FirmwareUpdateRow.vala:73
 msgid "Update"
 msgstr "アップデート"
 
-#: src/Views/FirmwareReleaseView.vala:199
+#: src/Views/FirmwareReleaseView.vala:197
 msgid "Up to date"
 msgstr "最新の状態"
 
-#: src/Views/FirmwareReleaseView.vala:220
+#: src/Views/FirmwareReleaseView.vala:218
 msgid "less than a minute"
 msgstr "1 分以内"
 
-#: src/Views/FirmwareReleaseView.vala:224
+#: src/Views/FirmwareReleaseView.vala:222
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"

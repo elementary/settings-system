@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-13 18:13+0000\n"
+"POT-Creation-Date: 2026-03-17 17:12+0000\n"
 "PO-Revision-Date: 2025-04-19 23:04+0000\n"
 "Last-Translator: Hugo Carvalho <hugokarvalho@hotmail.com>\n"
 "Language-Team: Portuguese <https://l10n.elementaryos.org/projects/settings/"
@@ -182,39 +182,39 @@ msgstr "A instalar %s…"
 msgid "All Updates"
 msgstr "Todas as atualizações"
 
-#: src/Views/FirmwareReleaseView.vala:68
+#: src/Views/FirmwareReleaseView.vala:66
 msgid "Version:"
 msgstr "Versão:"
 
-#: src/Views/FirmwareReleaseView.vala:77
+#: src/Views/FirmwareReleaseView.vala:75
 msgid "Vendor:"
 msgstr "Fabricante:"
 
-#: src/Views/FirmwareReleaseView.vala:86
+#: src/Views/FirmwareReleaseView.vala:84
 msgid "Size:"
 msgstr "Tamanho:"
 
-#: src/Views/FirmwareReleaseView.vala:95
+#: src/Views/FirmwareReleaseView.vala:93
 msgid "Estimated time to install:"
 msgstr "Tempo estimado para a instalação:"
 
-#: src/Views/FirmwareReleaseView.vala:123
+#: src/Views/FirmwareReleaseView.vala:121
 msgid "There are no releases available for this device."
 msgstr "Não existem versões disponíveis para este dispositivo."
 
-#: src/Views/FirmwareReleaseView.vala:196 src/Widgets/FirmwareUpdateRow.vala:73
+#: src/Views/FirmwareReleaseView.vala:194 src/Widgets/FirmwareUpdateRow.vala:73
 msgid "Update"
 msgstr "Atualização"
 
-#: src/Views/FirmwareReleaseView.vala:199
+#: src/Views/FirmwareReleaseView.vala:197
 msgid "Up to date"
 msgstr "Atualizado"
 
-#: src/Views/FirmwareReleaseView.vala:220
+#: src/Views/FirmwareReleaseView.vala:218
 msgid "less than a minute"
 msgstr "menos de um minuto"
 
-#: src/Views/FirmwareReleaseView.vala:224
+#: src/Views/FirmwareReleaseView.vala:222
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-13 18:13+0000\n"
+"POT-Creation-Date: 2026-03-17 17:12+0000\n"
 "PO-Revision-Date: 2026-01-22 22:55+0000\n"
 "Last-Translator: Jernej Virag <jernej@virag.si>\n"
 "Language-Team: Slovenian <https://l10n.elementaryos.org/projects/settings/"
@@ -165,39 +165,39 @@ msgstr "Nameščanje %s…"
 msgid "All Updates"
 msgstr "Vse posodobitve"
 
-#: src/Views/FirmwareReleaseView.vala:68
+#: src/Views/FirmwareReleaseView.vala:66
 msgid "Version:"
 msgstr "Verzija:"
 
-#: src/Views/FirmwareReleaseView.vala:77
+#: src/Views/FirmwareReleaseView.vala:75
 msgid "Vendor:"
 msgstr "Izdelovalec:"
 
-#: src/Views/FirmwareReleaseView.vala:86
+#: src/Views/FirmwareReleaseView.vala:84
 msgid "Size:"
 msgstr "Velikost:"
 
-#: src/Views/FirmwareReleaseView.vala:95
+#: src/Views/FirmwareReleaseView.vala:93
 msgid "Estimated time to install:"
 msgstr "Ocenjen čas namestitve:"
 
-#: src/Views/FirmwareReleaseView.vala:123
+#: src/Views/FirmwareReleaseView.vala:121
 msgid "There are no releases available for this device."
 msgstr "Ni na voljo posodobitev za to napravo."
 
-#: src/Views/FirmwareReleaseView.vala:196 src/Widgets/FirmwareUpdateRow.vala:73
+#: src/Views/FirmwareReleaseView.vala:194 src/Widgets/FirmwareUpdateRow.vala:73
 msgid "Update"
 msgstr "Posodobi"
 
-#: src/Views/FirmwareReleaseView.vala:199
+#: src/Views/FirmwareReleaseView.vala:197
 msgid "Up to date"
 msgstr "Posodobljen"
 
-#: src/Views/FirmwareReleaseView.vala:220
+#: src/Views/FirmwareReleaseView.vala:218
 msgid "less than a minute"
 msgstr "manj kot minuto"
 
-#: src/Views/FirmwareReleaseView.vala:224
+#: src/Views/FirmwareReleaseView.vala:222
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"
@@ -449,7 +449,8 @@ msgstr "Sistemske posodobitve niso na voljo"
 
 #: src/Views/OperatingSystemView.vala:517
 msgid "Couldn't connect to the backend. Try logging out to resolve the issue."
-msgstr "Ni se bilo mogoče povezati na strežnik. Poskusite se ponovno prijaviti."
+msgstr ""
+"Ni se bilo mogoče povezati na strežnik. Poskusite se ponovno prijaviti."
 
 #: src/Views/OperatingSystemView.vala:530
 msgid "Up To Date"
@@ -493,7 +494,8 @@ msgstr "Ponovno zaženite napravo za namestitev čakajočih posodobitev"
 msgid ""
 "Updates have been downloaded. A restart is required to finish installing "
 "them."
-msgstr "Posodobitve so bile prenešene. Za namestitev je potreben ponovni zagon."
+msgstr ""
+"Posodobitve so bile prenešene. Za namestitev je potreben ponovni zagon."
 
 #: src/Views/OperatingSystemView.vala:601
 #: src/Views/OperatingSystemView.vala:627
