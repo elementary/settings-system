@@ -8,16 +8,16 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 17:12+0000\n"
-"PO-Revision-Date: 2024-12-02 14:16+0000\n"
+"PO-Revision-Date: 2026-03-22 15:55+0000\n"
 "Last-Translator: Jiri Grönroos <jiri.gronroos@iki.fi>\n"
-"Language-Team: Finnish <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-about/fi/>\n"
+"Language-Team: Finnish <https://l10n.elementaryos.org/projects/settings/"
+"system/fi/>\n"
 "Language: fi\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
+"X-Generator: Weblate 5.11.4\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:09+0000\n"
 
 #: src/Plug.vala:46
@@ -94,7 +94,7 @@ msgstr "Isäntänimi"
 #. https://github.com/elementary/switchboard-plug-about/issues/219
 #: src/Plug.vala:142
 msgid "About This Device"
-msgstr ""
+msgstr "Tietoja tästä laitteesta"
 
 #: src/Plug.vala:145 src/Views/FirmwareView.vala:84
 msgid "Restart to Firmware Setup…"
@@ -130,7 +130,7 @@ msgstr "Ajurin asennus epäonnistui"
 
 #: src/Views/DriversView.vala:52
 msgid "Manually refreshing driver information may resolve the issue"
-msgstr ""
+msgstr "Ajuritietojen manuaalinen päivittäminen saattaa ratkaista ongelman"
 
 #: src/Views/DriversView.vala:55 src/Views/OperatingSystemView.vala:214
 msgid "Refresh"
@@ -431,10 +431,8 @@ msgstr ""
 "uudelleen."
 
 #: src/Views/OperatingSystemView.vala:309
-#, fuzzy
-#| msgid "Get Involved or Sponsor Us"
 msgid "Get Involved"
-msgstr "Osallistu tai sponsoroi"
+msgstr "Osallistu"
 
 #: src/Views/OperatingSystemView.vala:496
 #, c-format
@@ -471,13 +469,11 @@ msgid "Updates Available"
 msgstr "Päivityksiä saatavilla"
 
 #: src/Views/OperatingSystemView.vala:561
-#, fuzzy, c-format
-#| msgid "%i update available"
-#| msgid_plural "%i updates available"
+#, c-format
 msgid "%i update available (%s)"
 msgid_plural "%i updates available (%s)"
-msgstr[0] "%i päivitys saatavilla"
-msgstr[1] "%i päivitystä saatavilla"
+msgstr[0] "%i päivitys saatavilla (%s)"
+msgstr[1] "%i päivitystä saatavilla (%s)"
 
 #: src/Views/OperatingSystemView.vala:572
 msgid "Unable to determine number of updates"
@@ -488,18 +484,16 @@ msgid "Downloading Updates"
 msgstr "Ladataan päivityksiä"
 
 #: src/Views/OperatingSystemView.vala:595
-#, fuzzy
-#| msgid "A restart is required to finish installing updates"
 msgid "Restart to install pending updates"
-msgstr "Päivitysten viimeistely vaatii uudelleenkäynnistyksen"
+msgstr "Käynnistä uudelleen asentaaksesi odottavat päivitykset"
 
 #: src/Views/OperatingSystemView.vala:596
-#, fuzzy
-#| msgid "A restart is required to finish installing updates"
 msgid ""
 "Updates have been downloaded. A restart is required to finish installing "
 "them."
-msgstr "Päivitysten viimeistely vaatii uudelleenkäynnistyksen"
+msgstr ""
+"Päivitykset on ladattu. Päivitysten asentaminen vaatii "
+"uudelleenkäynnistyksen."
 
 #: src/Views/OperatingSystemView.vala:601
 #: src/Views/OperatingSystemView.vala:627
@@ -513,7 +507,7 @@ msgstr ""
 #: src/Views/OperatingSystemView.vala:617
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s/%s"
 
 #: src/Views/OperatingSystemView.vala:628
 msgid ""
@@ -540,7 +534,7 @@ msgstr "Palauta oletusasetukset"
 
 #: src/Views/OperatingSystemView.vala:824
 msgid "Sponsor Us"
-msgstr ""
+msgstr "Sponsoroi meitä"
 
 #. /TRANSLATORS: first value is a percentage, second value is an amount in USD
 #: src/Views/OperatingSystemView.vala:887
