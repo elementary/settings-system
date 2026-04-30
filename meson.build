@@ -1,7 +1,7 @@
 project(
     'system',
     'vala', 'c',
-    version: '8.2.2',
+    version: '8.2.3',
     meson_version: '>=0.58.0'
 )
 
