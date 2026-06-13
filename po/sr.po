@@ -8,16 +8,17 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 17:12+0000\n"
-"PO-Revision-Date: 2024-01-25 02:35+0000\n"
-"Last-Translator: anonymous <noreply@weblate.org>\n"
-"Language-Team: Serbian <https://l10n.elementary.io/projects/switchboard/"
-"switchboard-plug-about/sr/>\n"
+"PO-Revision-Date: 2026-06-14 04:56+0000\n"
+"Last-Translator: Automatic translation add-on <noreply-addon-"
+"autotranslate@weblate.org>\n"
+"Language-Team: Serbian <https://l10n.elementaryos.org/projects/settings/"
+"system/sr/>\n"
 "Language: sr\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n;\n"
-"X-Generator: Weblate 5.0.2\n"
+"X-Generator: Weblate 2026.5\n"
 "X-Launchpad-Export-Date: 2017-04-05 07:10+0000\n"
 
 #: src/Plug.vala:46
@@ -149,7 +150,7 @@ msgstr ""
 
 #: src/Views/DriversView.vala:55 src/Views/OperatingSystemView.vala:214
 msgid "Refresh"
-msgstr ""
+msgstr "Освежи"
 
 #: src/Views/DriversView.vala:55
 #, fuzzy
