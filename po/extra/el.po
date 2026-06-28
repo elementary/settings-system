@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 17:12+0000\n"
-"PO-Revision-Date: 2026-06-28 21:01+0000\n"
+"PO-Revision-Date: 2026-06-29 01:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/about-"
 "plug-extra/el/>\n"
@@ -132,7 +132,7 @@ msgstr ""
 
 #: data/system.metainfo.xml.in:187
 msgid "Fixes:"
-msgstr ""
+msgstr "Διορθώσεις:"
 
 #: data/system.metainfo.xml.in:189
 msgid "Fix an issue where the view was destroyed early when navigating away"
@@ -148,7 +148,7 @@ msgstr ""
 
 #: data/system.metainfo.xml.in:195
 msgid "Performance improvements"
-msgstr ""
+msgstr "Βελτιώσεις επιδόσεων"
 
 #~ msgid "About"
 #~ msgstr "Σχετικά"
