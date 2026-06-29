@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 17:12+0000\n"
-"PO-Revision-Date: 2026-06-28 21:01+0000\n"
+"PO-Revision-Date: 2026-06-29 01:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/system/"
 "el/>\n"
@@ -45,13 +45,11 @@ msgstr "Υλικολογισμικό"
 
 #: src/Plug.vala:66 src/Plug.vala:147 src/Views/DriversView.vala:19
 msgid "Drivers"
-msgstr ""
+msgstr "Προγράμματα οδήγησης"
 
 #: src/Plug.vala:128 src/Views/OperatingSystemView.vala:238
-#, fuzzy
-#| msgid "Updates"
 msgid "Automatic Updates"
-msgstr "Ενημερώσεις"
+msgstr "Αυτόματες ενημερώσεις"
 
 #: src/Plug.vala:129 src/Views/OperatingSystemView.vala:288
 msgid "Basics Guide"
@@ -67,7 +65,7 @@ msgstr ""
 
 #: src/Plug.vala:132
 msgid "Get Support"
-msgstr ""
+msgstr "Λήψη υποστήριξης"
 
 #: src/Plug.vala:133 src/Views/OperatingSystemView.vala:302
 #, fuzzy
@@ -85,7 +83,7 @@ msgstr "Επαναφορά προεπιλεγμένων ρυθμίσεων"
 
 #: src/Plug.vala:136 src/Views/OperatingSystemView.vala:331
 msgid "Send Feedback"
-msgstr ""
+msgstr "Αποστολή σχολίων"
 
 #: src/Plug.vala:139
 #, fuzzy
@@ -184,7 +182,7 @@ msgstr ""
 
 #: src/Views/FirmwareReleaseView.vala:84
 msgid "Size:"
-msgstr ""
+msgstr "Μέγεθος:"
 
 #: src/Views/FirmwareReleaseView.vala:93
 msgid "Estimated time to install:"
@@ -212,8 +210,8 @@ msgstr ""
 #, c-format
 msgid "%llu minute"
 msgid_plural "%llu minutes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%llu λεπτό"
+msgstr[1] "%llu λεπτά"
 
 #: src/Views/FirmwareView.vala:36
 msgid ""
@@ -306,7 +304,7 @@ msgstr ""
 
 #: src/Views/FirmwareView.vala:405
 msgid "Shut Down"
-msgstr ""
+msgstr "Τερματισμός λειτουργίας"
 
 #: src/Views/FirmwareView.vala:420
 msgid "Restart to firmware setup"
@@ -345,7 +343,7 @@ msgstr "Άγνωστος αποθηκευτικός χώρος"
 
 #: src/Views/HardwareView.vala:127
 msgid "Manufacturer Website"
-msgstr ""
+msgstr "Ιστότοπος κατασκευαστή"
 
 #: src/Views/HardwareView.vala:160
 msgid "Update device name"
@@ -372,7 +370,7 @@ msgstr "Τετραπύρηνος %s"
 #: src/Views/HardwareView.vala:293
 #, c-format
 msgid "Hexa-Core %s"
-msgstr ""
+msgstr "Εξαπύρηνος %s"
 
 #: src/Views/HardwareView.vala:478
 msgid "Unknown"
@@ -407,25 +405,25 @@ msgstr "%s αποθηκευτικού χώρου"
 #: src/Views/HardwareView.vala:717
 msgid "byte"
 msgid_plural "bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "byte"
+msgstr[1] "bytes"
 
 #: src/Views/HardwareView.vala:719
 #, c-format
 msgid "%u byte"
 msgid_plural "%u bytes"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "%u byte"
+msgstr[1] "%u bytes"
 
 #: src/Views/HardwareView.vala:726
 #, c-format
 msgctxt "format-size"
 msgid "%u %s"
-msgstr ""
+msgstr "%u %s"
 
 #: src/Views/OperatingSystemView.vala:209
 msgid "Download"
-msgstr ""
+msgstr "Λήψη"
 
 #: src/Views/OperatingSystemView.vala:212
 msgid "Cancel"
@@ -489,10 +487,8 @@ msgid "Unable to determine number of updates"
 msgstr ""
 
 #: src/Views/OperatingSystemView.vala:586
-#, fuzzy
-#| msgid "Updates"
 msgid "Downloading Updates"
-msgstr "Ενημερώσεις"
+msgstr "Λήψη ενημερώσεων"
 
 #: src/Views/OperatingSystemView.vala:595
 msgid "Restart to install pending updates"
@@ -556,7 +552,7 @@ msgstr ""
 
 #: src/Widgets/UpdateDetailsDialog.vala:14
 msgid "What's New"
-msgstr ""
+msgstr "Τι νέο υπάρχει"
 
 #: src/Widgets/UpdateDetailsDialog.vala:20
 #, c-format
