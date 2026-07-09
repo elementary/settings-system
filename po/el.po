@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 17:12+0000\n"
-"PO-Revision-Date: 2026-06-29 01:01+0000\n"
+"PO-Revision-Date: 2026-07-10 15:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/system/"
 "el/>\n"
@@ -57,7 +57,7 @@ msgstr ""
 
 #: src/Plug.vala:130 src/Views/OperatingSystemView.vala:295
 msgid "Get Help"
-msgstr ""
+msgstr "Λήψη βοήθειας"
 
 #: src/Plug.vala:131
 msgid "Get Involved or Sponsor Us"
@@ -93,7 +93,7 @@ msgstr "Ενημερώσεις"
 
 #: src/Plug.vala:140
 msgid "Host name"
-msgstr ""
+msgstr "Όνομα υπολογιστή"
 
 #. https://github.com/elementary/switchboard-plug-about/issues/219
 #: src/Plug.vala:142
@@ -326,7 +326,7 @@ msgstr ""
 
 #: src/Views/HardwareView.vala:49
 msgid "You do not have permission to change the device name"
-msgstr ""
+msgstr "Δεν έχετε το δικαίωμα να αλλάξετε το όνομα της συσκευής"
 
 #: src/Views/HardwareView.vala:60
 #, c-format
@@ -437,7 +437,7 @@ msgstr ""
 
 #: src/Views/OperatingSystemView.vala:309
 msgid "Get Involved"
-msgstr ""
+msgstr "Συμμετοχή"
 
 #: src/Views/OperatingSystemView.vala:496
 #, c-format
@@ -463,7 +463,7 @@ msgstr "Ενημερώσεις"
 #: src/Views/OperatingSystemView.vala:534
 #, c-format
 msgid "Last checked %s"
-msgstr ""
+msgstr "Τελευταίος έλεγχος: %s"
 
 #: src/Views/OperatingSystemView.vala:541
 msgid "Last checked unknown"
@@ -542,7 +542,7 @@ msgstr "Επαναφορά ρυθμίσεων"
 
 #: src/Views/OperatingSystemView.vala:824
 msgid "Sponsor Us"
-msgstr ""
+msgstr "Χορηγήστε μας"
 
 #. /TRANSLATORS: first value is a percentage, second value is an amount in USD
 #: src/Views/OperatingSystemView.vala:887
@@ -558,8 +558,8 @@ msgstr "Τι νέο υπάρχει"
 #, c-format
 msgid "%u package will be upgraded"
 msgid_plural "%u packages will be upgraded"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "Θα αναβαθμιστεί %u πακέτο"
+msgstr[1] "Θα αναβαθμιστούν %u πακέτα"
 
 #: src/Widgets/UpdateDetailsDialog.vala:67
 msgid "Close"
