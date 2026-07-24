@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: switchboard-plug-about\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 17:12+0000\n"
-"PO-Revision-Date: 2026-07-10 15:01+0000\n"
+"PO-Revision-Date: 2026-07-25 20:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/system/"
 "el/>\n"
@@ -68,10 +68,8 @@ msgid "Get Support"
 msgstr "Λήψη υποστήριξης"
 
 #: src/Plug.vala:133 src/Views/OperatingSystemView.vala:302
-#, fuzzy
-#| msgid "Website"
 msgid "Our Website"
-msgstr "Ιστοσελίδα"
+msgstr "Ο ιστότοπός μας"
 
 #: src/Plug.vala:134
 msgid "Report a Problem"
@@ -86,10 +84,8 @@ msgid "Send Feedback"
 msgstr "Αποστολή σχολίων"
 
 #: src/Plug.vala:139
-#, fuzzy
-#| msgid "Updates"
 msgid "Device name"
-msgstr "Ενημερώσεις"
+msgstr "Όνομα συσκευής"
 
 #: src/Plug.vala:140
 msgid "Host name"
@@ -98,7 +94,7 @@ msgstr "Όνομα υπολογιστή"
 #. https://github.com/elementary/switchboard-plug-about/issues/219
 #: src/Plug.vala:142
 msgid "About This Device"
-msgstr ""
+msgstr "Σχετικά με αυτήν τη συσκευή"
 
 #: src/Plug.vala:145 src/Views/FirmwareView.vala:84
 msgid "Restart to Firmware Setup…"
@@ -224,8 +220,6 @@ msgid "Do not unplug the device during the update."
 msgstr ""
 
 #: src/Views/FirmwareView.vala:46 src/Views/OperatingSystemView.vala:548
-#, fuzzy
-#| msgid "Check for Updates"
 msgid "Checking for Updates"
 msgstr "Έλεγχος για ενημερώσεις"
 
@@ -442,7 +436,7 @@ msgstr "Συμμετοχή"
 #: src/Views/OperatingSystemView.vala:496
 #, c-format
 msgid "Built on %s"
-msgstr "Χτισμένο πάνω στο %s"
+msgstr "Βασισμένο στο %s"
 
 #: src/Views/OperatingSystemView.vala:516
 #, fuzzy
@@ -455,10 +449,8 @@ msgid "Couldn't connect to the backend. Try logging out to resolve the issue."
 msgstr ""
 
 #: src/Views/OperatingSystemView.vala:530
-#, fuzzy
-#| msgid "Updates"
 msgid "Up To Date"
-msgstr "Ενημερώσεις"
+msgstr "Ενημερωμένο"
 
 #: src/Views/OperatingSystemView.vala:534
 #, c-format
@@ -467,13 +459,11 @@ msgstr "Τελευταίος έλεγχος: %s"
 
 #: src/Views/OperatingSystemView.vala:541
 msgid "Last checked unknown"
-msgstr ""
+msgstr "Τελευταίος έλεγχος: άγνωστο"
 
 #: src/Views/OperatingSystemView.vala:554
-#, fuzzy
-#| msgid "Updates"
 msgid "Updates Available"
-msgstr "Ενημερώσεις"
+msgstr "Διατίθενται ενημερώσεις"
 
 #: src/Views/OperatingSystemView.vala:561
 #, c-format
@@ -512,7 +502,7 @@ msgstr ""
 #: src/Views/OperatingSystemView.vala:617
 #, c-format
 msgid "%s of %s"
-msgstr ""
+msgstr "%s από %s"
 
 #: src/Views/OperatingSystemView.vala:628
 msgid ""
