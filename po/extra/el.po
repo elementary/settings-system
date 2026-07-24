@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 17:12+0000\n"
-"PO-Revision-Date: 2026-06-29 01:01+0000\n"
+"PO-Revision-Date: 2026-07-25 20:01+0000\n"
 "Last-Translator: Jim Spentzos <jimspentzos2000@gmail.com>\n"
 "Language-Team: Greek <https://l10n.elementaryos.org/projects/settings/about-"
 "plug-extra/el/>\n"
@@ -49,7 +49,7 @@ msgstr "Ενημερωμένες μεταφράσεις"
 
 #: data/system.metainfo.xml.in:59
 msgid "Screen reader improvements"
-msgstr ""
+msgstr "Βελτιώσεις ανάγνωσης οθόνης"
 
 #: data/system.metainfo.xml.in:111 data/system.metainfo.xml.in:135
 #: data/system.metainfo.xml.in:150
@@ -62,7 +62,7 @@ msgstr ""
 
 #: data/system.metainfo.xml.in:114
 msgid "Manage additional drivers"
-msgstr ""
+msgstr "Διαχείριση πρόσθετων μονάδων"
 
 #: data/system.metainfo.xml.in:118
 msgid "Improve operating system image for other Linux distributions"
@@ -100,7 +100,7 @@ msgstr ""
 
 #: data/system.metainfo.xml.in:175
 msgid "Redesign and new features:"
-msgstr ""
+msgstr "Ανασχεδιασμός και νέες λειτουργίες:"
 
 #: data/system.metainfo.xml.in:177
 msgid "Rename from About to System"
@@ -120,7 +120,7 @@ msgstr ""
 
 #: data/system.metainfo.xml.in:182
 msgid "More information:"
-msgstr ""
+msgstr "Περισσότερες πληροφορίες:"
 
 #: data/system.metainfo.xml.in:184
 msgid "Provide information for ARM CPUs"
@@ -140,7 +140,7 @@ msgstr ""
 
 #: data/system.metainfo.xml.in:190
 msgid "Fix system memory calculation"
-msgstr ""
+msgstr "Διόρθωση υπολογισμού μνήμης συστήματος"
 
 #: data/system.metainfo.xml.in:194
 msgid "Ellipsize long hardware names"
