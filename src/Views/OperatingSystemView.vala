@@ -215,6 +215,7 @@ public class About.OperatingSystemView : Gtk.Box {
 
         button_stack = new Gtk.Stack () {
             hhomogeneous = false,
+            overflow = visible,
             transition_type = CROSSFADE,
             valign = CENTER
         };
