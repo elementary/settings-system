@@ -14,6 +14,9 @@ public class About.HardwareView : Gtk.Box {
     private string manufacturer_support_url;
     private string memory;
     private string processor;
+    private uint physical_cpus;
+    private uint physical_cores_per_cpu;
+    private uint logical_threads_per_cpu;
     private string product_name;
     private string product_version;
     private SystemInterface system_interface;
@@ -54,6 +57,10 @@ public class About.HardwareView : Gtk.Box {
             ellipsize = MIDDLE,
             margin_top = 12,
             selectable = true,
+            tooltip_text = _(
+                "CPUs: %u\n\nCores per CPU: %u\n\nThreads per CPU: %u").printf (
+                physical_cpus, physical_cores_per_cpu, logical_threads_per_cpu
+            ),
             xalign = 0
         };
 
@@ -229,7 +236,7 @@ public class About.HardwareView : Gtk.Box {
         return ARMPartDecoder.decode_arm_model (cpu_implementer, cpu_part);
     }
 
-    private string? get_cpu_info () {
+    private string? get_cpu_info (out uint cpus, out uint cores, out uint threads) {
         unowned GLibTop.sysinfo? info = GLibTop.get_sysinfo ();
 
         if (info == null) {
@@ -276,25 +283,20 @@ public class About.HardwareView : Gtk.Box {
 
         string result = "";
         foreach (var cpu in counts.entries) {
-            if (result.length > 0) {
-                result += "\n";
-            }
-
             string cpu_name = _("Unknown Processor");
             if (cpu.key.length > 0) {
                 cpu_name = clean_name (cpu.key);
             }
 
-            if (cpu.@value == 2) {
-                result += _("Dual-Core %s").printf (cpu_name);
-            } else if (cpu.@value == 4) {
-                result += _("Quad-Core %s").printf (cpu_name);
-            } else if (cpu.@value == 6) {
-                result += _("Hexa-Core %s").printf (cpu_name);
-            } else {
-                result += "%u \u00D7 %s ".printf (cpu.@value, cpu_name);
-            }
+            cores = cpu.@value;
+
+            result = "%s".printf (cpu_name);
+
+            break;
         }
+
+        cpus = counts.size;
+        threads = (uint) info.ncpu / cpus;
 
         return result;
     }
@@ -399,7 +401,11 @@ public class About.HardwareView : Gtk.Box {
     }
 
     private void fetch_hardware_info () {
-        string? cpu = get_cpu_info ();
+        string? cpu = get_cpu_info (
+            out physical_cpus,
+            out physical_cores_per_cpu,
+            out logical_threads_per_cpu
+        );
 
         if (cpu == null) {
             processor = _("Unknown Processor");
