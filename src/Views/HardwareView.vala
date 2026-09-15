@@ -57,12 +57,34 @@ public class About.HardwareView : Gtk.Box {
             ellipsize = MIDDLE,
             margin_top = 12,
             selectable = true,
-            tooltip_text = _(
-                "CPUs: %u\n\nCores per CPU: %u\n\nThreads per CPU: %u").printf (
-                physical_cpus, physical_cores_per_cpu, logical_threads_per_cpu
-            ),
             xalign = 0
         };
+
+        var processor_details = new Gtk.Box (VERTICAL, 0) {
+            focusable = false
+        };
+
+        processor_details.append (label (_("CPUs:") + " %u".printf (physical_cpus)));
+        processor_details.append (label (_("Cores per CPU:") + " %u".printf (physical_cores_per_cpu)));
+        processor_details.append (label (_("Threads per CPU:") + " %u".printf (logical_threads_per_cpu)));
+
+        var processor_popover = new Gtk.Popover () {
+            child = processor_details,
+            position = BOTTOM
+        };
+
+        var processor_button = new Gtk.MenuButton () {
+            halign = START,
+            valign = END,
+            focusable = false,
+            icon_name = "dialog-information",
+            popover = processor_popover
+        };
+        processor_button.add_css_class (Granite.CssClass.CIRCULAR);
+
+        var processor_box = new Gtk.Box (HORIZONTAL, 0);
+        processor_box.append (processor_info);
+        processor_box.append (processor_button);
 
         var memory_info = new Gtk.Label (_("%s memory").printf (memory)) {
             ellipsize = MIDDLE,
@@ -122,7 +144,7 @@ public class About.HardwareView : Gtk.Box {
 
         update_manufacturer_logo ();
 
-        details_box.append (processor_info);
+        details_box.append (processor_box);
         details_box.append (graphics_box);
 
         details_box.append (memory_info);
@@ -175,6 +197,21 @@ public class About.HardwareView : Gtk.Box {
                 on_hostname_entry_activate ();
             }
         });
+    }
+
+    private Gtk.Label label (string text) {
+        var label = new Gtk.Label (text) {
+            halign = Gtk.Align.START,
+            valign = Gtk.Align.END,
+            wrap = true,
+            selectable = false,
+            margin_top = 6,
+            margin_bottom = 0,
+            margin_start = 6,
+            margin_end = 6,
+        };
+
+        return label;
     }
 
     private void on_hostname_entry_activate () {
