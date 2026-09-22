@@ -64,9 +64,9 @@ public class About.HardwareView : Gtk.Box {
             focusable = false
         };
 
-        processor_details.append (label (_("CPUs:") + " %u".printf (physical_cpus)));
-        processor_details.append (label (_("Cores per CPU:") + " %u".printf (physical_cores_per_cpu)));
-        processor_details.append (label (_("Threads per CPU:") + " %u".printf (logical_threads_per_cpu)));
+        processor_details.append (label (_("CPUs: %u").printf (physical_cpus)));
+        processor_details.append (label (_("Cores per CPU: %u").printf (physical_cores_per_cpu)));
+        processor_details.append (label (_("Threads per CPU: %u").printf (logical_threads_per_cpu)));
 
         var processor_popover = new Gtk.Popover () {
             child = processor_details,
