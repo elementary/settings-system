@@ -85,7 +85,6 @@ public class About.OperatingSystemView : Gtk.Box {
 
     private File? logo_file;
     private Adw.Avatar? logo;
-    private Gtk.StringList packages;
     private SystemUpdate? update_proxy = null;
     private SystemUpdate.CurrentState? current_state = null;
     private Gtk.Grid software_grid;
@@ -173,8 +172,6 @@ public class About.OperatingSystemView : Gtk.Box {
         };
         kernel_version_label.add_css_class (Granite.CssClass.SMALL);
         kernel_version_label.add_css_class (Granite.CssClass.DIM);
-
-        packages = new Gtk.StringList (null);
 
         updates_image = new Gtk.Image () {
             icon_size = LARGE
@@ -522,7 +519,7 @@ public class About.OperatingSystemView : Gtk.Box {
         }
 
         update_progress_revealer.reveal_child = false;
-        details_button_revealer.reveal_child = current_state.state == AVAILABLE || current_state.state == ERROR;
+        details_button_revealer.reveal_child = current_state.state == ERROR;
 
         switch (current_state.state) {
             case UP_TO_DATE:
@@ -556,18 +553,11 @@ public class About.OperatingSystemView : Gtk.Box {
 
                 try {
                     var details = yield update_proxy.get_update_details ();
-                    updates_description.label = dngettext (
-                        GETTEXT_PACKAGE,
-                        "%i update available (%s)",
-                        "%i updates available (%s)",
-                        details.packages.length
-                    ).printf (details.packages.length, GLib.format_size (details.size));
+                    updates_description.label = GLib.format_size (details.size);
 
                     if (Pk.Info.SECURITY in details.info) {
                         updates_image.icon_name = "software-update-urgent";
                     }
-
-                    packages.splice (0, packages.get_n_items (), details.packages);
                 } catch (Error e) {
                     updates_description.label = _("Unable to determine number of updates");
                     warning ("Failed to get updates list from backend: %s", e.message);
@@ -622,27 +612,19 @@ public class About.OperatingSystemView : Gtk.Box {
             return;
         }
 
-        if (current_state.state == ERROR) {
-            var message_dialog = new Granite.MessageDialog (
-                _("Failed to download updates"),
-                _("This may have been caused by sideloaded or manually compiled software, a third-party software source, or a package manager error. Manually refreshing updates may resolve the issue."),
-                new ThemedIcon ("dialog-error")
-            ) {
-                transient_for = (Gtk.Window) get_root (),
-                modal = true
-            };
-
-            message_dialog.show_error_details (current_state.message);
-
-            message_dialog.response.connect (message_dialog.destroy);
-            message_dialog.present ();
-            return;
-        }
-
-        var details_dialog = new UpdateDetailsDialog (packages) {
-            transient_for = (Gtk.Window) get_root ()
+        var message_dialog = new Granite.MessageDialog (
+            _("Failed to download updates"),
+            _("This may have been caused by sideloaded or manually compiled software, a third-party software source, or a package manager error. Manually refreshing updates may resolve the issue."),
+            new ThemedIcon ("dialog-error")
+        ) {
+            transient_for = (Gtk.Window) get_root (),
+            modal = true
         };
-        details_dialog.present ();
+
+        message_dialog.show_error_details (current_state.message);
+
+        message_dialog.response.connect (message_dialog.destroy);
+        message_dialog.present ();
     }
 
     private async void refresh_clicked () {
