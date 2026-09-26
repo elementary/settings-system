@@ -86,6 +86,7 @@ public class About.OperatingSystemView : Gtk.Box {
     private File? logo_file;
     private Adw.Avatar? logo;
     private Gtk.StringList packages;
+    private Sysupdate.Target? sysupdate_target = null;
     private SystemUpdate? update_proxy = null;
     private SystemUpdate.CurrentState? current_state = null;
     private Gtk.Grid software_grid;
@@ -402,18 +403,41 @@ public class About.OperatingSystemView : Gtk.Box {
 
         get_upstream_release.begin ();
 
-        Bus.get_proxy.begin<SystemUpdate> (SESSION, "io.elementary.settings-daemon", "/io/elementary/settings_daemon", 0, null, (obj, res) => {
-            try {
-                update_proxy = Bus.get_proxy.end (res);
+        if (is_sysupdate ()) {
+            critical ("detected sysupdate");
+            Bus.get_proxy.begin<Sysupdate.Target> (SYSTEM, Sysupdate.TARGET_NAME, Sysupdate.HOST_PATH, 0, null, (obj, res) => {
+                try {
+                    sysupdate_target = Bus.get_proxy.end (res);
+                    synchronize_state.begin ();
+                } catch (Error e) {
+                    critical ("Failed to get Sysupdate proxy");
+                }
+            });
+        } else {
+            Bus.get_proxy.begin<SystemUpdate> (SESSION, "io.elementary.settings-daemon", "/io/elementary/settings_daemon", 0, null, (obj, res) => {
+                try {
+                    update_proxy = Bus.get_proxy.end (res);
 
-                update_proxy.state_changed.connect (update_state);
-                update_state.begin ();
-            } catch (Error e) {
-                critical ("Failed to get updates proxy");
-            }
-        });
+                    update_proxy.state_changed.connect (update_state);
+                    update_state.begin ();
+                } catch (Error e) {
+                    critical ("Failed to get updates proxy");
+                }
+            });
+        }
 
         update_button.clicked.connect (() => {
+            if (sysupdate_target != null) {
+                sysupdate_target.update.begin ("", 0, (obj, res) => {
+                    try {
+                        sysupdate_target.update.end (res);
+                    } catch (Error e) {
+                        critical ("Failed to update: %s", e.message);
+                    }
+                });
+                return;
+            }
+
             if (update_proxy != null) {
                 update_proxy.update.begin ((obj, res) => {
                     try {
@@ -501,6 +525,40 @@ public class About.OperatingSystemView : Gtk.Box {
             based_off.add_css_class (Granite.CssClass.SMALL);
             based_off.add_css_class (Granite.CssClass.DIM);
             software_grid.attach (based_off, 1, 1, 3);
+        }
+    }
+
+    private async void synchronize_state () {
+        if (sysupdate_target == null) {
+            return;
+        }
+
+        update_progress_revealer.reveal_child = false;
+
+        try {
+            updates_description.label = yield sysupdate_target.check_new ();
+            if (updates_description.label != "") {
+                current_state.state = AVAILABLE;
+            } else {
+                current_state.state = UP_TO_DATE;
+            }
+        } catch (Error e) {
+            critical ("Failed to check for updates: %s", e.message);
+        }
+
+        switch (current_state.state) {
+            case UP_TO_DATE:
+                updates_image.icon_name = "process-completed";
+                updates_title.label = _("Up To Date");
+                updates_description.label = _("Last checked unknown");
+
+                button_stack.visible_child_name = "refresh";
+                break;
+            case AVAILABLE:
+                updates_image.icon_name = "software-update-available";
+                updates_title.label = _("Updates Available");
+                button_stack.visible_child_name = "update";
+                break;
         }
     }
 
@@ -646,14 +704,22 @@ public class About.OperatingSystemView : Gtk.Box {
     }
 
     private async void refresh_clicked () {
-        if (update_proxy == null) {
+        if (sysupdate_target != null) {
+            try {
+                updates_description.label = yield sysupdate_target.check_new ();
+            } catch (Error e) {
+                critical ("Failed to check for updates: %s", e.message);
+            }
+
             return;
         }
 
-        try {
-            yield update_proxy.check_for_updates (true, false);
-        } catch (Error e) {
-            critical ("Failed to check for updates: %s", e.message);
+        if (update_proxy != null) {
+            try {
+                yield update_proxy.check_for_updates (true, false);
+            } catch (Error e) {
+                critical ("Failed to check for updates: %s", e.message);
+            }
         }
     }
 
@@ -690,6 +756,23 @@ public class About.OperatingSystemView : Gtk.Box {
             }
         });
         dialog.present ();
+    }
+
+    private static bool is_sysupdate () {
+        var proc_cmdline = File.new_for_path ("/proc/cmdline");
+        try {
+            var @is = proc_cmdline.read ();
+            var dis = new DataInputStream (@is);
+
+            var line = dis.read_line ();
+            if ("mount.usr=dissect" in line) {
+                return true;
+            }
+        } catch (Error e) {
+            critical ("Couldn't detect if running Sysupdate: %s", e.message);
+        }
+
+        return false;
     }
 
     private static void reset_all_keys (GLib.Settings settings) {
