@@ -1,6 +1,7 @@
 plug_files = files(
     'Plug.vala',
     'DBus' / 'SystemUpdate.vala',
+    'DBus' / 'Sysupdate.vala',
     'DBus' / 'Drivers.vala',
     'Interfaces/FirmwareClient.vala',
     'Interfaces/LoginManager.vala',
