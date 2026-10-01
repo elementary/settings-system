@@ -148,6 +148,23 @@ public class About.Plug : Switchboard.Plug {
 
         return search_results;
     }
+
+    public static bool is_sysupdate () {
+        var proc_cmdline = File.new_for_path ("/proc/cmdline");
+        try {
+            var @is = proc_cmdline.read ();
+            var dis = new DataInputStream (@is);
+
+            var line = dis.read_line ();
+            if ("mount.usr=dissect" in line) {
+                return true;
+            }
+        } catch (Error e) {
+            critical ("Couldn't detect if running Sysupdate: %s", e.message);
+        }
+
+        return false;
+    }
 }
 
 public Switchboard.Plug get_plug (Module module) {
