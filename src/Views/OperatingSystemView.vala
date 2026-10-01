@@ -403,9 +403,8 @@ public class About.OperatingSystemView : Gtk.Box {
 
         get_upstream_release.begin ();
 
-        if (is_sysupdate ()) {
-            critical ("detected sysupdate");
-            Bus.get_proxy.begin<Sysupdate.Target> (SYSTEM, Sysupdate.TARGET_NAME, Sysupdate.HOST_PATH, 0, null, (obj, res) => {
+        if (Plug.is_sysupdate ()) {
+            Bus.get_proxy.begin<Sysupdate.Target> (SYSTEM, Sysupdate.BUS_NAME, HOST_PATH, NONE, null, (obj, res) => {
                 try {
                     sysupdate_target = Bus.get_proxy.end (res);
                     synchronize_state.begin ();
@@ -529,36 +528,36 @@ public class About.OperatingSystemView : Gtk.Box {
     }
 
     private async void synchronize_state () {
+        button_stack.visible_child_name = "blank";
+        update_progress_revealer.reveal_child = false;
+
         if (sysupdate_target == null) {
+            updates_image.icon_name = "dialog-error";
+            updates_title.label = _("System updates not available");
+            updates_description.label = _("Couldn't connect to the backend. Try logging out to resolve the issue.");
             return;
         }
 
-        update_progress_revealer.reveal_child = false;
+        updates_image.icon_name = "emblem-synchronized";
+        updates_title.label = _("Checking for Updates");
 
         try {
             updates_description.label = yield sysupdate_target.check_new ();
             if (updates_description.label != "") {
-                current_state.state = AVAILABLE;
+                updates_image.icon_name = "software-update-available";
+                updates_title.label = _("Updates Available");
+                button_stack.visible_child_name = "update";
             } else {
-                current_state.state = UP_TO_DATE;
-            }
-        } catch (Error e) {
-            critical ("Failed to check for updates: %s", e.message);
-        }
-
-        switch (current_state.state) {
-            case UP_TO_DATE:
                 updates_image.icon_name = "process-completed";
                 updates_title.label = _("Up To Date");
                 updates_description.label = _("Last checked unknown");
 
                 button_stack.visible_child_name = "refresh";
-                break;
-            case AVAILABLE:
-                updates_image.icon_name = "software-update-available";
-                updates_title.label = _("Updates Available");
-                button_stack.visible_child_name = "update";
-                break;
+            }
+        } catch (Error e) {
+            updates_image.icon_name = "dialog-error";
+            updates_title.label = _("System updates not available");
+            updates_description.label = _("Failed to check for updates: %s").printf (e.message);
         }
     }
 
@@ -756,23 +755,6 @@ public class About.OperatingSystemView : Gtk.Box {
             }
         });
         dialog.present ();
-    }
-
-    private static bool is_sysupdate () {
-        var proc_cmdline = File.new_for_path ("/proc/cmdline");
-        try {
-            var @is = proc_cmdline.read ();
-            var dis = new DataInputStream (@is);
-
-            var line = dis.read_line ();
-            if ("mount.usr=dissect" in line) {
-                return true;
-            }
-        } catch (Error e) {
-            critical ("Couldn't detect if running Sysupdate: %s", e.message);
-        }
-
-        return false;
     }
 
     private static void reset_all_keys (GLib.Settings settings) {

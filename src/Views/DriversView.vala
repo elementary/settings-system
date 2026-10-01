@@ -68,17 +68,18 @@ public class About.DriversView : Switchboard.SettingsPage {
         };
 
         child = frame;
+        if (!Plug.is_sysupdate ()) {
+            Bus.get_proxy.begin<Drivers> (SESSION, "io.elementary.settings-daemon", "/io/elementary/settings_daemon", 0, null, (obj, res) => {
+                try {
+                    driver_proxy = Bus.get_proxy.end (res);
 
-        Bus.get_proxy.begin<Drivers> (SESSION, "io.elementary.settings-daemon", "/io/elementary/settings_daemon", 0, null, (obj, res) => {
-            try {
-                driver_proxy = Bus.get_proxy.end (res);
-
-                driver_proxy.state_changed.connect (update_state);
-                update_state.begin ();
-            } catch (Error e) {
-                critical ("Failed to get driver proxy: %s", e.message);
-            }
-        });
+                    driver_proxy.state_changed.connect (update_state);
+                    update_state.begin ();
+                } catch (Error e) {
+                    critical ("Failed to get driver proxy: %s", e.message);
+                }
+            });
+        }
 
         refresh_button.clicked.connect (() => {
             if (driver_proxy != null) {

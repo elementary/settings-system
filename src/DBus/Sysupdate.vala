@@ -4,12 +4,12 @@
  */
 
 namespace Sysupdate {
-    const string TARGET_NAME = "org.freedesktop.sysupdate1.Target";
+    const string BUS_NAME = "org.freedesktop.sysupdate1";
     const string HOST_PATH = "/org/freedesktop/sysupdate1/target/host";
 }
 
 [DBus (name="org.freedesktop.sysupdate1.Target")]
-public interface Sysupdate.Target : Object {
+public interface Sysupdate.Target : GLib.DBusProxy {
     public abstract async string check_new () throws DBusError, IOError;
     public abstract async void update (string new_version, uint64 flags) throws DBusError, IOError;
 }
