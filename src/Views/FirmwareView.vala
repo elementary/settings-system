@@ -80,6 +80,16 @@ public class About.FirmwareView : Switchboard.SettingsPage {
 
         child = frame;
 
+        var firmware_settings_view = new FirmwareSettingsView ();
+        navigation_view.add (firmware_settings_view);
+        var firmware_settings_button = add_button (_("Firmware Settings…"));
+        firmware_settings_button.clicked.connect (() => {
+            if (navigation_view.visible_page != firmware_settings_view) {
+                navigation_view.push (firmware_settings_view);
+            }
+            firmware_settings_view.load.begin ();
+        });
+
         if (LoginManager.get_instance ().can_reboot_to_firmware_setup ()) {
             var reboot_to_firmware_setup_button = add_button (_("Restart to Firmware Setup…"));
             reboot_to_firmware_setup_button.clicked.connect (reboot_to_firmware_setup_clicked);

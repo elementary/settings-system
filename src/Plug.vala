@@ -142,6 +142,7 @@ public class About.Plug : Switchboard.Plug {
         search_results.set ("%s → %s".printf (display_name, _("About This Device")), HARDWARE);
 
         search_results.set ("%s → %s".printf (display_name, _("Firmware")), FIRMWARE);
+        search_results.set ("%s → %s → %s".printf (display_name, _("Firmware"), _("Firmware Settings…")), FIRMWARE);
         search_results.set ("%s → %s → %s".printf (display_name, _("Firmware"), _("Restart to Firmware Setup…")), FIRMWARE);
 
         search_results.set ("%s → %s".printf (display_name, _("Drivers")), DRIVERS);

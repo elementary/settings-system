@@ -8,7 +8,7 @@
 You'll need the following dependencies:
 
 * libswitchboard-3-dev
-* libfwupd-dev
+* libfwupd-dev (>= 1.8.4, for the BIOS settings API)
 * libgranite-7-dev
 * libgtk-4-dev
 * libgtop2-dev
