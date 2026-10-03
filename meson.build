@@ -14,7 +14,7 @@ datadir = join_paths(prefix, get_option('datadir'))
 libdir = join_paths(prefix, get_option('libdir'))
 
 glib_dep = dependency('glib-2.0', version: '>=2.64.0')
-fwupd_dep = dependency('fwupd')
+fwupd_dep = dependency('fwupd', version: '>=1.8.4')
 appstream_dep = dependency ('appstream', version: '>=0.12.10')
 
 add_project_arguments(
