@@ -430,8 +430,17 @@ public class About.FirmwareView : Switchboard.SettingsPage {
         var continue_button = dialog.add_button (_("Restart"), Gtk.ResponseType.ACCEPT);
         continue_button.add_css_class (Granite.CssClass.DESTRUCTIVE);
 
+        var settings = new GLib.Settings ("io.elementary.desktop.quick-settings");
+        var firmware_option = new Gtk.CheckButton () {
+            active = settings.get_boolean ("show-firmware-option"),
+            label = _("Show firmware option during restart")
+        };
+        dialog.custom_bin.append (firmware_option);
+
         dialog.response.connect ((result) => {
             dialog.destroy ();
+
+            settings.set_boolean ("show-firmware-option", firmware_option.active);
 
             if (result != Gtk.ResponseType.ACCEPT) {
                 return;
