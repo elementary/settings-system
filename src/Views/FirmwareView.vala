@@ -433,7 +433,7 @@ public class About.FirmwareView : Switchboard.SettingsPage {
         var settings = new GLib.Settings ("io.elementary.desktop.quick-settings");
         var firmware_option = new Gtk.CheckButton () {
             active = settings.get_boolean ("show-firmware-option"),
-            label = _("Show firmware option during restart")
+            label = _("Show the restart-to-firmware option in the shutdown-restart dialog")
         };
         dialog.custom_bin.append (firmware_option);
 
