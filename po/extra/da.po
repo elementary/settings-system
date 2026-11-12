@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: extra\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-17 17:12+0000\n"
-"PO-Revision-Date: 2026-10-24 21:04+0000\n"
+"PO-Revision-Date: 2026-11-13 21:04+0000\n"
 "Last-Translator: CodeBeats <nicholai67@hotmail.com>\n"
 "Language-Team: Danish <https://l10n.elementaryos.org/projects/settings/about-"
 "plug-extra/da/>\n"
@@ -37,7 +37,7 @@ msgstr ""
 #: data/system.metainfo.xml.in:139 data/system.metainfo.xml.in:155
 #: data/system.metainfo.xml.in:164 data/system.metainfo.xml.in:192
 msgid "Minor updates:"
-msgstr ""
+msgstr "Mindre opdateringer:"
 
 #: data/system.metainfo.xml.in:47 data/system.metainfo.xml.in:60
 #: data/system.metainfo.xml.in:73 data/system.metainfo.xml.in:86
